@@ -47,12 +47,12 @@
       <div class="citation">
         <div class="citation__body">
           <div class="citation__abbr">
-            <h2>{{.title}}</h2><br>
-              <ul>
-                <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
-                <li>Authors:<b> {{$shortauthors}}</b></li>
-                <li>Year:<b> {{$year}}</b></li>
-              </ul>
+            <h2>{{.title}}</h2>
+            <ul>
+              <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
+              <li>Authors:<b> {{$shortauthors}}</b></li>
+              <li>Year:<b> {{$year}}</b></li>
+            </ul>
           </div>
           {{if .archive}}
             <div class="citation_toc">

@@ -62,3 +62,7 @@
 .citation__abbr h2:before {
   content: "";
 }
+
+.citation__abbr h2 {
+  margin-top: 0;
+}
