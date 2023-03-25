@@ -98,3 +98,6 @@ unsafe = true
 
   [services.twitter]
     disableInlineCSS = true
+
+[params.seo.webmaster_verifications]
+google = "YZYpnVOuBd0u3qwa22vRjiTPrOGELzPs6PKzceC71z8"
