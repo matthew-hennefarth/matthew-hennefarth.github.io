@@ -4,6 +4,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 theme = 'risotto'
 title = 'Matthew R. Hennefarth'
+copyright = "© 2023 Matthew R. Hennefarth"
 
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
