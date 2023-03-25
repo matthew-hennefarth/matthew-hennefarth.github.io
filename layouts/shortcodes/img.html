@@ -1,0 +1,11 @@
+{{ $image := .Get "image"}}
+{{ $type_arr := split $image "." }}
+
+<figure>
+    <picture>
+        <img src="{{.Get `image`}}" alt="{{.Get `alt` }}" width="{{.Get `width`}}" defer>
+    </picture>
+    <figcaption>
+        <p class="caption">{{.Get "caption" }}</p>
+    </figcaption>
+</figure>

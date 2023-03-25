@@ -1,0 +1,1541 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": true,
+      "asciiBibTeX": true,
+      "autoAbbrev": true,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 2,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": false,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "/Users/mhennefarth/Library/CloudStorage/Box-Box/Zotero",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": true,
+      "biblatexExtractEprint": false,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower + shorttitle(1,1) + year",
+      "citekeySearch": false,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportTitleCase": true,
+      "extraMergeCitekeys": false,
+      "extraMergeCSL": false,
+      "extraMergeTeX": false,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "global",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "abstract,url,file,langid,publisher",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "texmap": {}
+    },
+    "options": {
+      "exportNotes": false,
+      "exportFileData": false,
+      "keepUpdated": false,
+      "worker": false
+    }
+  },
+  "version": {
+    "zotero": "6.0.23",
+    "bbt": "6.7.62"
+  },
+  "collections": {},
+  "items": [
+    {
+      "version": 3451,
+      "itemType": "journalArticle",
+      "title": "A Chemical Biology Approach to Model Pontocerebellar Hypoplasia Type 1B (PCH1B)",
+      "abstractNote": "Mutations of EXOSC3 have been linked to the rare neurological disorder known as Pontocerebellar Hypoplasia type 1B (PCH1B). EXOSC3 is one of three putative RNA-binding structural cap proteins that guide RNA into the RNA exosome, the cellular machinery that degrades RNA. Using RNAcompete, we identified a G-rich RNA motif binding to EXOSC3. Surface plasmon resonance (SPR) and microscale thermophoresis (MST) indicated an affinity in the low micromolar range of EXOSC3 for long and short G-rich RNA sequences. Although several PCH1B-causing mutations in EXOSC3 did not engage a specific RNA motif as shown by RNAcompete, they exhibited lower binding affinity to G-rich RNA as demonstrated by MST. To test the hypothesis that modification of the RNA-protein interface in EXOSC3 mutants may be phenocopied by small molecules, we performed an in-silico screen of 50 000 small molecules and used enzyme-linked immunosorbant assays (ELISAs) and MST to assess the ability of the molecules to inhibit RNA-binding by EXOSC3. We identified a small molecule, EXOSC3-RNA disrupting (ERD) compound 3 (ERD03), which (i) bound specifically to EXOSC3 in saturation transfer difference nuclear magnetic resonance (STD-NMR), (ii) disrupted the EXOSC3-RNA interaction in a concentration-dependent manner, and (iii) produced a PCH1B-like phenotype with a 50% reduction in the cerebellum and an abnormally curved spine in zebrafish embryos. This compound also induced modification of zebrafish RNA expression levels similar to that observed with a morpholino against EXOSC3. To our knowledge, this is the first example of a small molecule obtained by rational design that models the abnormal developmental effects of a neurodegenerative disease in a whole organism.",
+      "date": "2018-08-24",
+      "archive": "cb-2018-007454_0012.png",
+      "rights": "All rights reserved",
+      "extra": "Citation Key: francois-moutalChemicalBiologyApproach2018",
+      "volume": "13",
+      "pages": "3000-3010",
+      "publicationTitle": "ACS Chemical Biology",
+      "DOI": "10.1021/acschembio.8b00745",
+      "issue": "10",
+      "ISSN": "15548937",
+      "creators": [
+        {
+          "firstName": "Liberty",
+          "lastName": "Fran\u00e7ois-Moutal",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shahriyar",
+          "lastName": "Jahanbakhsh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew D. L.",
+          "lastName": "Nelson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Debashish",
+          "lastName": "Ray",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David D.",
+          "lastName": "Scott",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aubin",
+          "lastName": "Moutal",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Samantha",
+          "lastName": "Perez-Miller",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew J.",
+          "lastName": "Ambrose",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ahmed",
+          "lastName": "Al-Shamari",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Philippe",
+          "lastName": "Coursodon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bessie",
+          "lastName": "Meechoovet",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rebecca",
+          "lastName": "Reiman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric",
+          "lastName": "Lyons",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark",
+          "lastName": "Beilstein",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eli",
+          "lastName": "Chapman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Quaid D.",
+          "lastName": "Morris",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kendall Van",
+          "lastName": "Keuren-Jensen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy R.",
+          "lastName": "Hughes",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rajesh",
+          "lastName": "Khanna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Carla",
+          "lastName": "Koehler",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joanna",
+          "lastName": "Jen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vijay",
+          "lastName": "Gokhale",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "May",
+          "lastName": "Khanna",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2022-07-22T16:45:54Z",
+      "dateModified": "2023-03-25T02:17:14Z",
+      "uri": "http://zotero.org/users/3285140/items/IYCSYGQK",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "francois-moutalChemicalBiologyApproach2018",
+      "autoJournalAbbreviation": "ACS Chem. Biol.",
+      "itemID": 286,
+      "itemKey": "IYCSYGQK",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/IYCSYGQK"
+    },
+    {
+      "version": 3446,
+      "itemType": "journalArticle",
+      "title": "Advances in optimizing enzyme electrostatic preorganization",
+      "abstractNote": "Utilizing electric fields to catalyze chemical reactions is not a new idea, but in enzymology it undergoes a renaissance, inspired by Warhsel's concept of electrostatic preorganization. According to this concept, the source of the immense catalytic efficiency of enzymes is the intramolecular electric field that permanently favors the reaction transition state over the reactants. Within enzyme design, computational efforts have fallen short in designing enzymes with natural-like efficacy. The outcome could improve if long-range electrostatics (often omitted in current protocols) would be optimized. Here, we highlight the major developments in methods for analyzing and designing electric fields generated by the protein scaffolds, in order to both better understand how natural enzymes function, and aid artificial enzyme design.",
+      "date": "2022-02-01",
+      "language": "en",
+      "archive": "advanced_current_opinion_2021.png",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959440X21000907",
+      "accessDate": "2023-03-20T20:45:47Z",
+      "rights": "All rights reserved",
+      "volume": "72",
+      "pages": "1-8",
+      "publicationTitle": "Current Opinion in Structural Biology",
+      "DOI": "10.1016/j.sbi.2021.06.006",
+      "journalAbbreviation": "Current Opinion in Structural Biology",
+      "ISSN": "0959-440X",
+      "creators": [
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anastassia N.",
+          "lastName": "Alexandrova",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Electric fields",
+          "type": 1
+        },
+        {
+          "tag": "Electrostatic preorganization",
+          "type": 1
+        },
+        {
+          "tag": "Enzymatic catalysis",
+          "type": 1
+        },
+        {
+          "tag": "Enzyme design",
+          "type": 1
+        },
+        {
+          "tag": "Theory",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-03-20T20:45:48Z",
+      "dateModified": "2023-03-25T02:16:20Z",
+      "uri": "http://zotero.org/users/3285140/items/6IZS6NJA",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:45:51Z",
+          "dateModified": "2023-03-20T20:45:51Z",
+          "uri": "http://zotero.org/users/3285140/items/NN6VQDCK",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/NN6VQDCK/Hennefarth and Alexandrova - 2022 - Advances in optimizing enzyme electrostatic preorg.pdf",
+          "select": "zotero://select/library/items/NN6VQDCK"
+        },
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:46:22Z",
+          "dateModified": "2023-03-20T20:46:22Z",
+          "uri": "http://zotero.org/users/3285140/items/M9U5CAZI",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/M9U5CAZI/S0959440X21000907.html",
+          "select": "zotero://select/library/items/M9U5CAZI"
+        }
+      ],
+      "notes": [],
+      "citationKey": "hennefarthAdvances2022",
+      "itemID": 1189,
+      "itemKey": "6IZS6NJA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/6IZS6NJA"
+    },
+    {
+      "version": 3450,
+      "itemType": "journalArticle",
+      "title": "Direct Look at the Electric Field in Ketosteroid Isomerase and Its Variants",
+      "abstractNote": "Enzymes catalyze a number of reactions with high efficiency and stereoselectivity. It is thought that strong, direct, and permanent electric fields within the active site of the enzyme contribute to the superb catalytic efficiency of enzymes. This effect is called electrostatic preorganization. Most often, electrostatic preorganization is analyzed by evaluating the local electric field at discrete points, such as a bond center, using, for example, vibrational Stark spectroscopy. However, the protein macromolecule creates a significantly more complicated heterogeneous electric field that affects the entire active site, whose total change density thus gets perturbed, with implications for the catalytic mechanism. We present a global distribution of streamlines method to analyze the topology of the heterogeneous electric fields within an enzyme active site. We focus on ketosteroid isomerase (KSI), an enzyme known to produce a field on the order of 100 MV/cm along the critical carbonyl bond in the steroid substrate. We investigate how mutations known to cause activity changes and applied small external electric fields perturb the electric fields in the KSI active site. When classical single-point analysis failed, our method allowed us to properly correlate global changes in the electric field with changes in the reaction barrier. We were able to show that topologically similar local electric fields had similar reaction barriers.",
+      "date": "2020-08-07",
+      "archive": "images_large_cs0c02795_0011.png",
+      "rights": "All rights reserved",
+      "extra": "Citation Key: hennefarthDirectLookElectric2020",
+      "volume": "10",
+      "pages": "9915-9924",
+      "publicationTitle": "ACS Catalysis",
+      "DOI": "10.1021/acscatal.0c02795",
+      "issue": "17",
+      "ISSN": "21555435",
+      "creators": [
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anastassia N.",
+          "lastName": "Alexandrova",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "electric field"
+        },
+        {
+          "tag": "electrostatic preorganization"
+        },
+        {
+          "tag": "enzymes"
+        },
+        {
+          "tag": "KSI"
+        },
+        {
+          "tag": "vector field"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-07-22T16:45:54Z",
+      "dateModified": "2023-03-25T02:17:03Z",
+      "uri": "http://zotero.org/users/3285140/items/K62FAE5R",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "hennefarthDirectLookElectric2020",
+      "autoJournalAbbreviation": "ACS Catal.",
+      "itemID": 285,
+      "itemKey": "K62FAE5R",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/K62FAE5R"
+    },
+    {
+      "version": 3442,
+      "itemType": "journalArticle",
+      "title": "Heterogeneous Intramolecular Electric Field as a Descriptor of Diels\u2013Alder Reactivity",
+      "date": "2021-02-01",
+      "archive": "images_large_jp1c00181_0010.png",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpca.1c00181",
+      "rights": "All rights reserved",
+      "extra": "Citation Key: hennefarthHeterogeneousIntramolecularElectric2021",
+      "pages": "acs.jpca.1c00181",
+      "publicationTitle": "The Journal of Physical Chemistry A",
+      "DOI": "10.1021/acs.jpca.1c00181",
+      "ISSN": "1089-5639",
+      "creators": [
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anastassia N.",
+          "lastName": "Alexandrova",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2022-07-22T16:45:54Z",
+      "dateModified": "2023-03-25T02:14:18Z",
+      "uri": "http://zotero.org/users/3285140/items/LWYKASJV",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "hennefarthHeterogeneousIntramolecularElectric2021",
+      "autoJournalAbbreviation": "J. Phys. Chem. A",
+      "itemID": 284,
+      "itemKey": "LWYKASJV",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/LWYKASJV"
+    },
+    {
+      "version": 3447,
+      "itemType": "preprint",
+      "title": "Linearized Pair-Density Functional Theory",
+      "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn-Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multi-state PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
+      "date": "2023-02-20",
+      "language": "en",
+      "archive": "lpdft_toc.png",
+      "libraryCatalog": "Cambridge Engage Preprints",
+      "url": "https://chemrxiv.org/engage/chemrxiv/article-details/63f0efa01d2d184063b5812d",
+      "accessDate": "2023-03-20T16:53:15Z",
+      "rights": "All rights reserved",
+      "DOI": "10.26434/chemrxiv-2023-7d0gv",
+      "creators": [
+        {
+          "firstName": "Matthew",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew",
+          "lastName": "Hermes",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Donald",
+          "lastName": "Truhlar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Laura",
+          "lastName": "Gagliardi",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Electronic Structure",
+          "type": 1
+        },
+        {
+          "tag": "Excited States",
+          "type": 1
+        },
+        {
+          "tag": "Pair-Density",
+          "type": 1
+        },
+        {
+          "tag": "Pair-Density Functional Theory",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-03-20T16:53:15Z",
+      "dateModified": "2023-03-25T02:16:28Z",
+      "uri": "http://zotero.org/users/3285140/items/B5NBSXEP",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T16:53:17Z",
+          "dateModified": "2023-03-20T16:53:17Z",
+          "uri": "http://zotero.org/users/3285140/items/36X8TK9V",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/36X8TK9V/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory.pdf",
+          "select": "zotero://select/library/items/36X8TK9V"
+        }
+      ],
+      "notes": [],
+      "citationKey": "hennefarthLinearized2023",
+      "itemID": 1187,
+      "itemKey": "B5NBSXEP",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/B5NBSXEP",
+      "publisher": "ChemRxiv"
+    },
+    {
+      "version": 3449,
+      "itemType": "journalArticle",
+      "title": "Physicochemical and biochemical spatiotemporal maps of a mouse penis",
+      "abstractNote": "Spatiotemporal mechanobiology resulting in penile pathologies continues to be investigated using small scale animals models such as mice. However, species-dependent functional biomechanics of a mouse penis, is not known. In this study, spatial mapping of a mechanosensitive transcription factor, scleraxis (Scx), at ages 4, 5, 6 weeks, and 1 year were generated to identify mechanoactive regions within penile tissues. Reconstructed volumes of baculum collected using micro X-ray computed tomography illustrated significantly increased baculum length with decreased porosity, and increased mineral density (p < 0.05) with age. The bony-baculum was held centrally in the Scx positive corpus cavernosum glandis (CCG), indicating mechanoactivity within the struts in a 6 week old mouse. The struts also were stained positive for fibrillar proteins including collagen and elastin, and globular proteins including protein gene product 9.5, and \u03b1-smooth muscle actin. The corpus cavernosum penis (CCP) contained significantly (p < 0.05) more collagen than CCG within the same penis, and both regions contained blood vessels with equivalent innervation at any given age. Comparison of volumes of flaccid and erect penile forms revealed functional characteristics of the CCP. Results of this study provided insights into biomechanical function of the CCG; in that, it is a high-pressure chamber that stiffens the penis and is similar to the human corpus cavernosum.",
+      "date": "2020-03-05",
+      "archive": "baculum.png",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021929020300440",
+      "rights": "All rights reserved",
+      "extra": "Citation Key: hennefarthPhysicochemicalBiochemicalSpatiotemporal2020",
+      "volume": "101",
+      "pages": "109637",
+      "publicationTitle": "Journal of Biomechanics",
+      "DOI": "10.1016/j.jbiomech.2020.109637",
+      "ISSN": "18732380",
+      "creators": [
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ling",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bohan",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tom F.",
+          "lastName": "Lue",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marshall L.",
+          "lastName": "Stoller",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Guiting",
+          "lastName": "Lin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Misun",
+          "lastName": "Kang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sunita P.",
+          "lastName": "Ho",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Baculum"
+        },
+        {
+          "tag": "Biomechanics"
+        },
+        {
+          "tag": "Collagen"
+        },
+        {
+          "tag": "Elastin"
+        },
+        {
+          "tag": "Mechanobiology"
+        },
+        {
+          "tag": "Mouse penis"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-07-22T16:45:54Z",
+      "dateModified": "2023-03-25T02:16:47Z",
+      "uri": "http://zotero.org/users/3285140/items/94ZT3CC9",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "hennefarthPhysicochemicalBiochemicalSpatiotemporal2020",
+      "autoJournalAbbreviation": "J. Biomech.",
+      "itemID": 287,
+      "itemKey": "94ZT3CC9",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/94ZT3CC9"
+    },
+    {
+      "version": 3432,
+      "itemType": "preprint",
+      "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
+      "abstractNote": "In this article the recent developments of the open-source OpenMolcas chemistry software environment, since spring 2020, are described, with the main focus on novel functionalities that are accessible in the stable branch of the package and/or via interfaces with other packages. These community developments span a wide range of topics in computational chemistry, and are presented in thematic sections associated with electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report represents a useful summary of these developments, and it offers a solid overview of the chemical phenomena and processes that OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.",
+      "date": "2023-02-14",
+      "language": "en",
+      "shortTitle": "The OpenMolcas Web",
+      "libraryCatalog": "Cambridge Engage Preprints",
+      "url": "https://chemrxiv.org/engage/chemrxiv/article-details/63cab14daadd95af647a2d9e",
+      "accessDate": "2023-03-20T20:45:59Z",
+      "rights": "All rights reserved",
+      "DOI": "10.26434/chemrxiv-2023-b7f0j",
+      "creators": [
+        {
+          "firstName": "Giovanni Li",
+          "lastName": "Manni",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ignacio Fern\u00e1ndez",
+          "lastName": "Galv\u00e1n",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ali",
+          "lastName": "Alavi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Flavia",
+          "lastName": "Aleotti",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Aquilante",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jochen",
+          "lastName": "Autschbach",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Davide",
+          "lastName": "Avagliano",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alberto",
+          "lastName": "Baiardi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jie J.",
+          "lastName": "Bao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Stefano",
+          "lastName": "Battaglia",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Letitia",
+          "lastName": "Birnoschi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alejandro",
+          "lastName": "Blanco-Gonz\u00e1lez",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sergey I.",
+          "lastName": "Bokarev",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ria",
+          "lastName": "Broer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Roberto",
+          "lastName": "Cacciari",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Paul B.",
+          "lastName": "Calio",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rebecca K.",
+          "lastName": "Carlson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rafael Carvalho",
+          "lastName": "Couto",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Luis",
+          "lastName": "Cerd\u00e1n",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Liviu F.",
+          "lastName": "Chibotaru",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nicolas F.",
+          "lastName": "Chilton",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jonathan Richard",
+          "lastName": "Church",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Irene",
+          "lastName": "Conti",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sonia",
+          "lastName": "Coriani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Juliana",
+          "lastName": "Cu\u00e9llar-Zuquin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Razan E.",
+          "lastName": "Daoud",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nike",
+          "lastName": "Dattani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Piero",
+          "lastName": "Decleva",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Coen de",
+          "lastName": "Graaf",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Micka\u00ebl G.",
+          "lastName": "Delcey",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Luca De",
+          "lastName": "Vico",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Werner",
+          "lastName": "Dobrautz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sijia S.",
+          "lastName": "Dong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rulin",
+          "lastName": "Feng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nicolas",
+          "lastName": "Ferr\u00e9",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael",
+          "lastName": "Filatov(Gulak)",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Laura",
+          "lastName": "Gagliardi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marco",
+          "lastName": "Garavelli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Leticia",
+          "lastName": "Gonz\u00e1lez",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yafu",
+          "lastName": "Guan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Meiyuan",
+          "lastName": "Guo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hermes",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chad E.",
+          "lastName": "Hoyer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Miquel",
+          "lastName": "Huix-Rotllant",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vishal Kumar",
+          "lastName": "Jaiswal",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andy",
+          "lastName": "Kaiser",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Danil S.",
+          "lastName": "Kaliakin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marjan",
+          "lastName": "Khamesian",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel S.",
+          "lastName": "King",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vladislav",
+          "lastName": "Kochetov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marek",
+          "lastName": "Kro\u015bnicki",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Arpit Arun",
+          "lastName": "Kumaar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ernst D.",
+          "lastName": "Larsson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Susi",
+          "lastName": "Lehtola",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marie-Bernadette",
+          "lastName": "Lepetit",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hans",
+          "lastName": "Lischka",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pablo L\u00f3pez",
+          "lastName": "R\u00edos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marcus",
+          "lastName": "Lundberg",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dongxia",
+          "lastName": "Ma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sebastian",
+          "lastName": "Mai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Philipp",
+          "lastName": "Marquetand",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Isabella C. D.",
+          "lastName": "Merritt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Montorsi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Maximilian",
+          "lastName": "M\u00f6rchen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Artur",
+          "lastName": "Nenov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vu Ha Anh",
+          "lastName": "Nguyen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yoshio",
+          "lastName": "Nishimoto",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Meagan S.",
+          "lastName": "Oakley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Massimo",
+          "lastName": "Olivucci",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Markus",
+          "lastName": "Oppel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniele",
+          "lastName": "Padula",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Riddhish",
+          "lastName": "Pandharkar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Quan Manh",
+          "lastName": "Phung",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Felix",
+          "lastName": "Plasser",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gerardo",
+          "lastName": "Raggi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elisa",
+          "lastName": "Rebolini",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Markus",
+          "lastName": "Reiher",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ivan",
+          "lastName": "Rivalta",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Roca-Sanju\u00e1n",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thies",
+          "lastName": "Romig",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Arta Anushirwan",
+          "lastName": "Safari",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aitor",
+          "lastName": "S\u00e1nchez-Mansilla",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew M.",
+          "lastName": "Sand",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Igor",
+          "lastName": "Schapiro",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thais R.",
+          "lastName": "Scott",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Javier",
+          "lastName": "Segarra-Mart\u00ed",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Segatta",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dumitru-Claudiu",
+          "lastName": "Sergentu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Prachi",
+          "lastName": "Sharma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ron",
+          "lastName": "Shepard",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yinan",
+          "lastName": "Shu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jakob K.",
+          "lastName": "Staab",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tjerk P.",
+          "lastName": "Straatsma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lasse Kragh",
+          "lastName": "S\u00f8rensen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bruno Nunes Cabral",
+          "lastName": "Tenorio",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Donald G.",
+          "lastName": "Truhlar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Liviu",
+          "lastName": "Ungur",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Morgane",
+          "lastName": "Vacher",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Valera",
+          "lastName": "Veryazov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Torben Arne",
+          "lastName": "Voss",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Oskar",
+          "lastName": "Weser",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dihua",
+          "lastName": "Wu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xuchun",
+          "lastName": "Yang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David",
+          "lastName": "Yarkony",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chen",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "J. Patrick",
+          "lastName": "Zobel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Roland",
+          "lastName": "Lindh",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2023-03-20T20:45:59Z",
+      "dateModified": "2023-03-24T05:54:38Z",
+      "uri": "http://zotero.org/users/3285140/items/NH4SM5S8",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:46:28Z",
+          "dateModified": "2023-03-20T20:46:28Z",
+          "uri": "http://zotero.org/users/3285140/items/FN54WW6Y",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/FN54WW6Y/Manni et al. - 2023 - The OpenMolcas Web A Community-Driven Approach to.pdf",
+          "select": "zotero://select/library/items/FN54WW6Y"
+        }
+      ],
+      "notes": [],
+      "citationKey": "manniOpenMolcas2023",
+      "itemID": 1194,
+      "itemKey": "NH4SM5S8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NH4SM5S8",
+      "publisher": "ChemRxiv"
+    },
+    {
+      "version": 3448,
+      "itemType": "journalArticle",
+      "title": "The Case for Enzymatic Competitive Metal Affinity Methods",
+      "date": "2020-01-17",
+      "archive": "cma_methods.png",
+      "url": "https://pubs.acs.org/doi/10.1021/acscatal.9b04831",
+      "rights": "All rights reserved",
+      "extra": "Citation Key: reilleyCaseEnzymaticCompetitive2020",
+      "volume": "10",
+      "pages": "2298-2307",
+      "publicationTitle": "ACS Catalysis",
+      "DOI": "10.1021/acscatal.9b04831",
+      "issue": "3",
+      "ISSN": "2155-5435",
+      "creators": [
+        {
+          "firstName": "David J.",
+          "lastName": "Reilley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anastassia N.",
+          "lastName": "Alexandrova",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2022-07-22T16:45:54Z",
+      "dateModified": "2023-03-25T02:16:37Z",
+      "uri": "http://zotero.org/users/3285140/items/U9E8DFIV",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "reilleyCaseEnzymaticCompetitive2020",
+      "autoJournalAbbreviation": "ACS Catal.",
+      "itemID": 290,
+      "itemKey": "U9E8DFIV",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/U9E8DFIV"
+    },
+    {
+      "version": 3443,
+      "itemType": "journalArticle",
+      "title": "Mineralized Peyronie's plaque has a phenotypic resemblance to bone",
+      "abstractNote": "Mineralized Peyronie's plaque (MPP) impairs penile function. The association, colocalization, and dynamic interplay between organic and inorganic constituents can provide insights into biomineralization of Peyronie's plaque. Human MPPs (n\u202f=\u202f11) were surgically excised, and the organic and inorganic constituents were spatially mapped using multiple high-resolution imaging techniques. Multiscale image analyses resulted in spatial colocalization of elements within a highly porous material with heterogenous composition, lamellae, and osteocytic lacuna-like features with a morphological resemblance to bone. The lower (520\u202f\u00b1\u202f179\u202fmg/cc) and higher (1024\u202f\u00b1\u202f155\u202fmg/cc) mineral density regions were associated with higher (11%) and lower (7%) porosities in MPP. Energy dispersive X-ray and micro-X-ray fluorescent spectroscopic maps in the higher mineral density regions of MPP revealed higher counts of calcium (Ca) and phosphorus (P), and a Ca/P ratio of 1.48\u202f\u00b1\u202f0.06 similar to bone. More importantly, higher counts of zinc (Zn) were localized at the interface between softer (more organic to inorganic ratio) and harder (less organic to inorganic ratio) tissue regions of MPP and adjacent softer matrix, indicating the involvement of Zn-related proteins and/or pathways in the formation of MPP. In particular, dentin matrix protein-1 (DMP-1) was colocalized in a matrix rich in proteoglycans and collagen that contained osteocytic lacuna-like features. This combined materials science and biochemical with correlative microspectroscopic approach provided insights into the plausible cellular and biochemical pathways that incite mineralization of an existing fibrous Peyronie's plaque.\nStatement of significance\nAberrant human penile mineralization is known as mineralized Peyronie's plaque (MPP) and often results in a loss of form and function. This study focuses on investigating the spatial association of matrix proteins and elemental composition of MPP by colocalizing calcium, phosphorus, and trace metal zinc with dentin matrix protein 1 (DMP-1), acidic proteoglycans, and fibrillar collagen along with the cellular components using high resolution correlative microspectroscopy techniques. Spatial maps provided insights into cellular and biochemical pathways that incite mineralization of fibrous Peyronie's plaque in humans.",
+      "date": "2022-03-01",
+      "language": "en",
+      "archive": "1-s2.0-S174270612100773X-ga1_lrg.png",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S174270612100773X",
+      "accessDate": "2023-03-20T20:45:56Z",
+      "rights": "All rights reserved",
+      "volume": "140",
+      "pages": "457-466",
+      "publicationTitle": "Acta Biomaterialia",
+      "DOI": "10.1016/j.actbio.2021.11.025",
+      "journalAbbreviation": "Acta Biomaterialia",
+      "ISSN": "1742-7061",
+      "creators": [
+        {
+          "firstName": "Putu",
+          "lastName": "Ustriyana",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sudarshan",
+          "lastName": "Srirangapatanam",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Haeyoon",
+          "lastName": "Jung",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yongmei",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ling",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tom F.",
+          "lastName": "Lue",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Guiting",
+          "lastName": "Lin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Misun",
+          "lastName": "Kang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marshall L.",
+          "lastName": "Stoller",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sunita P.",
+          "lastName": "Ho",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Biomineralization",
+          "type": 1
+        },
+        {
+          "tag": "Bone",
+          "type": 1
+        },
+        {
+          "tag": "Heterotopic ossification",
+          "type": 1
+        },
+        {
+          "tag": "Peyronie's",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-03-20T20:46:21Z",
+      "dateModified": "2023-03-25T02:15:41Z",
+      "uri": "http://zotero.org/users/3285140/items/RI86GGF3",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:46:25Z",
+          "dateModified": "2023-03-20T20:46:25Z",
+          "uri": "http://zotero.org/users/3285140/items/U77A4KHY",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/U77A4KHY/Ustriyana et al. - 2022 - Mineralized Peyronie's plaque has a phenotypic res.pdf",
+          "select": "zotero://select/library/items/U77A4KHY"
+        }
+      ],
+      "notes": [],
+      "citationKey": "ustriyanaMineralized2022",
+      "itemID": 1195,
+      "itemKey": "RI86GGF3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/RI86GGF3"
+    },
+    {
+      "version": 3445,
+      "itemType": "journalArticle",
+      "title": "Machine Learning to Predict Diels\u2013Alder Reaction Barriers from the Reactant State Electron Density",
+      "abstractNote": "Reaction barriers are key to our understanding of chemical reactivity and catalysis. Certain reactions are so seminal in chemistry that countless variants, with or without catalysts, have been studied, and their barriers have been computed or measured experimentally. This wealth of data represents a perfect opportunity to leverage machine learning models, which could quickly predict barriers without explicit calculations or measurement. Here, we show that the topological descriptors of the quantum mechanical charge density in the reactant state constitute a set that is both rigorous and continuous and can be used effectively for the prediction of reaction barrier energies to a high degree of accuracy. We demonstrate this on the Diels\u2013Alder reaction, highly important in biology and medicinal chemistry, and as such, studied extensively. This reaction exhibits a range of barriers as large as 270 kJ/mol. While we trained our single-objective supervised (labeled) regression algorithms on simpler Diels\u2013Alder reactions in solution, they predict reaction barriers also in significantly more complicated contexts, such a Diels\u2013Alder reaction catalyzed by an artificial enzyme and its evolved variants, in agreement with experimental changes in kcat. We expect this tool to apply broadly to a variety of reactions in solution or in the presence of a catalyst, for screening and circumventing heavily involved computations or experiments.",
+      "date": "2021-10-12",
+      "archive": "images_large_ct1c00623_0008.png",
+      "libraryCatalog": "ACS Publications",
+      "url": "https://doi.org/10.1021/acs.jctc.1c00623",
+      "accessDate": "2023-03-20T20:45:52Z",
+      "rights": "All rights reserved",
+      "extra": "Publisher: American Chemical Society",
+      "volume": "17",
+      "pages": "6203-6213",
+      "publicationTitle": "Journal of Chemical Theory and Computation",
+      "DOI": "10.1021/acs.jctc.1c00623",
+      "issue": "10",
+      "journalAbbreviation": "J. Chem. Theory Comput.",
+      "ISSN": "1549-9618",
+      "creators": [
+        {
+          "firstName": "Santiago",
+          "lastName": "Vargas",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zhihao",
+          "lastName": "Liu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anastassia N.",
+          "lastName": "Alexandrova",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2023-03-20T20:45:52Z",
+      "dateModified": "2023-03-25T02:16:08Z",
+      "uri": "http://zotero.org/users/3285140/items/DE6QAX44",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ACS Full Text Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:46:23Z",
+          "dateModified": "2023-03-20T20:46:23Z",
+          "uri": "http://zotero.org/users/3285140/items/BX5GXU2Q",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/BX5GXU2Q/acs.jctc.html",
+          "select": "zotero://select/library/items/BX5GXU2Q"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:45:54Z",
+          "dateModified": "2023-03-20T20:45:54Z",
+          "uri": "http://zotero.org/users/3285140/items/8FKT9XHD",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/8FKT9XHD/Vargas et al. - 2021 - Machine Learning to Predict Diels\u2013Alder Reaction B.pdf",
+          "select": "zotero://select/library/items/8FKT9XHD"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vargasMachine2021",
+      "itemID": 1191,
+      "itemKey": "DE6QAX44",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DE6QAX44"
+    },
+    {
+      "version": 3444,
+      "itemType": "journalArticle",
+      "title": "Histidine-Mediated Ion Specific Effects Enable Salt Tolerance of a Pore-Forming Marine Antimicrobial Peptide",
+      "abstractNote": "Antimicrobial peptides (AMPs) preferentially permeate prokaryotic membranes via electrostatic binding and membrane remodeling. Such action is drastically suppressed by high salt due to increased electrostatic screening, thus it is puzzling how marine AMPs can possibly work. We examine as a model system, piscidin-1, a histidine-rich marine AMP, and show that ion-histidine interactions play unanticipated roles in membrane remodeling at high salt: Histidines can simultaneously hydrogen-bond to a phosphate and coordinate with an alkali metal ion to neutralize phosphate charge, thereby facilitating multidentate bonds to lipid headgroups in order to generate saddle-splay curvature, a prerequisite to pore formation. A comparison among Na+, K+, and Cs+ indicates that histidine-mediated salt tolerance is ion specific. We conclude that histidine plays a unique role in enabling protein/peptide-membrane interactions that occur in marine or other high-salt environment.",
+      "date": "2022-03-29",
+      "language": "en",
+      "archive": "gerard.png",
+      "libraryCatalog": "Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ange.202108501",
+      "accessDate": "2023-03-20T20:45:54Z",
+      "rights": "All rights reserved",
+      "extra": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ange.202108501",
+      "volume": "134",
+      "pages": "e202108501",
+      "publicationTitle": "Angewandte Chemie",
+      "DOI": "10.1002/ange.202108501",
+      "issue": "25",
+      "ISSN": "1521-3757",
+      "creators": [
+        {
+          "firstName": "Wujing",
+          "lastName": "Xian",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew R.",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michelle W.",
+          "lastName": "Lee",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tran",
+          "lastName": "Do",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ernest Y.",
+          "lastName": "Lee",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anastassia N.",
+          "lastName": "Alexandrova",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gerard C. L.",
+          "lastName": "Wong",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Antimicrobial Peptide",
+          "type": 1
+        },
+        {
+          "tag": "Histidine",
+          "type": 1
+        },
+        {
+          "tag": "Hofmeister Series",
+          "type": 1
+        },
+        {
+          "tag": "Ion-Specific",
+          "type": 1
+        },
+        {
+          "tag": "Membrane",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-03-20T20:45:54Z",
+      "dateModified": "2023-03-25T02:15:54Z",
+      "uri": "http://zotero.org/users/3285140/items/TB8CWWUG",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:46:27Z",
+          "dateModified": "2023-03-20T20:46:27Z",
+          "uri": "http://zotero.org/users/3285140/items/P3PQIJDC",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/P3PQIJDC/ange.html",
+          "select": "zotero://select/library/items/P3PQIJDC"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Submitted Version",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-03-20T20:46:28Z",
+          "dateModified": "2023-03-20T20:46:28Z",
+          "uri": "http://zotero.org/users/3285140/items/65IC292V",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/65IC292V/Xian et al. - 2022 - Histidine-Mediated Ion Specific Effects Enable Sal.pdf",
+          "select": "zotero://select/library/items/65IC292V"
+        }
+      ],
+      "notes": [],
+      "citationKey": "xianHistidineMediated2022",
+      "autoJournalAbbreviation": "Angew. Chem.",
+      "itemID": 1193,
+      "itemKey": "TB8CWWUG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TB8CWWUG"
+    }
+  ]
+}

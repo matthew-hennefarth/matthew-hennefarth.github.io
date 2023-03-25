@@ -1,0 +1,31 @@
+
+body {
+  font-size: 14px;
+}
+
+h1:before { content: "> "; }
+h2:before { content: ">> "; }
+h3:before { content: ">>> "; }
+h4:before { content: ">>>> "; }
+h5:before { content: ">>>>> "; }
+h6:before { content: ">>>>>> "; }
+
+h1 {
+  font-size: 1.15rem;
+}
+
+hr {
+  border-top: 4px dotted;
+  border-bottom: 4px dotted;
+  color: var(--muted);
+  height: 3px;
+}
+
+hr:after {
+  content: " ";
+}
+
+.page__logo-inner:after {
+  content: "] %";
+}
+

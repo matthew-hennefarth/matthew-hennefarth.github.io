@@ -1,0 +1,99 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = 'risotto'
+title = 'Matthew R. Hennefarth'
+
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+sectionPagesMenu = 'main'
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "base16-dark"
+
+# Sidebar: about/bio
+[params.about]
+title = "Matthew R. Hennefarth"
+description = "Ph.D. Candidate in Chemistry at UChicago"
+# logo = "images/headshot.png"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/matthew-hennefarth"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/m_hennefarth"
+
+[[params.socialLinks]]
+icon = "ai ai-orcid"
+title = 'ORCID'
+url = "https://orcid.org/0000-0002-6601-2253"
+
+[[params.socialLinks]]
+icon = "ai ai-google-scholar"
+title = "Google Scholar"
+url = "https://scholar.google.com/citations?user=Sds3I_QAAAAJ&hl=en&oi=ao"
+
+[[params.socialLinks]]
+icon = "ai ai-cv"
+title = "CV"
+url = "/cv.pdf"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 10
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
