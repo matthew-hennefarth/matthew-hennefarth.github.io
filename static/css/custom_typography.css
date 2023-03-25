@@ -29,3 +29,6 @@ hr:after {
   content: "] %";
 }
 
+.aside__social-links i {
+  font-size: 20px;
+}
