@@ -1,9 +1,10 @@
 ---
 title: "Protein Hybrid Discrete Dynamics/DFT (*phd3*)"
-date: 2023-03-24T19:12:34-05:00
+date: 2023-03-24
 repo: "https://github.com/alexandrova-lab-ucla/phd3"
 abbr: "phd3"
-languages: ["python"]
+languages: ["Python"]
+authors: ["Matthew R. Hennefarth", "David J. Reilley"]
 ---
 
 {{<img image="/projects/cpet.jpeg" alt="Protein Hybrid Discrete Dynamics/DFT (phd3)">}}

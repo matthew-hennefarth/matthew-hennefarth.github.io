@@ -3,6 +3,7 @@ title: "Linearized Pair-Density Functional Theory"
 date: 2022-06-01
 draft: true
 tags: ["Current"]
+author: "Matthew R. Hennefarth"
 ---
 
 I took a Taylor Expansion, and it just worked..

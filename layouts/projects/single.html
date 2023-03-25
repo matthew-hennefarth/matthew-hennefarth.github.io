@@ -11,11 +11,11 @@
 
 {{define "aside" }}
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
-    {{ if or (.Params.author) (.Params.date) (.Params.repo) }}
+    {{ if or (.Params.author) (.Params.date) (.Params.repo) (.Params.languages) }}
         <p>
             {{ if .Params.repo}} Repo: <a href={{.Params.repo}}> {{if .Params.abbr}} {{.Params.abbr | markdownify}} {{else}} {{.Params.title | markdownify}}{{end}} </a><br>{{ end }}
-            {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
-            {{ if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}
+            {{ if .Params.languages}} Languages: {{delimit .Params.languages ", " }} <br>{{end}}
+            {{ if .Params.authors }}By {{ delimit .Params.authors ", " }}{{ end }}
         </p>
     {{ end }}
 {{ end }}
