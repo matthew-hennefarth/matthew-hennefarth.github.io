@@ -1,5 +1,39 @@
+@font-face {
+  font-family: 'DinaRemasterII';
+  src: url('/fonts/DinaRemasterII.eot');
+  src: url('/fonts/DinaRemasterII.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/DinaRemasterII.woff2') format('woff2')
+       url('/fonts/DinaRemasterII.woff') format('woff'),
+      url('/fonts/DinaRemasterII.ttf') format('truetype'),
+      url('/fonts/DinaRemasterII.svg#DinaRemasterII') format('svg'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DinaRemasterII';
+  src: url('/fonts/DinaRemasterII-Bold.eot');
+  src: url('/fonts/DinaRemasterII-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/DinaRemasterII-Bold.woff2') format('woff2'),
+      url('/fonts/DinaRemasterII-Bold.woff') format('woff'),
+      url('/fonts/DinaRemasterII-Bold.ttf') format('truetype'),
+      url('/fonts/DinaRemasterII-Bold.svg#DinaRemasterII-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "DinaRemasterII";
+}
+
+code {
+  font-family: "DinaRemasterII" !important;
+}
+
 body {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h1:before { content: "> "; }
@@ -10,7 +44,7 @@ h5:before { content: ">>>>> "; }
 h6:before { content: ">>>>>> "; }
 
 h1 {
-  font-size: 1.35rem;
+  font-size: 1.85rem;
 }
 
 /* Headings */
@@ -19,7 +53,7 @@ h3,
 h4, 
 h5, 
 h6 {
-    font-size: 1.15rem;
+    font-size: 1.6rem;
 }
 
 hr {
@@ -42,5 +76,5 @@ hr:after {
 }
 
 .page__footer p {
-  font-size: 12px;
+  font-size: 16px;
 }
