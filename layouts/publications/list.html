@@ -50,7 +50,7 @@
       <div class="citation">
         <div class="citation__frame">
           <div class="citation__body">
-            <a href=https://dx.doi.org/{{.DOI}}><h2>{{.title}}</h2></a>
+            <a href=https://dx.doi.org/{{.DOI}} target="_blank"><h2>{{.title}}</h2></a>
             <ul>
               <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
               <li>Authors:<b> {{$shortauthors | markdownify}}</b></li>
@@ -73,7 +73,7 @@
               {{else}}
                 DOI:
               {{end}}
-              <a href=https://dx.doi.org/{{.DOI}}>{{.DOI}}</a>
+              <a href=https://dx.doi.org/{{.DOI}} target="_blank">{{.DOI}}</a>
             </div>
           </details>
         </div>

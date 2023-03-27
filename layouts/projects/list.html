@@ -12,11 +12,11 @@
     {{ range .Site.Data.opensrc_projects.projects}}
         <li>
             {{if .url}}
-                <a href={{.url}}><i>{{.name}}</i></a>
+                <a href={{.url}} target="_blank"><i>{{.name}}</i></a>
             {{else}}
                 <i>{{.name}}</i>
             {{end}}
-            <a class="button" href={{.repo}}>Repo</a> <a class="button" href={{ printf "%s/commits?author=matthew-hennefarth" .repo }}>Contributions</a>
+            <a class="button" href={{.repo}} target="_blank">Repo</a> <a class="button" href={{ printf "%s/commits?author=matthew-hennefarth" .repo }} target="_blank">Contributions</a>
             <p>{{.summary | markdownify}}</p><p>Languages: {{delimit .languages ", "}}</p>
         </li>
     {{end}}

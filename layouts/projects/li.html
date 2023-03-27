@@ -1,5 +1,5 @@
 <li>
     <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-    <a class="button" href={{.Params.repo}}>Repo</a>
+    <a class="button" href={{.Params.repo}} target="_blank">Repo</a>
     {{.Summary}}<p>Languages: {{delimit .Params.languages ", "}}</p>
 </li>

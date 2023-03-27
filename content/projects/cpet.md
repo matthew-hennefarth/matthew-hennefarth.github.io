@@ -3,7 +3,7 @@ title: "Classical Protein Electric Field Topology (*CPET*)"
 date: 2023-03-24
 repo: "https://github.com/matthew-hennefarth/CPET"
 abbr: "CPET"
-languages: ["C++"]
+languages: ["C++", "CMake"]
 authors: ["Matthew R. Hennefarth"]
 ---
 

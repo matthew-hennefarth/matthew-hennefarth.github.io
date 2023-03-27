@@ -6,6 +6,7 @@ projects:
     summary: "A C++ Graphics Library for Data Visualization."
     languages:
       - C++
+      - CMake
   
   PySCF:
     name: PySCF
@@ -14,7 +15,8 @@ projects:
     summary: "Python-based Simulations of Chemistry Framework."
     languages:
       - Python
-      - C++
+      - C
+      - CMake
 
   PySCF-forge:
     name: PySCF-forge
@@ -22,6 +24,8 @@ projects:
     summary: "PySCF-forge is a collection of extensions for PySCF."
     languages:
       - Python
+      - C
+      - CMake
 
   mrh:
     name: mrh
@@ -29,6 +33,7 @@ projects:
     summary: "GPL research code of Matthew R. Hermes."
     languages:
       - Python
+      - CMake
 
   OpenMolcas:
     name: OpenMolcas
@@ -36,3 +41,4 @@ projects:
     summary: "OpenMolcas is a quantum chemistry software package. The key feature of OpenMolcas is the multiconfigurational approach to the electronic structure."
     languages:
       - Fortran
+      - CMake
