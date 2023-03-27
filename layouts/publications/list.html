@@ -25,6 +25,9 @@
         {{end}}
         
         {{$name := printf "%s, %s" .lastName $initials}}
+        {{if or (eq $name "Hennefarth, M. R.") (eq $name "Hennefarth, M.")}}
+          {{$name = printf "<u>%s</u>" $name}}
+        {{end}}
         {{$authors = $authors | append $name}}  
       {{end}}
       
@@ -50,7 +53,7 @@
             <a href=https://dx.doi.org/{{.DOI}}><h2>{{.title}}</h2></a>
             <ul>
               <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
-              <li>Authors:<b> {{$shortauthors}}</b></li>
+              <li>Authors:<b> {{$shortauthors | markdownify}}</b></li>
               <li>Year:<b> {{$year}}</b></li>
             </ul>
           </div>
