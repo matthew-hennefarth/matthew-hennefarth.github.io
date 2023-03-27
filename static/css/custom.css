@@ -15,10 +15,10 @@ a.button {
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
-  background-color: var(--base08);
+  background-color: var(--base0E);
   color: initial;
   font-size: 16px;
-  padding: 3px;
+  padding: 1px;
 }
 a.button::before {
   content: "[";
@@ -28,5 +28,5 @@ a.button::after {
 }
 
 a.button:hover, a.button:active, a.button.active {
-  background: var(--base09);
+  background: var(--base0D);
 }
