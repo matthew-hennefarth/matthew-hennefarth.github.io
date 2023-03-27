@@ -1,5 +1,5 @@
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1:before { content: "> "; }
@@ -10,7 +10,16 @@ h5:before { content: ">>>>> "; }
 h6:before { content: ">>>>>> "; }
 
 h1 {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
+}
+
+/* Headings */
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-size: 1.15rem;
 }
 
 hr {
@@ -30,4 +39,8 @@ hr:after {
 
 .aside__social-links i {
   font-size: 20px;
+}
+
+.page__footer p {
+  font-size: 12px;
 }

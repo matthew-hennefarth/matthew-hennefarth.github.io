@@ -2,6 +2,7 @@
 title: "Pathologic Biomineralization"
 date: 2016-06-01
 author: "Matthew R. Hennefarth"
+current: false
 ---
 
 What causes soft tissues to harden? Why do kidney stones form? There are various pathological diseases in which unwanted regions of the human body accumulate minerals and harden. We focused on mapping key ions, molecules, and proteins from cells that could promote the cascade of reactions resulting in compounds and unwanted biominerals. We tried to understand how mechanical strain impacted the susceptibility of a tissue to begin to mineralize; that is, the relationship between form and function of the material.

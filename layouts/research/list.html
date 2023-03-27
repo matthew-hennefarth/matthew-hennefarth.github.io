@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
+
+    <br>{{ .Content }}
+
+    <h2>Current Research:</h2>
+    <ul>
+    {{ range .Pages }}
+        {{ if .Param "current" }} {{ .Render "li" }} {{end}}
+    {{ end }}
+    </ul>
+
+    <h2>Prior Research:</h2>
+    <ul>
+        {{ range .Pages }}
+            {{ if not (.Param "current") }} {{ .Render "li" }} {{end}}
+        {{ end }}
+        </ul>
+{{ end }}

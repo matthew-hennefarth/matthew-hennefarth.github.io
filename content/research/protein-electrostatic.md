@@ -2,7 +2,7 @@
 title: "Computationally Designed Artificial Enzymes"
 date: 2018-09-25
 author: "Matthew R. Hennefarth"
-tags: ["Archive"]
+current: false
 ---
 Enzymes catalyze chemical reactions with incredible efficiency and stereoselectivity under physiological conditions, making enzymes desirable tools for catalyzing non-native reactions of human interest. Designing artificial enzymes requires understanding the various parameters that make enzymes good catalysts such as substrate binding affinity, active site residues, etc. Artificial enzymes are designed computationally or produced via directed evolution. Computational design protocols have been successful in developing catalytic proteins, yet the best enzymes are still several orders of magnitude less active than natural enzymes. Directed evolved enzymes are often more better catalysts and often, computationally designed enzymes are further refined via directed evolution. However, since directed evolution mimics natural evolution, it does not tell us why particular point mutations are important or how they improve an enzymes efficiency. Hence our current understanding of why enzymes are effective catalysts is missing some fundamental aspect that directed evolution can account for. 
 

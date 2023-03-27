@@ -2,7 +2,7 @@
 title: "Linearized Pair-Density Functional Theory"
 date: 2022-06-01
 draft: true
-tags: ["Current"]
+current: true
 author: "Matthew R. Hennefarth"
 ---
 
@@ -10,7 +10,7 @@ I took a Taylor Expansion, and it just worked..
 
 {{< img image="/toc/lpdft_toc.png" alt="L-PDFT TOC" width="50%">}}
 
-This work as performed under the guidance of Professor [Laura Gagliardi](https://gagliardigroup.uchicago.edu/) during my time as a Ph.D. student at UChicago.
+This work was performed under the guidance of Professor [Laura Gagliardi](https://gagliardigroup.uchicago.edu/) during my time as a Ph.D. student at UChicago.
 
 ## Code Developed for this Project
 - Linearized PDFT in [*PySCF-forge*](https://github.com/pyscf/pyscf-forge)

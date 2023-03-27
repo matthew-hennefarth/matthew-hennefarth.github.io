@@ -6,7 +6,8 @@
         {{ .Render "li" }} 
     {{ end }}
     </ul>
-    Open-Source Projects I have contributed to:
+
+    <h2>Open Source Projects I have Contributed to:</h2>
     <ul>
     {{ range .Site.Data.opensrc_projects.projects}}
         <li><a href={{.url}}><i>{{.name}}</i></a> </li>

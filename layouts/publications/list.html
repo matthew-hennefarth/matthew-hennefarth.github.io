@@ -45,9 +45,9 @@
         {{$journal = .journalAbbreviation}}
       {{end}}
       <div class="citation">
-        <div class="citation__body">
-          <div class="citation__abbr">
-            <h2>{{.title}}</h2>
+        <div class="citation__frame">
+          <div class="citation__body">
+            <a href=https://dx.doi.org/{{.DOI}}><h2>{{.title}}</h2></a>
             <ul>
               <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
               <li>Authors:<b> {{$shortauthors}}</b></li>
@@ -55,7 +55,7 @@
             </ul>
           </div>
           {{if .archive}}
-            <div class="citation_toc">
+            <div class="citation__toc">
               <img class="toc__img" src={{printf "/toc/%s" .archive}} alt={{printf "%s TOC" .title}}>
             </div>
           {{end}}

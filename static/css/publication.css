@@ -7,17 +7,29 @@
   margin-bottom: 25px;
 }
 
-.citation__body,
+.citation__frame,
 .citation__summary {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.citation__body {
+/* Frame that holds citation__body and citation_toc*/
+.citation__frame {
   padding-top: 10px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-areas:
+    "body"
+    "toc";
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 55rem) {
+  .citation__frame {
+    grid-template-areas: 
+    "body toc";
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    grid-column-gap: 1rem;
+  }
 }
 
 .citation__summary {
@@ -25,7 +37,7 @@
 }
 
 .full__citation {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1rem;
   padding-left: 35px;
   padding-right: 35px;
@@ -36,33 +48,30 @@
   overflow: hidden;
 }
 
-.citation__abbr {
-  float: left;
-  width: 60%;
-  height: 100%;
-  padding-right: 10px;
+/* Where the title, authors, year goes*/
+.citation__body {
+  grid-area: body;
+  overflow-wrap: break-word;
+  align-self: center;
 }
 
-.citation_toc {
-  width: 40%;
-  height: 100%;
-  float: right;
-}
-
-.toc__img {
-  width: 100%;
-  max-height: 100%;
-  height: auto;
-  object-fit: scale-up;
-  display: block;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.citation__abbr h2:before {
+.citation__body h2:before {
   content: "";
 }
 
-.citation__abbr h2 {
+.citation__body h2 {
   margin-top: 0;
+}
+
+/* TOC if present*/
+.citation__toc {
+  /* width: 300px; */
+  grid-area: toc;
+  justify-self: center;
+  display: flex;
+}
+
+.toc__img {
+  align-self: center;
+  display: flex;
 }
