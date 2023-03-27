@@ -6,10 +6,10 @@ abbr: "phd3"
 languages: ["Python"]
 authors: ["Matthew R. Hennefarth", "David J. Reilley"]
 ---
+Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling of metalloenzymes.
+<!--more-->
 
 {{<img image="/projects/cpet.jpeg" alt="Protein Hybrid Discrete Dynamics/DFT (phd3)">}}
-
-Protein Hybrid Discrete Dynamics/DFT. Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling of metalloenzymes.
 
 ## System Requirements
 - [TURBOMOLE](https://www.turbomole.org/) Version 6.6

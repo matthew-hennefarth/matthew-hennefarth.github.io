@@ -5,10 +5,9 @@ repo: "https://github.com/matthew-hennefarth/RAII-Thread"
 languages: ["C++"]
 authors: ["Matthew R. Hennefarth"]
 ---
-
 Header only file for a C++ RAII thread that joins upon destruction. 
-It wraps the interface of std::thread.
-Feel free to download or copy the file into your own project.
+<!--more-->
+It wraps the interface of std::thread. Feel free to download or copy the file into your own project.
 
 ## Example
 To create a RAII Thread with a lambda, we can do the following:

@@ -6,11 +6,19 @@
         {{ .Render "li" }} 
     {{ end }}
     </ul>
-
+    <hr>
     <h2>Open Source Projects I have Contributed to:</h2>
     <ul>
     {{ range .Site.Data.opensrc_projects.projects}}
-        <li><a href={{.url}}><i>{{.name}}</i></a> </li>
+        <li>
+            {{if .url}}
+                <a href={{.url}}><i>{{.name}}</i></a>
+            {{else}}
+                <i>{{.name}}</i>
+            {{end}}
+            <a class="button" href={{.repo}}>Repo</a> <a class="button" href={{ printf "%s/commits?author=matthew-hennefarth" .repo }}>Contributions</a>
+            <p>{{.summary | markdownify}}</p><p>Languages: {{delimit .languages ", "}}</p>
+        </li>
     {{end}}
     </ul>
 {{ end }}

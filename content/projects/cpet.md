@@ -8,6 +8,7 @@ authors: ["Matthew R. Hennefarth"]
 ---
 
 Software used to compute the classical electric field from a protein structure (or structures) as well as sample the electric field topological data.
+<!--more-->
 
 ## System Requirements
 - gnuplot (only for plotting)

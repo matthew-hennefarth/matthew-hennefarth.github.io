@@ -1,31 +1,38 @@
 projects:
   matplotplusplus:
     name: matplutplusplus
-    url: https://github.com/alandefreitas/matplotplusplus
+    repo: https://github.com/alandefreitas/matplotplusplus
+    url: https://alandefreitas.github.io/matplotplusplus/
+    summary: "A C++ Graphics Library for Data Visualization."
     languages:
       - C++
   
   PySCF:
     name: PySCF
-    url: https://github.com/pyscf/pyscf
+    repo: https://github.com/pyscf/pyscf
+    url: https://pyscf.org
+    summary: "Python-based Simulations of Chemistry Framework."
     languages:
       - Python
       - C++
 
   PySCF-forge:
     name: PySCF-forge
-    url: https://github.com/pyscf/pyscf-forge
+    repo: https://github.com/pyscf/pyscf-forge
+    summary: "PySCF-forge is a collection of extensions for PySCF."
     languages:
       - Python
 
   mrh:
     name: mrh
-    url: https://github.com/MatthewRHermes/mrh
+    repo: https://github.com/MatthewRHermes/mrh
+    summary: "GPL research code of Matthew R. Hermes."
     languages:
       - Python
 
   OpenMolcas:
     name: OpenMolcas
-    url: https://gitlab.com/Molcas/OpenMolcas
+    repo: https://gitlab.com/Molcas/OpenMolcas
+    summary: "OpenMolcas is a quantum chemistry software package. The key feature of OpenMolcas is the multiconfigurational approach to the electronic structure."
     languages:
       - Fortran

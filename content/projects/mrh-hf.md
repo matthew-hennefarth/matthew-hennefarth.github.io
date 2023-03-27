@@ -6,9 +6,8 @@ languages: ["Python"]
 math: true
 authors: ["Matthew R. Hennefarth"]
 ---
-
 Simple Hartree-Fock code.
-
+<!--more-->
 ## Requirements
 - [PySCF]
 - Python3 (version >3.8)
