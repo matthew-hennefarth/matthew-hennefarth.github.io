@@ -7,7 +7,8 @@ languages: ["C++", "CMake"]
 authors: ["Matthew R. Hennefarth"]
 ---
 
-Software used to compute the classical electric field from a protein structure (or structures) as well as sample the electric field topological data.
+Software used to compute the classical electric field from a protein structure
+(or structures) as well as sample the electric field topological data.
 <!--more-->
 
 ## System Requirements
@@ -17,14 +18,19 @@ You can easily install gnuplot on Mac using homebrew
 ```sh
 brew install gnuplot
 ```
-On Linux, gnuplot should be in your package manager repo's already. For example on Ubuntu
+On Linux, gnuplot should be in your package manager repo's already. For example
+on Ubuntu
 ```sh
 sudo apt-get update
 sudo apt-get install gnuplot
 ```
 ## Installation
 ### Download Binaries
-Binaries (version 0.4.3) are available for [MacOSX](https://github.com/matthew-hennefarth/CPET/releases/download/v0.4.3/cpet_MacOSX-ARM64) (ARM 64, 'Apple Silicon'). Linux binaries are fully statically linked; however, MacOS binaries are still dynamically linked to system libraries. If you receive an error such as 
+Binaries (version 0.4.3) are available for
+[MacOSX](https://github.com/matthew-hennefarth/CPET/releases/download/v0.4.3/cpet_MacOSX-ARM64)
+(ARM 64, 'Apple Silicon'). Linux binaries are fully statically linked; however,
+MacOS binaries are still dynamically linked to system libraries. If you receive
+an error such as 
 ```sh
 /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found
 ```
@@ -42,7 +48,8 @@ Download or clone this repository using
 ```sh
 git clone https://github.com/matthew-hennefarth/CPET.git
 ```          
-Then, go into the project and make a build directory, `mkdir build` and go into this directory, `cd build`. We will then run cmake to build the binary.
+Then, go into the project and make a build directory, `mkdir build` and go into
+this directory, `cd build`. We will then run cmake to build the binary.
 ```sh
 cmake ../
 make
@@ -50,12 +57,18 @@ make
 This should create the executable, `cpet`, in `CPET/bin` to be used.
 
 ## Usage
-Calling `cpet -h` will output the various options available. What is always needed is a pdb file and an options file. The pdb file should contain the partial atomic charges in the occupancy column (columns 55-60) for each atom. I recommend using the [Atomic Charge Calculate II](https://acc2.ncbr.muni.cz/) for generating partial atomic charges, and it will place the charges in the occupancy column automatically. The options file will tell the program what to compute and how.
+Calling `cpet -h` will output the various options available. What is always
+needed is a pdb file and an options file. The pdb file should contain the
+partial atomic charges in the occupancy column (columns 55-60) for each atom. I
+recommend using the [Atomic Charge Calculate II](https://acc2.ncbr.muni.cz/) for
+generating partial atomic charges, and it will place the charges in the
+occupancy column automatically. The options file will tell the program what to
+compute and how.
 
 ## Acknowledgements
 This code uses the following C++ libraries:
 - [Eigen](https://gitlab.com/libeigen/eigen)
-- [cs_libguarded](https://github.com/copperspice/cs_libguarded)
+- [cs\_libguarded](https://github.com/copperspice/cs_libguarded)
 - [cxxopts](https://github.com/jarro2783/cxxopts)
 - [spdlog](https://github.com/gabime/spdlog)
 - [matplotplusplus](https://github.com/alandefreitas/matplotplusplus)

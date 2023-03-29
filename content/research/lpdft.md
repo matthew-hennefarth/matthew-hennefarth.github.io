@@ -10,15 +10,19 @@ I took a Taylor Expansion, and it just worked..
 
 {{< img image="/toc/lpdft_toc.png" alt="L-PDFT TOC" width="50%">}}
 
-This work was performed under the guidance of Professor [Laura Gagliardi](https://gagliardigroup.uchicago.edu/) during my time as a Ph.D. student at UChicago.
+This work was performed under the guidance of Professor [Laura
+Gagliardi](https://gagliardigroup.uchicago.edu/) during my time as a Ph.D.
+student at UChicago.
 
 ## Code Developed for this Project
 - Linearized PDFT in [*PySCF-forge*](https://github.com/pyscf/pyscf-forge)
-- Born-Oppenheimer Molecular Dynamics Package in [*PySCF*](https://github.com/pyscf/pyscf)
+- Born-Oppenheimer Molecular Dynamics Package in
+  [*PySCF*](https://github.com/pyscf/pyscf)
 
 ---
 ## Selected Publications:
-1. [Linearized Pair-Density Functional Theory][**Submitted**, Available on ChemRxiv]
+1. [Linearized Pair-Density Functional Theory][**Submitted**, Available on
+   ChemRxiv]
 
 [comment]: <Reference Hyperlinks>
 [**Submitted**, Available on ChemRxiv]: http://dx.doi.org/10.26434/chemrxiv-2023-7d0gv

@@ -7,7 +7,8 @@ authors: ["Matthew R. Hennefarth"]
 ---
 Header only file for a C++ RAII thread that joins upon destruction. 
 <!--more-->
-It wraps the interface of std::thread. Feel free to download or copy the file into your own project.
+It wraps the interface of std::thread. Feel free to download or copy the file
+into your own project.
 
 ## Example
 To create a RAII Thread with a lambda, we can do the following:
@@ -32,7 +33,8 @@ Similarly for functions:
 #include <iostream>
 void threadUnsafeFunction( int i )
 {
-  std::cout << "This function is not thread safe because of lack of mutex" << '\n';
+  std::cout << "This function is not thread safe because of lack of mutex"
+            <<'\n';
   std::cout << "The number is " << i << '\n';
 }
 int main()
