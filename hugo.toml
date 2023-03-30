@@ -11,7 +11,7 @@ copyright = "© 2023 Matthew R. Hennefarth"
 ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
-sectionPagesMenu = 'main'
+# sectionPagesMenu = 'main'
 
 [sitemap]
 changefreq = "monthly"
