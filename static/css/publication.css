@@ -79,9 +79,9 @@
 /* Links */
 
 .citation__body a:link, .citation__body a:visited {
-  color: var(--base0E);
+  color: var(--fg);
 }
 
 .citation__body a:hover, .citation__body a:active, .citation__body a.active {
-  color: var(--base0F);
+  color: var(--off-fg);
 }
