@@ -91,12 +91,13 @@
       "exportNotes": false,
       "exportFileData": false,
       "keepUpdated": false,
-      "worker": false
+      "worker": false,
+      "Normalize": false
     }
   },
   "version": {
     "zotero": "6.0.23",
-    "bbt": "6.7.62"
+    "bbt": "6.7.71"
   },
   "collections": {},
   "items": [
@@ -118,7 +119,7 @@
       "creators": [
         {
           "firstName": "Liberty",
-          "lastName": "Fran\u00e7ois-Moutal",
+          "lastName": "François-Moutal",
           "creatorType": "author"
         },
         {
@@ -239,6 +240,7 @@
       ],
       "tags": [],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2022-07-22T16:45:54Z",
       "dateModified": "2023-03-25T02:17:14Z",
       "uri": "http://zotero.org/users/3285140/items/IYCSYGQK",
@@ -304,6 +306,7 @@
         }
       ],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2023-03-20T20:45:48Z",
       "dateModified": "2023-03-25T02:16:20Z",
       "uri": "http://zotero.org/users/3285140/items/6IZS6NJA",
@@ -383,6 +386,7 @@
         }
       ],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2022-07-22T16:45:54Z",
       "dateModified": "2023-03-25T02:17:03Z",
       "uri": "http://zotero.org/users/3285140/items/K62FAE5R",
@@ -398,7 +402,7 @@
     {
       "version": 3442,
       "itemType": "journalArticle",
-      "title": "Heterogeneous Intramolecular Electric Field as a Descriptor of Diels\u2013Alder Reactivity",
+      "title": "Heterogeneous Intramolecular Electric Field as a Descriptor of Diels–Alder Reactivity",
       "date": "2021-02-01",
       "archive": "images_large_jp1c00181_0010.png",
       "url": "https://pubs.acs.org/doi/10.1021/acs.jpca.1c00181",
@@ -422,6 +426,7 @@
       ],
       "tags": [],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2022-07-22T16:45:54Z",
       "dateModified": "2023-03-25T02:14:18Z",
       "uri": "http://zotero.org/users/3285140/items/LWYKASJV",
@@ -435,31 +440,34 @@
       "select": "zotero://select/library/items/LWYKASJV"
     },
     {
-      "version": 3447,
-      "itemType": "preprint",
+      "version": 3831,
+      "itemType": "journalArticle",
       "title": "Linearized Pair-Density Functional Theory",
-      "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn-Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multi-state PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
-      "date": "2023-02-20",
-      "language": "en",
+      "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn–Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multistate PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
+      "date": "2023-05-19",
       "archive": "lpdft_toc.png",
-      "libraryCatalog": "Cambridge Engage Preprints",
-      "url": "https://chemrxiv.org/engage/chemrxiv/article-details/63f0efa01d2d184063b5812d",
-      "accessDate": "2023-03-20T16:53:15Z",
+      "libraryCatalog": "ACS Publications",
+      "url": "https://doi.org/10.1021/acs.jctc.3c00207",
+      "accessDate": "2023-05-20T14:32:03Z",
       "rights": "All rights reserved",
-      "DOI": "10.26434/chemrxiv-2023-7d0gv",
+      "extra": "Publisher: American Chemical Society",
+      "publicationTitle": "Journal of Chemical Theory and Computation",
+      "DOI": "10.1021/acs.jctc.3c00207",
+      "journalAbbreviation": "J. Chem. Theory Comput.",
+      "ISSN": "1549-9618",
       "creators": [
         {
-          "firstName": "Matthew",
+          "firstName": "Matthew R.",
           "lastName": "Hennefarth",
           "creatorType": "author"
         },
         {
-          "firstName": "Matthew",
+          "firstName": "Matthew R.",
           "lastName": "Hermes",
           "creatorType": "author"
         },
         {
-          "firstName": "Donald",
+          "firstName": "Donald G.",
           "lastName": "Truhlar",
           "creatorType": "author"
         },
@@ -469,54 +477,48 @@
           "creatorType": "author"
         }
       ],
-      "tags": [
-        {
-          "tag": "Electronic Structure",
-          "type": 1
-        },
-        {
-          "tag": "Excited States",
-          "type": 1
-        },
-        {
-          "tag": "Pair-Density",
-          "type": 1
-        },
-        {
-          "tag": "Pair-Density Functional Theory",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "relations": [],
-      "dateAdded": "2023-03-20T16:53:15Z",
-      "dateModified": "2023-03-25T02:16:28Z",
-      "uri": "http://zotero.org/users/3285140/items/B5NBSXEP",
+      "inPublications": true,
+      "dateAdded": "2023-05-20T14:32:03Z",
+      "dateModified": "2023-05-20T14:33:39Z",
+      "uri": "http://zotero.org/users/3285140/items/NBQCQ528",
       "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ACS Full Text Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-05-20T14:32:44Z",
+          "dateModified": "2023-05-20T14:32:44Z",
+          "uri": "http://zotero.org/users/3285140/items/ZQMSJUR9",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/ZQMSJUR9/acs.jctc.html",
+          "select": "zotero://select/library/items/ZQMSJUR9"
+        },
         {
           "itemType": "attachment",
           "title": "Full Text PDF",
           "tags": [],
           "relations": [],
-          "dateAdded": "2023-03-20T16:53:17Z",
-          "dateModified": "2023-03-20T16:53:17Z",
-          "uri": "http://zotero.org/users/3285140/items/36X8TK9V",
-          "path": "/Users/mhennefarth/.local/share/Zotero/storage/36X8TK9V/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory.pdf",
-          "select": "zotero://select/library/items/36X8TK9V"
+          "dateAdded": "2023-05-20T14:32:07Z",
+          "dateModified": "2023-05-20T14:32:07Z",
+          "uri": "http://zotero.org/users/3285140/items/4JPHWSU4",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/4JPHWSU4/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory.pdf",
+          "select": "zotero://select/library/items/4JPHWSU4"
         }
       ],
       "notes": [],
       "citationKey": "hennefarthLinearized2023",
-      "itemID": 1187,
-      "itemKey": "B5NBSXEP",
+      "itemID": 1315,
+      "itemKey": "NBQCQ528",
       "libraryID": 1,
-      "select": "zotero://select/library/items/B5NBSXEP",
-      "publisher": "ChemRxiv"
+      "select": "zotero://select/library/items/NBQCQ528"
     },
     {
       "version": 3449,
       "itemType": "journalArticle",
       "title": "Physicochemical and biochemical spatiotemporal maps of a mouse penis",
-      "abstractNote": "Spatiotemporal mechanobiology resulting in penile pathologies continues to be investigated using small scale animals models such as mice. However, species-dependent functional biomechanics of a mouse penis, is not known. In this study, spatial mapping of a mechanosensitive transcription factor, scleraxis (Scx), at ages 4, 5, 6 weeks, and 1 year were generated to identify mechanoactive regions within penile tissues. Reconstructed volumes of baculum collected using micro X-ray computed tomography illustrated significantly increased baculum length with decreased porosity, and increased mineral density (p < 0.05) with age. The bony-baculum was held centrally in the Scx positive corpus cavernosum glandis (CCG), indicating mechanoactivity within the struts in a 6 week old mouse. The struts also were stained positive for fibrillar proteins including collagen and elastin, and globular proteins including protein gene product 9.5, and \u03b1-smooth muscle actin. The corpus cavernosum penis (CCP) contained significantly (p < 0.05) more collagen than CCG within the same penis, and both regions contained blood vessels with equivalent innervation at any given age. Comparison of volumes of flaccid and erect penile forms revealed functional characteristics of the CCP. Results of this study provided insights into biomechanical function of the CCG; in that, it is a high-pressure chamber that stiffens the penis and is similar to the human corpus cavernosum.",
+      "abstractNote": "Spatiotemporal mechanobiology resulting in penile pathologies continues to be investigated using small scale animals models such as mice. However, species-dependent functional biomechanics of a mouse penis, is not known. In this study, spatial mapping of a mechanosensitive transcription factor, scleraxis (Scx), at ages 4, 5, 6 weeks, and 1 year were generated to identify mechanoactive regions within penile tissues. Reconstructed volumes of baculum collected using micro X-ray computed tomography illustrated significantly increased baculum length with decreased porosity, and increased mineral density (p < 0.05) with age. The bony-baculum was held centrally in the Scx positive corpus cavernosum glandis (CCG), indicating mechanoactivity within the struts in a 6 week old mouse. The struts also were stained positive for fibrillar proteins including collagen and elastin, and globular proteins including protein gene product 9.5, and α-smooth muscle actin. The corpus cavernosum penis (CCP) contained significantly (p < 0.05) more collagen than CCG within the same penis, and both regions contained blood vessels with equivalent innervation at any given age. Comparison of volumes of flaccid and erect penile forms revealed functional characteristics of the CCP. Results of this study provided insights into biomechanical function of the CCG; in that, it is a high-pressure chamber that stiffens the penis and is similar to the human corpus cavernosum.",
       "date": "2020-03-05",
       "archive": "baculum.png",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021929020300440",
@@ -590,6 +592,7 @@
         }
       ],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2022-07-22T16:45:54Z",
       "dateModified": "2023-03-25T02:16:47Z",
       "uri": "http://zotero.org/users/3285140/items/94ZT3CC9",
@@ -603,19 +606,20 @@
       "select": "zotero://select/library/items/94ZT3CC9"
     },
     {
-      "version": 3432,
+      "version": 3588,
       "itemType": "preprint",
       "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
       "abstractNote": "In this article the recent developments of the open-source OpenMolcas chemistry software environment, since spring 2020, are described, with the main focus on novel functionalities that are accessible in the stable branch of the package and/or via interfaces with other packages. These community developments span a wide range of topics in computational chemistry, and are presented in thematic sections associated with electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report represents a useful summary of these developments, and it offers a solid overview of the chemical phenomena and processes that OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.",
       "date": "2023-02-14",
       "language": "en",
       "shortTitle": "The OpenMolcas Web",
+      "archive": "openmolcas_toc.png",
       "libraryCatalog": "Cambridge Engage Preprints",
       "url": "https://chemrxiv.org/engage/chemrxiv/article-details/63cab14daadd95af647a2d9e",
       "accessDate": "2023-03-20T20:45:59Z",
       "rights": "All rights reserved",
       "DOI": "10.26434/chemrxiv-2023-b7f0j",
-      "archive": "openmolcas_toc.png",
+      "repository": "ChemRxiv",
       "creators": [
         {
           "firstName": "Giovanni Li",
@@ -623,8 +627,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Ignacio Fern\u00e1ndez",
-          "lastName": "Galv\u00e1n",
+          "firstName": "Ignacio Fernández",
+          "lastName": "Galván",
           "creatorType": "author"
         },
         {
@@ -674,7 +678,7 @@
         },
         {
           "firstName": "Alejandro",
-          "lastName": "Blanco-Gonz\u00e1lez",
+          "lastName": "Blanco-González",
           "creatorType": "author"
         },
         {
@@ -709,7 +713,7 @@
         },
         {
           "firstName": "Luis",
-          "lastName": "Cerd\u00e1n",
+          "lastName": "Cerdán",
           "creatorType": "author"
         },
         {
@@ -739,7 +743,7 @@
         },
         {
           "firstName": "Juliana",
-          "lastName": "Cu\u00e9llar-Zuquin",
+          "lastName": "Cuéllar-Zuquin",
           "creatorType": "author"
         },
         {
@@ -763,7 +767,7 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Micka\u00ebl G.",
+          "firstName": "Mickaël G.",
           "lastName": "Delcey",
           "creatorType": "author"
         },
@@ -789,7 +793,7 @@
         },
         {
           "firstName": "Nicolas",
-          "lastName": "Ferr\u00e9",
+          "lastName": "Ferré",
           "creatorType": "author"
         },
         {
@@ -809,7 +813,7 @@
         },
         {
           "firstName": "Leticia",
-          "lastName": "Gonz\u00e1lez",
+          "lastName": "González",
           "creatorType": "author"
         },
         {
@@ -874,7 +878,7 @@
         },
         {
           "firstName": "Marek",
-          "lastName": "Kro\u015bnicki",
+          "lastName": "Krośnicki",
           "creatorType": "author"
         },
         {
@@ -903,8 +907,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Pablo L\u00f3pez",
-          "lastName": "R\u00edos",
+          "firstName": "Pablo López",
+          "lastName": "Ríos",
           "creatorType": "author"
         },
         {
@@ -939,7 +943,7 @@
         },
         {
           "firstName": "Maximilian",
-          "lastName": "M\u00f6rchen",
+          "lastName": "Mörchen",
           "creatorType": "author"
         },
         {
@@ -1014,7 +1018,7 @@
         },
         {
           "firstName": "Daniel",
-          "lastName": "Roca-Sanju\u00e1n",
+          "lastName": "Roca-Sanjuán",
           "creatorType": "author"
         },
         {
@@ -1029,7 +1033,7 @@
         },
         {
           "firstName": "Aitor",
-          "lastName": "S\u00e1nchez-Mansilla",
+          "lastName": "Sánchez-Mansilla",
           "creatorType": "author"
         },
         {
@@ -1049,7 +1053,7 @@
         },
         {
           "firstName": "Javier",
-          "lastName": "Segarra-Mart\u00ed",
+          "lastName": "Segarra-Martí",
           "creatorType": "author"
         },
         {
@@ -1089,7 +1093,7 @@
         },
         {
           "firstName": "Lasse Kragh",
-          "lastName": "S\u00f8rensen",
+          "lastName": "Sørensen",
           "creatorType": "author"
         },
         {
@@ -1160,8 +1164,9 @@
       ],
       "tags": [],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2023-03-20T20:45:59Z",
-      "dateModified": "2023-03-24T05:54:38Z",
+      "dateModified": "2023-04-27T05:43:48Z",
       "uri": "http://zotero.org/users/3285140/items/NH4SM5S8",
       "attachments": [
         {
@@ -1181,8 +1186,7 @@
       "itemID": 1194,
       "itemKey": "NH4SM5S8",
       "libraryID": 1,
-      "select": "zotero://select/library/items/NH4SM5S8",
-      "publisher": "ChemRxiv"
+      "select": "zotero://select/library/items/NH4SM5S8"
     },
     {
       "version": 3448,
@@ -1218,6 +1222,7 @@
       ],
       "tags": [],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2022-07-22T16:45:54Z",
       "dateModified": "2023-03-25T02:16:37Z",
       "uri": "http://zotero.org/users/3285140/items/U9E8DFIV",
@@ -1234,7 +1239,7 @@
       "version": 3443,
       "itemType": "journalArticle",
       "title": "Mineralized Peyronie's plaque has a phenotypic resemblance to bone",
-      "abstractNote": "Mineralized Peyronie's plaque (MPP) impairs penile function. The association, colocalization, and dynamic interplay between organic and inorganic constituents can provide insights into biomineralization of Peyronie's plaque. Human MPPs (n\u202f=\u202f11) were surgically excised, and the organic and inorganic constituents were spatially mapped using multiple high-resolution imaging techniques. Multiscale image analyses resulted in spatial colocalization of elements within a highly porous material with heterogenous composition, lamellae, and osteocytic lacuna-like features with a morphological resemblance to bone. The lower (520\u202f\u00b1\u202f179\u202fmg/cc) and higher (1024\u202f\u00b1\u202f155\u202fmg/cc) mineral density regions were associated with higher (11%) and lower (7%) porosities in MPP. Energy dispersive X-ray and micro-X-ray fluorescent spectroscopic maps in the higher mineral density regions of MPP revealed higher counts of calcium (Ca) and phosphorus (P), and a Ca/P ratio of 1.48\u202f\u00b1\u202f0.06 similar to bone. More importantly, higher counts of zinc (Zn) were localized at the interface between softer (more organic to inorganic ratio) and harder (less organic to inorganic ratio) tissue regions of MPP and adjacent softer matrix, indicating the involvement of Zn-related proteins and/or pathways in the formation of MPP. In particular, dentin matrix protein-1 (DMP-1) was colocalized in a matrix rich in proteoglycans and collagen that contained osteocytic lacuna-like features. This combined materials science and biochemical with correlative microspectroscopic approach provided insights into the plausible cellular and biochemical pathways that incite mineralization of an existing fibrous Peyronie's plaque.\nStatement of significance\nAberrant human penile mineralization is known as mineralized Peyronie's plaque (MPP) and often results in a loss of form and function. This study focuses on investigating the spatial association of matrix proteins and elemental composition of MPP by colocalizing calcium, phosphorus, and trace metal zinc with dentin matrix protein 1 (DMP-1), acidic proteoglycans, and fibrillar collagen along with the cellular components using high resolution correlative microspectroscopy techniques. Spatial maps provided insights into cellular and biochemical pathways that incite mineralization of fibrous Peyronie's plaque in humans.",
+      "abstractNote": "Mineralized Peyronie's plaque (MPP) impairs penile function. The association, colocalization, and dynamic interplay between organic and inorganic constituents can provide insights into biomineralization of Peyronie's plaque. Human MPPs (n = 11) were surgically excised, and the organic and inorganic constituents were spatially mapped using multiple high-resolution imaging techniques. Multiscale image analyses resulted in spatial colocalization of elements within a highly porous material with heterogenous composition, lamellae, and osteocytic lacuna-like features with a morphological resemblance to bone. The lower (520 ± 179 mg/cc) and higher (1024 ± 155 mg/cc) mineral density regions were associated with higher (11%) and lower (7%) porosities in MPP. Energy dispersive X-ray and micro-X-ray fluorescent spectroscopic maps in the higher mineral density regions of MPP revealed higher counts of calcium (Ca) and phosphorus (P), and a Ca/P ratio of 1.48 ± 0.06 similar to bone. More importantly, higher counts of zinc (Zn) were localized at the interface between softer (more organic to inorganic ratio) and harder (less organic to inorganic ratio) tissue regions of MPP and adjacent softer matrix, indicating the involvement of Zn-related proteins and/or pathways in the formation of MPP. In particular, dentin matrix protein-1 (DMP-1) was colocalized in a matrix rich in proteoglycans and collagen that contained osteocytic lacuna-like features. This combined materials science and biochemical with correlative microspectroscopic approach provided insights into the plausible cellular and biochemical pathways that incite mineralization of an existing fibrous Peyronie's plaque.\nStatement of significance\nAberrant human penile mineralization is known as mineralized Peyronie's plaque (MPP) and often results in a loss of form and function. This study focuses on investigating the spatial association of matrix proteins and elemental composition of MPP by colocalizing calcium, phosphorus, and trace metal zinc with dentin matrix protein 1 (DMP-1), acidic proteoglycans, and fibrillar collagen along with the cellular components using high resolution correlative microspectroscopy techniques. Spatial maps provided insights into cellular and biochemical pathways that incite mineralization of fibrous Peyronie's plaque in humans.",
       "date": "2022-03-01",
       "language": "en",
       "archive": "1-s2.0-S174270612100773X-ga1_lrg.png",
@@ -1324,6 +1329,7 @@
         }
       ],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2023-03-20T20:46:21Z",
       "dateModified": "2023-03-25T02:15:41Z",
       "uri": "http://zotero.org/users/3285140/items/RI86GGF3",
@@ -1350,8 +1356,8 @@
     {
       "version": 3445,
       "itemType": "journalArticle",
-      "title": "Machine Learning to Predict Diels\u2013Alder Reaction Barriers from the Reactant State Electron Density",
-      "abstractNote": "Reaction barriers are key to our understanding of chemical reactivity and catalysis. Certain reactions are so seminal in chemistry that countless variants, with or without catalysts, have been studied, and their barriers have been computed or measured experimentally. This wealth of data represents a perfect opportunity to leverage machine learning models, which could quickly predict barriers without explicit calculations or measurement. Here, we show that the topological descriptors of the quantum mechanical charge density in the reactant state constitute a set that is both rigorous and continuous and can be used effectively for the prediction of reaction barrier energies to a high degree of accuracy. We demonstrate this on the Diels\u2013Alder reaction, highly important in biology and medicinal chemistry, and as such, studied extensively. This reaction exhibits a range of barriers as large as 270 kJ/mol. While we trained our single-objective supervised (labeled) regression algorithms on simpler Diels\u2013Alder reactions in solution, they predict reaction barriers also in significantly more complicated contexts, such a Diels\u2013Alder reaction catalyzed by an artificial enzyme and its evolved variants, in agreement with experimental changes in kcat. We expect this tool to apply broadly to a variety of reactions in solution or in the presence of a catalyst, for screening and circumventing heavily involved computations or experiments.",
+      "title": "Machine Learning to Predict Diels–Alder Reaction Barriers from the Reactant State Electron Density",
+      "abstractNote": "Reaction barriers are key to our understanding of chemical reactivity and catalysis. Certain reactions are so seminal in chemistry that countless variants, with or without catalysts, have been studied, and their barriers have been computed or measured experimentally. This wealth of data represents a perfect opportunity to leverage machine learning models, which could quickly predict barriers without explicit calculations or measurement. Here, we show that the topological descriptors of the quantum mechanical charge density in the reactant state constitute a set that is both rigorous and continuous and can be used effectively for the prediction of reaction barrier energies to a high degree of accuracy. We demonstrate this on the Diels–Alder reaction, highly important in biology and medicinal chemistry, and as such, studied extensively. This reaction exhibits a range of barriers as large as 270 kJ/mol. While we trained our single-objective supervised (labeled) regression algorithms on simpler Diels–Alder reactions in solution, they predict reaction barriers also in significantly more complicated contexts, such a Diels–Alder reaction catalyzed by an artificial enzyme and its evolved variants, in agreement with experimental changes in kcat. We expect this tool to apply broadly to a variety of reactions in solution or in the presence of a catalyst, for screening and circumventing heavily involved computations or experiments.",
       "date": "2021-10-12",
       "archive": "images_large_ct1c00623_0008.png",
       "libraryCatalog": "ACS Publications",
@@ -1390,6 +1396,7 @@
       ],
       "tags": [],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2023-03-20T20:45:52Z",
       "dateModified": "2023-03-25T02:16:08Z",
       "uri": "http://zotero.org/users/3285140/items/DE6QAX44",
@@ -1413,7 +1420,7 @@
           "dateAdded": "2023-03-20T20:45:54Z",
           "dateModified": "2023-03-20T20:45:54Z",
           "uri": "http://zotero.org/users/3285140/items/8FKT9XHD",
-          "path": "/Users/mhennefarth/.local/share/Zotero/storage/8FKT9XHD/Vargas et al. - 2021 - Machine Learning to Predict Diels\u2013Alder Reaction B.pdf",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/8FKT9XHD/Vargas et al. - 2021 - Machine Learning to Predict Diels–Alder Reaction B.pdf",
           "select": "zotero://select/library/items/8FKT9XHD"
         }
       ],
@@ -1503,6 +1510,7 @@
         }
       ],
       "relations": [],
+      "inPublications": true,
       "dateAdded": "2023-03-20T20:45:54Z",
       "dateModified": "2023-03-25T02:15:54Z",
       "uri": "http://zotero.org/users/3285140/items/TB8CWWUG",
