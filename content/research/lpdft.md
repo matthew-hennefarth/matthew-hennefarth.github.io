@@ -48,7 +48,7 @@ necessarily.
 
 L-PDFT also has the advantage of having a *bon afide* operator making it more
 suitable for future development. You can check out the first paper describing
-the paper [here][**Submitted**, Available on ChemRxiv].
+the method [here][*J Chem Theory Comput*, **2023**].
 
 {{< img image="/toc/lpdft_toc.png" alt="L-PDFT TOC" width="50%">}}
 
@@ -63,8 +63,7 @@ student at UChicago.
 
 ---
 ## Selected Publications:
-1. [Linearized Pair-Density Functional Theory][**Submitted**, Available on
-   ChemRxiv]
+1. [Linearized Pair-Density Functional Theory][*J Chem Theory Comput*, **2023**]
 
 [comment]: <Reference Hyperlinks>
-[**Submitted**, Available on ChemRxiv]: http://dx.doi.org/10.26434/chemrxiv-2023-7d0gv
+[*J Chem Theory Comput*, **2023**]: http://dx.doi.org/10.1021/acs.jctc.3c00207

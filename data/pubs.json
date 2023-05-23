@@ -84,8 +84,7 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": false,
@@ -96,8 +95,8 @@
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.71"
+    "zotero": "6.0.26",
+    "bbt": "6.7.79"
   },
   "collections": {},
   "items": [
@@ -440,7 +439,7 @@
       "select": "zotero://select/library/items/LWYKASJV"
     },
     {
-      "version": 3831,
+      "version": 3834,
       "itemType": "journalArticle",
       "title": "Linearized Pair-Density Functional Theory",
       "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn–Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multistate PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
@@ -606,29 +605,31 @@
       "select": "zotero://select/library/items/94ZT3CC9"
     },
     {
-      "version": 3588,
-      "itemType": "preprint",
+      "version": 3881,
+      "itemType": "journalArticle",
       "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
-      "abstractNote": "In this article the recent developments of the open-source OpenMolcas chemistry software environment, since spring 2020, are described, with the main focus on novel functionalities that are accessible in the stable branch of the package and/or via interfaces with other packages. These community developments span a wide range of topics in computational chemistry, and are presented in thematic sections associated with electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report represents a useful summary of these developments, and it offers a solid overview of the chemical phenomena and processes that OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.",
-      "date": "2023-02-14",
-      "language": "en",
+      "abstractNote": "The developments of the open-source OpenMolcas chemistry software environment since spring 2020 are described, with a focus on novel functionalities accessible in the stable branch of the package or via interfaces with other packages. These developments span a wide range of topics in computational chemistry and are presented in thematic sections: electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report offers an overview of the chemical phenomena and processes OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.",
+      "date": "2023-05-22",
       "shortTitle": "The OpenMolcas Web",
       "archive": "openmolcas_toc.png",
-      "libraryCatalog": "Cambridge Engage Preprints",
-      "url": "https://chemrxiv.org/engage/chemrxiv/article-details/63cab14daadd95af647a2d9e",
-      "accessDate": "2023-03-20T20:45:59Z",
+      "libraryCatalog": "ACS Publications",
+      "url": "https://doi.org/10.1021/acs.jctc.3c00182",
+      "accessDate": "2023-05-23T22:36:24Z",
       "rights": "All rights reserved",
-      "DOI": "10.26434/chemrxiv-2023-b7f0j",
-      "repository": "ChemRxiv",
+      "extra": "Publisher: American Chemical Society",
+      "publicationTitle": "Journal of Chemical Theory and Computation",
+      "DOI": "10.1021/acs.jctc.3c00182",
+      "journalAbbreviation": "J. Chem. Theory Comput.",
+      "ISSN": "1549-9618",
       "creators": [
         {
-          "firstName": "Giovanni Li",
-          "lastName": "Manni",
+          "firstName": "Giovanni",
+          "lastName": "Li Manni",
           "creatorType": "author"
         },
         {
-          "firstName": "Ignacio Fernández",
-          "lastName": "Galván",
+          "firstName": "Ignacio",
+          "lastName": "Fdez. Galván",
           "creatorType": "author"
         },
         {
@@ -707,8 +708,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Rafael Carvalho",
-          "lastName": "Couto",
+          "firstName": "Rafael",
+          "lastName": "Carvalho Couto",
           "creatorType": "author"
         },
         {
@@ -722,7 +723,7 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Nicolas F.",
+          "firstName": "Nicholas F.",
           "lastName": "Chilton",
           "creatorType": "author"
         },
@@ -762,8 +763,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Coen de",
-          "lastName": "Graaf",
+          "firstName": "Coen",
+          "lastName": "de Graaf",
           "creatorType": "author"
         },
         {
@@ -772,8 +773,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Luca De",
-          "lastName": "Vico",
+          "firstName": "Luca",
+          "lastName": "De Vico",
           "creatorType": "author"
         },
         {
@@ -907,8 +908,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Pablo López",
-          "lastName": "Ríos",
+          "firstName": "Pablo",
+          "lastName": "López Ríos",
           "creatorType": "author"
         },
         {
@@ -1123,7 +1124,7 @@
         },
         {
           "firstName": "Torben Arne",
-          "lastName": "Voss",
+          "lastName": "Voß",
           "creatorType": "author"
         },
         {
@@ -1165,28 +1166,28 @@
       "tags": [],
       "relations": [],
       "inPublications": true,
-      "dateAdded": "2023-03-20T20:45:59Z",
-      "dateModified": "2023-04-27T05:43:48Z",
-      "uri": "http://zotero.org/users/3285140/items/NH4SM5S8",
+      "dateAdded": "2023-05-23T22:36:24Z",
+      "dateModified": "2023-05-23T22:37:47Z",
+      "uri": "http://zotero.org/users/3285140/items/7T852MHE",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "Full Text PDF",
           "tags": [],
           "relations": [],
-          "dateAdded": "2023-03-20T20:46:28Z",
-          "dateModified": "2023-03-20T20:46:28Z",
-          "uri": "http://zotero.org/users/3285140/items/FN54WW6Y",
-          "path": "/Users/mhennefarth/.local/share/Zotero/storage/FN54WW6Y/Manni et al. - 2023 - The OpenMolcas Web A Community-Driven Approach to.pdf",
-          "select": "zotero://select/library/items/FN54WW6Y"
+          "dateAdded": "2023-05-23T22:36:30Z",
+          "dateModified": "2023-05-23T22:36:30Z",
+          "uri": "http://zotero.org/users/3285140/items/S5HIVUC9",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/S5HIVUC9/Li Manni et al. - 2023 - The OpenMolcas Web A Community-Driven Approach to.pdf",
+          "select": "zotero://select/library/items/S5HIVUC9"
         }
       ],
       "notes": [],
-      "citationKey": "manniOpenMolcas2023",
-      "itemID": 1194,
-      "itemKey": "NH4SM5S8",
+      "citationKey": "limanniOpenMolcas2023",
+      "itemID": 1330,
+      "itemKey": "7T852MHE",
       "libraryID": 1,
-      "select": "zotero://select/library/items/NH4SM5S8"
+      "select": "zotero://select/library/items/7T852MHE"
     },
     {
       "version": 3448,
