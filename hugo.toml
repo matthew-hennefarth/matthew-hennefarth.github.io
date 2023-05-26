@@ -13,6 +13,8 @@ ignoreErrors = ["error-remote-getjson"]
 # Automatically add content sections to main menu
 # sectionPagesMenu = 'main'
 
+[Taxonomies]
+
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
