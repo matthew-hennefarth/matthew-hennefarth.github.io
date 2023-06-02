@@ -16,7 +16,12 @@
             {{else}}
                 <i>{{.name}}</i>
             {{end}}
-            <a class="button" href={{.repo}} target="_blank">Repo</a> <a class="button" href={{ printf "%s/commits?author=matthew-hennefarth" .repo }} target="_blank">Contributions</a>
+            <a class="button" href={{.repo}} target="_blank">Repo</a> 
+            {{if .contributions}}
+              <a class="button" href={{.contributions}} target="_blank">Contributions</a>
+            {{else}}
+              <a class="button" href={{ printf "%s/commits?author=matthew-hennefarth" .repo }} target="_blank">Contributions</a>
+            {{end}}
             {{/*  <p>{{.summary | markdownify}}</p><p>Languages: {{delimit .languages ", "}}</p>  */}}
         </li>
     {{end}}

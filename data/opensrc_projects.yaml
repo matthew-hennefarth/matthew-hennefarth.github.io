@@ -38,6 +38,7 @@ projects:
   OpenMolcas:
     name: OpenMolcas
     repo: https://gitlab.com/Molcas/OpenMolcas
+    contributions: https://gitlab.com/Molcas/OpenMolcas/-/commits/master?author=Matthew%20Hennefarth
     summary: "OpenMolcas is a quantum chemistry software package. The key feature of OpenMolcas is the multiconfigurational approach to the electronic structure."
     languages:
       - Fortran
