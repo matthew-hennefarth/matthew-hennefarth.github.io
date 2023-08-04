@@ -1,8 +1,11 @@
+---
+title: Two Factor Authentication for GMail and (Neo)Mutt
+---
 We will deal with adding an email account that requires 2FA for gmail to
 neomutt. Firstly, we need to get a client id and client secret using Google
 Cloud. Make sure that we register the desktop version! Make sure to then
 authorize the emails that you want with this application and that you allow less
-secure applications.
+secure applications for each of the email accounts.
 
 ## Generating 2FA Tokens
 
