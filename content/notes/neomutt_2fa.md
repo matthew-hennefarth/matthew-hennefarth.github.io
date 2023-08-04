@@ -1,5 +1,8 @@
 ---
-title: Two Factor Authentication for GMail and (Neo)Mutt
+title: "Two Factor Authentication for GMail and (Neo)Mutt"
+date: 2023-08-03
+draft: false
+author: "Matthew R. Hennefarth"
 ---
 We will deal with adding an email account that requires 2FA for gmail to
 neomutt. Firstly, we need to get a client id and client secret using Google
