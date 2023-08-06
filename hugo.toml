@@ -58,6 +58,12 @@ title = "CV"
 url = "/cv.pdf"
 
 [menu]
+  
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    url = "/notes/"
+    weight = 10
 
   [[menu.main]]
     identifier = "projects"

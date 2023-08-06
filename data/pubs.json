@@ -21,6 +21,7 @@
       "biblatexExtendedDateFormat": true,
       "biblatexExtendedNameFormat": true,
       "biblatexExtractEprint": false,
+      "bibtexEditionOrdinal": false,
       "bibtexParticleNoOp": false,
       "bibtexURL": "off",
       "cache": true,
@@ -82,7 +83,7 @@
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
+      "verbatimFields": "url,biblatex.doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
@@ -96,7 +97,7 @@
   },
   "version": {
     "zotero": "6.0.26",
-    "bbt": "6.7.79"
+    "bbt": "6.7.93"
   },
   "collections": {},
   "items": [
@@ -439,19 +440,22 @@
       "select": "zotero://select/library/items/LWYKASJV"
     },
     {
-      "version": 3834,
+      "version": 4386,
       "itemType": "journalArticle",
       "title": "Linearized Pair-Density Functional Theory",
       "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn–Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multistate PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
-      "date": "2023-05-19",
+      "date": "2023-06-13",
       "archive": "lpdft_toc.png",
       "libraryCatalog": "ACS Publications",
       "url": "https://doi.org/10.1021/acs.jctc.3c00207",
-      "accessDate": "2023-05-20T14:32:03Z",
+      "accessDate": "2023-08-04T17:26:16Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: American Chemical Society",
+      "extra": "Publisher: American Chemical Society\nCitation Key: hennefarthLinearized2023",
+      "volume": "19",
+      "pages": "3172-3183",
       "publicationTitle": "Journal of Chemical Theory and Computation",
       "DOI": "10.1021/acs.jctc.3c00207",
+      "issue": "11",
       "journalAbbreviation": "J. Chem. Theory Comput.",
       "ISSN": "1549-9618",
       "creators": [
@@ -480,19 +484,19 @@
       "relations": [],
       "inPublications": true,
       "dateAdded": "2023-05-20T14:32:03Z",
-      "dateModified": "2023-05-20T14:33:39Z",
-      "uri": "http://zotero.org/users/3285140/items/NBQCQ528",
+      "dateModified": "2023-08-06T23:30:10Z",
+      "uri": "http://zotero.org/users/3285140/items/TF68QCRV",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "ACS Full Text Snapshot",
           "tags": [],
           "relations": [],
-          "dateAdded": "2023-05-20T14:32:44Z",
-          "dateModified": "2023-05-20T14:32:44Z",
-          "uri": "http://zotero.org/users/3285140/items/ZQMSJUR9",
-          "path": "/Users/mhennefarth/.local/share/Zotero/storage/ZQMSJUR9/acs.jctc.html",
-          "select": "zotero://select/library/items/ZQMSJUR9"
+          "dateAdded": "2023-08-04T17:26:24Z",
+          "dateModified": "2023-08-04T17:26:32Z",
+          "uri": "http://zotero.org/users/3285140/items/NDU82IB4",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/NDU82IB4/acs.jctc.html",
+          "select": "zotero://select/library/items/NDU82IB4"
         },
         {
           "itemType": "attachment",
@@ -500,18 +504,29 @@
           "tags": [],
           "relations": [],
           "dateAdded": "2023-05-20T14:32:07Z",
-          "dateModified": "2023-05-20T14:32:07Z",
+          "dateModified": "2023-08-04T17:26:32Z",
           "uri": "http://zotero.org/users/3285140/items/4JPHWSU4",
           "path": "/Users/mhennefarth/.local/share/Zotero/storage/4JPHWSU4/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory.pdf",
           "select": "zotero://select/library/items/4JPHWSU4"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Submitted Version",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-08-04T17:26:18Z",
+          "dateModified": "2023-08-04T17:26:32Z",
+          "uri": "http://zotero.org/users/3285140/items/DGATWXEI",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/DGATWXEI/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory.pdf",
+          "select": "zotero://select/library/items/DGATWXEI"
         }
       ],
       "notes": [],
       "citationKey": "hennefarthLinearized2023",
-      "itemID": 1315,
-      "itemKey": "NBQCQ528",
+      "itemID": 1410,
+      "itemKey": "TF68QCRV",
       "libraryID": 1,
-      "select": "zotero://select/library/items/NBQCQ528"
+      "select": "zotero://select/library/items/TF68QCRV"
     },
     {
       "version": 3449,
@@ -605,7 +620,7 @@
       "select": "zotero://select/library/items/94ZT3CC9"
     },
     {
-      "version": 3881,
+      "version": 4381,
       "itemType": "journalArticle",
       "title": "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry",
       "abstractNote": "The developments of the open-source OpenMolcas chemistry software environment since spring 2020 are described, with a focus on novel functionalities accessible in the stable branch of the package or via interfaces with other packages. These developments span a wide range of topics in computational chemistry and are presented in thematic sections: electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report offers an overview of the chemical phenomena and processes OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.",
@@ -1167,7 +1182,7 @@
       "relations": [],
       "inPublications": true,
       "dateAdded": "2023-05-23T22:36:24Z",
-      "dateModified": "2023-05-23T22:37:47Z",
+      "dateModified": "2023-08-04T17:40:39Z",
       "uri": "http://zotero.org/users/3285140/items/7T852MHE",
       "attachments": [
         {
