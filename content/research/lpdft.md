@@ -18,9 +18,7 @@ Kohn-Sham DFT in that it computes the energy for a particular state using a
 energy expression which is expressed as a functional of the density.
 
 \begin{equation}
-E^\mathrm{PDFT} =
-\sum_{pq}h_{pq}D_{pq}+\sum_{pqrs}g_{pqrs}D_{pq}D_{rs}+E_\mathrm{ot}[\rho, \Pi] +
-h_\mathrm{nuc}
+E^\mathrm{PDFT} = h^q_p \gamma^p_q+ g_{pr}^{qs}\gamma^p_q\gamma^r_s + E^\mathrm{ot}[\rho, \Pi] + V_\mathrm{nuc}
 \end{equation}
 
 While this is good, it unfortunately does not adequtely model the electronic
@@ -36,7 +34,7 @@ order around the state-average densities, and extracting the effective linear
 operator.
 
 \begin{equation}
-  H^\mathrm{L-PDFT} = \sum_{pq}(h_{pq}+V_{pq}^0 + \mathcal{J}\_{pq}^0)E_{pq} + \sum_{pqrs}v_{pqrs}^0e_{pqrs} + h_\mathrm{const}
+H^\mathrm{L-PDFT} = \left(h^q_p + V^q_p + \mathcal{J}[\check{\gamma}]^q_p\right)E^p_q + v_{pr}^{qs}e_{qs}^{pr} + h^\mathrm{const} 
 \end{equation}
 
 Diagonalizing this operator with in an appropriate model-space yields the
@@ -52,6 +50,16 @@ the method [here][*J Chem Theory Comput*, **2023**].
 
 {{< img image="/toc/lpdft_toc.png" alt="L-PDFT TOC" width="50%">}}
 
+We have subsequently defined how to perform vertical excitations between states
+of different spin or spatial symmetry within L-PDFT. Here, we expand around the
+state-average densities across all of the symmetry irreps. In this way, we
+showed that L-PDFT performs similarly to MC-PDFT on the QUESTDB database
+illustrating how L-PDFT can be used in regions of strong and weak
+state-interaction (available on the [*ChemRxiv*]). Coupling this with L-PDFT being faster than MC-PDFT, L-PDFT
+seems to be a promising method for photodynamics in the future. 
+
+{{< img image="/research/lpdft_whisker.png" alt="L-PDFT TOC" width="75%">}}
+
 This work was performed under the guidance of Professor [Laura
 Gagliardi](https://gagliardigroup.uchicago.edu/) during my time as a Ph.D.
 student at UChicago.
@@ -64,6 +72,9 @@ student at UChicago.
 ---
 ## Selected Publications:
 1. [Linearized Pair-Density Functional Theory][*J Chem Theory Comput*, **2023**]
+2. [Linearized Pair-Density Functional Theory for Vertical Excitation
+   Energies][*ChemRxiv*]
 
 [comment]: <Reference Hyperlinks>
 [*J Chem Theory Comput*, **2023**]: http://dx.doi.org/10.1021/acs.jctc.3c00207
+[*ChemRxiv*]: https://dx.doi.org/10.26434/chemrxiv-2023-vz6tl
