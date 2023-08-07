@@ -83,7 +83,7 @@
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,biblatex.doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
@@ -97,7 +97,7 @@
   },
   "version": {
     "zotero": "6.0.26",
-    "bbt": "6.7.93"
+    "bbt": "6.7.104"
   },
   "collections": {},
   "items": [
@@ -527,6 +527,88 @@
       "itemKey": "TF68QCRV",
       "libraryID": 1,
       "select": "zotero://select/library/items/TF68QCRV"
+    },
+    {
+      "version": 4392,
+      "itemType": "preprint",
+      "title": "Linearized Pair-Density Functional Theory for Vertical Excitation Energies",
+      "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a computationally efficient method that computes the energies of electronic states in a state specific or state average framework via an on-top functional. However, MC-PDFT does not include state-interaction among these statets, since the final energies do not come from the diagonalization of an effective model-space Hamiltonian. Recently, multi-state extensions such as linearized (L-) PDFT have been developed to accurately model the potentials near conical intersections and avoided crossings; however, there has not been any systematic study evaluating their performance for predicting vertical excitations at the equilibrium geometry of a molecule, when the excited states are generally well separated. In this letter, we report the performance of L-PDFT on the extensive QUESTDB data set of vertical excitations using a database of automatically selected active spaces. We show that L-PDFT performs well on all these excitations and successfully reproduces the performance of MC-PDFT. These results further demonstrate the potential of L-PDFT, as its scaling is constant with the number of states included in the state-average manifold, whereas MC-PDFT scales linearly in this regard.",
+      "date": "2023",
+      "language": "en",
+      "archive": "lpdft_bench_toc.png",
+      "libraryCatalog": "Cambridge Engage Preprints",
+      "url": "https://chemrxiv.org/engage/chemrxiv/article-details/64d032df4a3f7d0c0dba05bc",
+      "accessDate": "2023-08-07T18:56:36Z",
+      "rights": "All rights reserved",
+      "DOI": "10.26434/chemrxiv-2023-vz6tl",
+      "repository": "ChemRxiv",
+      "creators": [
+        {
+          "firstName": "Matthew",
+          "lastName": "Hennefarth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "King",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Laura",
+          "lastName": "Gagliardi",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Benchmark",
+          "type": 1
+        },
+        {
+          "tag": "Electronic Structure",
+          "type": 1
+        },
+        {
+          "tag": "Excited States",
+          "type": 1
+        },
+        {
+          "tag": "Pair-Density",
+          "type": 1
+        },
+        {
+          "tag": "Pair-Density Functional Theory",
+          "type": 1
+        },
+        {
+          "tag": "State-Interaction",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "inPublications": true,
+      "dateAdded": "2023-08-07T18:56:36Z",
+      "dateModified": "2023-08-07T18:59:20Z",
+      "uri": "http://zotero.org/users/3285140/items/QT6C2AR8",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-08-07T18:56:41Z",
+          "dateModified": "2023-08-07T18:56:41Z",
+          "uri": "http://zotero.org/users/3285140/items/FRE7JIR2",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/FRE7JIR2/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory for Vert.pdf",
+          "select": "zotero://select/library/items/FRE7JIR2"
+        }
+      ],
+      "notes": [],
+      "citationKey": "hennefarthLinearized2023a",
+      "itemID": 1454,
+      "itemKey": "QT6C2AR8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/QT6C2AR8"
     },
     {
       "version": 3449,
