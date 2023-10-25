@@ -45,11 +45,13 @@
       "importBibTeXStrings": true,
       "importCaseProtection": "as-needed",
       "importCitationKey": true,
+      "importDetectURLs": true,
       "importExtra": true,
       "importJabRefAbbreviations": true,
       "importJabRefStrings": true,
       "importNoteToExtra": "",
       "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
       "importUnknownTexCommand": "ignore",
       "itemObserverDelay": 5,
       "jabrefFormat": 0,
@@ -78,7 +80,7 @@
       "retainCache": false,
       "separatorList": "and",
       "separatorNames": "and",
-      "skipFields": "abstract,url,file,langid,publisher",
+      "skipFields": "abstract,url,file,langid",
       "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
       "startupProgress": "popup",
       "strings": "",
@@ -96,8 +98,8 @@
     }
   },
   "version": {
-    "zotero": "6.0.26",
-    "bbt": "6.7.104"
+    "zotero": "6.0.29",
+    "bbt": "6.7.132"
   },
   "collections": {},
   "items": [
@@ -440,7 +442,7 @@
       "select": "zotero://select/library/items/LWYKASJV"
     },
     {
-      "version": 4386,
+      "version": 5102,
       "itemType": "journalArticle",
       "title": "Linearized Pair-Density Functional Theory",
       "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn–Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multistate PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
@@ -529,27 +531,28 @@
       "select": "zotero://select/library/items/TF68QCRV"
     },
     {
-      "version": 4392,
-      "itemType": "preprint",
+      "version": 5441,
+      "itemType": "journalArticle",
       "title": "Linearized Pair-Density Functional Theory for Vertical Excitation Energies",
-      "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a computationally efficient method that computes the energies of electronic states in a state specific or state average framework via an on-top functional. However, MC-PDFT does not include state-interaction among these statets, since the final energies do not come from the diagonalization of an effective model-space Hamiltonian. Recently, multi-state extensions such as linearized (L-) PDFT have been developed to accurately model the potentials near conical intersections and avoided crossings; however, there has not been any systematic study evaluating their performance for predicting vertical excitations at the equilibrium geometry of a molecule, when the excited states are generally well separated. In this letter, we report the performance of L-PDFT on the extensive QUESTDB data set of vertical excitations using a database of automatically selected active spaces. We show that L-PDFT performs well on all these excitations and successfully reproduces the performance of MC-PDFT. These results further demonstrate the potential of L-PDFT, as its scaling is constant with the number of states included in the state-average manifold, whereas MC-PDFT scales linearly in this regard.",
-      "date": "2023",
-      "language": "en",
+      "date": "2023-10-25",
       "archive": "lpdft_bench_toc.png",
-      "libraryCatalog": "Cambridge Engage Preprints",
-      "url": "https://chemrxiv.org/engage/chemrxiv/article-details/64d032df4a3f7d0c0dba05bc",
-      "accessDate": "2023-08-07T18:56:36Z",
+      "libraryCatalog": "pubs.acs.org (Atypon)",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.3c00863",
+      "accessDate": "2023-10-25T15:45:47Z",
       "rights": "All rights reserved",
-      "DOI": "10.26434/chemrxiv-2023-vz6tl",
-      "repository": "ChemRxiv",
+      "extra": "Publisher: American Chemical Society",
+      "publicationTitle": "Journal of Chemical Theory and Computation",
+      "DOI": "10.1021/acs.jctc.3c00863",
+      "journalAbbreviation": "J. Chem. Theory Comput.",
+      "ISSN": "1549-9618",
       "creators": [
         {
-          "firstName": "Matthew",
+          "firstName": "Matthew R.",
           "lastName": "Hennefarth",
           "creatorType": "author"
         },
         {
-          "firstName": "Daniel",
+          "firstName": "Daniel S.",
           "lastName": "King",
           "creatorType": "author"
         },
@@ -559,56 +562,19 @@
           "creatorType": "author"
         }
       ],
-      "tags": [
-        {
-          "tag": "Benchmark",
-          "type": 1
-        },
-        {
-          "tag": "Electronic Structure",
-          "type": 1
-        },
-        {
-          "tag": "Excited States",
-          "type": 1
-        },
-        {
-          "tag": "Pair-Density",
-          "type": 1
-        },
-        {
-          "tag": "Pair-Density Functional Theory",
-          "type": 1
-        },
-        {
-          "tag": "State-Interaction",
-          "type": 1
-        }
-      ],
+      "tags": [],
       "relations": [],
       "inPublications": true,
-      "dateAdded": "2023-08-07T18:56:36Z",
-      "dateModified": "2023-08-07T18:59:20Z",
-      "uri": "http://zotero.org/users/3285140/items/QT6C2AR8",
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "Full Text PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2023-08-07T18:56:41Z",
-          "dateModified": "2023-08-07T18:56:41Z",
-          "uri": "http://zotero.org/users/3285140/items/FRE7JIR2",
-          "path": "/Users/mhennefarth/.local/share/Zotero/storage/FRE7JIR2/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory for Vert.pdf",
-          "select": "zotero://select/library/items/FRE7JIR2"
-        }
-      ],
+      "dateAdded": "2023-10-25T15:45:47Z",
+      "dateModified": "2023-10-25T15:46:46Z",
+      "uri": "http://zotero.org/users/3285140/items/VKND549S",
+      "attachments": [],
       "notes": [],
-      "citationKey": "hennefarthLinearized2023a",
-      "itemID": 1454,
-      "itemKey": "QT6C2AR8",
+      "citationKey": "hennefarthLinearized2023b",
+      "itemID": 1616,
+      "itemKey": "VKND549S",
       "libraryID": 1,
-      "select": "zotero://select/library/items/QT6C2AR8"
+      "select": "zotero://select/library/items/VKND549S"
     },
     {
       "version": 3449,
