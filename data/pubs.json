@@ -90,7 +90,7 @@
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": false,
+      "exportNotes": true,
       "exportFileData": false,
       "keepUpdated": false,
       "worker": false,
@@ -98,8 +98,8 @@
     }
   },
   "version": {
-    "zotero": "6.0.29",
-    "bbt": "6.7.132"
+    "zotero": "6.0.30",
+    "bbt": "6.7.136"
   },
   "collections": {},
   "items": [
@@ -442,9 +442,9 @@
       "select": "zotero://select/library/items/LWYKASJV"
     },
     {
-      "version": 5102,
+      "version": 6147,
       "itemType": "journalArticle",
-      "title": "Linearized Pair-Density Functional Theory",
+      "title": "Linearized pair-density functional theory",
       "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a post-SCF multireference method that has been successful at computing ground- and excited-state energies. However, MC-PDFT is a single-state method in which the final MC-PDFT energies do not come from diagonalization of a model-space Hamiltonian matrix, and this can lead to inaccurate topologies of potential energy surfaces near locally avoided crossings and conical intersections. Therefore, in order to perform physically correct ab initio molecular dynamics with electronically excited states or to treat Jahn–Teller instabilities, it is necessary to develop a PDFT method that recovers the correct topology throughout the entire nuclear configuration space. Here we construct an effective Hamiltonian operator, called the linearized PDFT (L-PDFT) Hamiltonian, by expanding the MC-PDFT energy expression to first order in a Taylor series of the wave function density. Diagonalization of the L-PDFT Hamiltonian gives the correct potential energy surface topology near conical intersections and locally avoided crossings for a variety of challenging cases including phenol, methylamine, and the spiro cation. Furthermore, L-PDFT outperforms MC-PDFT and previous multistate PDFT methods for predicting vertical excitations from a variety of representative organic chromophores.",
       "date": "2023-06-13",
       "archive": "lpdft_toc.png",
@@ -486,7 +486,7 @@
       "relations": [],
       "inPublications": true,
       "dateAdded": "2023-05-20T14:32:03Z",
-      "dateModified": "2023-08-06T23:30:10Z",
+      "dateModified": "2023-11-04T00:26:25Z",
       "uri": "http://zotero.org/users/3285140/items/TF68QCRV",
       "attachments": [
         {
@@ -531,18 +531,22 @@
       "select": "zotero://select/library/items/TF68QCRV"
     },
     {
-      "version": 5441,
+      "version": 6271,
       "itemType": "journalArticle",
-      "title": "Linearized Pair-Density Functional Theory for Vertical Excitation Energies",
-      "date": "2023-10-25",
+      "title": "Linearized pair-density functional theory for vertical excitation energies",
+      "abstractNote": "Multiconfiguration pair-density functional theory (MC-PDFT) is a computationally efficient method that computes the energies of electronic states in a state specific or state average framework via an on-top functional. However, MC-PDFT does not include state interaction among these states since the final energies do not come from the diagonalization of an effective model-space Hamiltonian. Recently, multistate extensions such as linearized PDFT (L-PDFT) have been developed to accurately model the potentials near conical intersections and avoided crossings. However, there has not been any systematic study evaluating their performance for predicting vertical excitations at the equilibrium geometry of a molecule, when the excited states are generally well separated. In this paper, we report the performance of L-PDFT on the extensive QUESTDB data set of vertical excitations using a database of automatically selected active spaces. We show that L-PDFT performs well on all these excitations and successfully reproduces the performance of MC-PDFT. These results further demonstrate the potential of L-PDFT, as its scaling is constant with the number of states included in the state-average manifold, whereas MC-PDFT scales linearly in this regard.",
+      "date": "2023-11-28",
       "archive": "lpdft_bench_toc.png",
-      "libraryCatalog": "pubs.acs.org (Atypon)",
-      "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.3c00863",
-      "accessDate": "2023-10-25T15:45:47Z",
+      "libraryCatalog": "ACS Publications",
+      "url": "https://doi.org/10.1021/acs.jctc.3c00863",
+      "accessDate": "2023-11-28T16:59:25Z",
       "rights": "All rights reserved",
       "extra": "Publisher: American Chemical Society",
+      "volume": "19",
+      "pages": "7983-7988",
       "publicationTitle": "Journal of Chemical Theory and Computation",
       "DOI": "10.1021/acs.jctc.3c00863",
+      "issue": "22",
       "journalAbbreviation": "J. Chem. Theory Comput.",
       "ISSN": "1549-9618",
       "creators": [
@@ -566,15 +570,27 @@
       "relations": [],
       "inPublications": true,
       "dateAdded": "2023-10-25T15:45:47Z",
-      "dateModified": "2023-10-25T15:46:46Z",
-      "uri": "http://zotero.org/users/3285140/items/VKND549S",
-      "attachments": [],
+      "dateModified": "2023-11-28T17:00:30Z",
+      "uri": "http://zotero.org/users/3285140/items/LHAFSJUK",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-11-28T16:59:26Z",
+          "dateModified": "2023-11-28T16:59:57Z",
+          "uri": "http://zotero.org/users/3285140/items/N77ZGX4H",
+          "path": "/Users/mhennefarth/.local/share/Zotero/storage/N77ZGX4H/Hennefarth et al. - 2023 - Linearized Pair-Density Functional Theory for Vert.pdf",
+          "select": "zotero://select/library/items/N77ZGX4H"
+        }
+      ],
       "notes": [],
-      "citationKey": "hennefarthLinearized2023b",
-      "itemID": 1616,
-      "itemKey": "VKND549S",
+      "citationKey": "hennefarthLinearized2023a",
+      "itemID": 1807,
+      "itemKey": "LHAFSJUK",
       "libraryID": 1,
-      "select": "zotero://select/library/items/VKND549S"
+      "select": "zotero://select/library/items/LHAFSJUK"
     },
     {
       "version": 3449,
