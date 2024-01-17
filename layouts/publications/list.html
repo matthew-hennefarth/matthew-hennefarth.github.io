@@ -6,25 +6,29 @@
 
     {{ .Content }}
 
-    {{$lenPubs := len .Site.Data.pubs.items}}
-    {{ range $index, $val := sort .Site.Data.pubs.items "date" "desc"}}
+    {{$lenPubs := len .Site.Data.pubs}}
+    {{ range $index, $val := sort .Site.Data.pubs "date" "desc"}}
       {{$year := split .date "-"}}
       {{range first 1 $year}}
         {{$year = .}}
       {{end}}
       {{$authors := slice}}
-      {{ range .creators }}
-        {{$firstname := split .firstName " "}}
-        {{$initials := substr .firstName 0 1}}
-        {{$initials = printf "%s." $initials}}
-        {{$numinitials := len $firstname}}
-        {{$numinitials = sub $numinitials 1}}
-        
-        {{range last $numinitials $firstname}}
-          {{$initials = printf "%s %s" $initials .}}
-        {{end}}
-        
-        {{$name := printf "%s, %s" .lastName $initials}}
+      {{ range $name := .author }}
+        {{ $nameSplit := split $name " " }}
+        {{ $firstName := index $nameSplit 1 }}
+        {{ $firstInitial := substr $firstName 0 1 }}
+
+        {{$newName := slice}}
+        {{ range $nameIndex, $nameValue := $nameSplit }}
+          {{ $newvalue := $nameValue }}
+          {{ if eq 1 $nameIndex }}
+            {{ $newvalue = printf "%s." $firstInitial }}
+          {{ end }}
+          {{$newName = $newName | append $newvalue}}
+        {{ end }}
+
+        {{$name = delimit $newName " "}}
+
         {{if or (eq $name "Hennefarth, M. R.") (eq $name "Hennefarth, M.")}}
           {{$name = printf "<u>%s</u>" $name}}
         {{end}}
@@ -41,39 +45,34 @@
         {{$shortauthors = delimit $shortauthors "; "}}
         {{$shortauthors = printf "%s et al." $shortauthors}}
       {{end}}
-      {{$journal := "Submitted"}}
-      {{if .autoJournalAbbreviation}}
-        {{$journal = .autoJournalAbbreviation}}
-      {{else if .journalAbbreviation}}
-        {{$journal = .journalAbbreviation}}
-      {{end}}
+      {{$journal := .parent.title}}
       <div class="citation">
         <div class="citation__frame">
           <div class="citation__body">
-            <a href=https://dx.doi.org/{{.DOI}} target="_blank"><h2>{{.title}}</h2></a>
+            <a href=https://dx.doi.org/{{.doi}} target="_blank"><h2>{{.title}}</h2></a>
             <ul>
               <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
               <li>Authors:<b> {{$shortauthors | markdownify}}</b></li>
               <li>Year:<b> {{$year}}</b></li>
             </ul>
           </div>
-          {{if .archive}}
+          {{if .toc}}
             <div class="citation__toc">
-              <img class="toc__img" src={{printf "/toc/%s" .archive}} alt={{printf "%s TOC" .title}}>
+              <img class="toc__img" src={{printf "/toc/%s" .toc}} alt={{printf "%s TOC" .title}}>
             </div>
           {{end}}
         </div>
           <details>
             <summary class="citation__summary">Full Citation</summary>
             <div class="full__citation">
-              {{$fullauthors}} {{.title}}. 
-              <i>{{$journal}}</i>, <b>{{$year}}</b>{{if .volume}} {{.volume}},{{end}}{{if .pages}} {{.pages}}{{end}}. 
+              {{$fullauthors | markdownify}} {{.title}}. 
+              <i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}. 
               {{if eq .itemType "preprint"}}
                 ChemRxiv:
               {{else}}
                 DOI:
               {{end}}
-              <a href=https://dx.doi.org/{{.DOI}} target="_blank">{{.DOI}}</a>
+              <a href=https://dx.doi.org/{{.doi}} target="_blank">{{.doi}}</a>
             </div>
           </details>
         </div>

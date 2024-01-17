@@ -1,0 +1,356 @@
+HennefarthLinearized2023a:
+  type: article
+  title: "Linearized Pair-Density Functional Theory for Vertical Excitation Energies"
+  author:
+    - Hennefarth, Matthew R.
+    - King, Daniel S.
+    - Gagliardi, Laura
+  date: 2023-10
+  parent:
+    type: periodical
+    title: J. Chem. Theory Comput.
+    volume: 19
+    issue: 22
+    publisher: American Chemical Society (ACS)
+  pagerange: 7983--7988
+  doi: "10.1021/acs.jctc.3c00863"
+  issn: 1549-9626
+  toc: "lpdft_bench_toc.png"
+HennefarthLinearized2023:
+  type: article
+  title: "Linearized Pair-Density Functional Theory"
+  author:
+    - Hennefarth, Matthew R.
+    - Hermes, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2023-06
+  parent:
+    type: periodical
+    title: J. Chem. Theory Comput.
+    volume: 19
+    issue: 11
+    publisher: American Chemical Society
+  pagerange: 3172--3183
+  doi: "10.1021/acs.jctc.3c00207"
+  issn: 1549-9618
+  toc: "lpdft_toc.png"
+LiManniOpenMolcas2023:
+  type: article
+  title: "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry"
+  author:
+    - Li Manni, Giovanni
+    - Fdez. Galván, Ignacio
+    - Alavi, Ali
+    - Aleotti, Flavia
+    - Aquilante, Francesco
+    - Autschbach, Jochen
+    - Avagliano, Davide
+    - Baiardi, Alberto
+    - Bao, Jie J.
+    - Battaglia, Stefano
+    - Birnoschi, Letitia
+    - Blanco-González, Alejandro
+    - Bokarev, Sergey I.
+    - Broer, Ria
+    - Cacciari, Roberto
+    - Calio, Paul B.
+    - Carlson, Rebecca K.
+    - Carvalho Couto, Rafael
+    - Cerdán, Luis
+    - Chibotaru, Liviu F.
+    - Chilton, Nicholas F.
+    - Church, Jonathan R.
+    - Conti, Irene
+    - Coriani, Sonia
+    - Cuéllar-Zuquin, Juliana
+    - Daoud, Razan E.
+    - Dattani, Nike
+    - Decleva, Piero
+    - de Graaf, Coen
+    - Delcey, Mickaël G.
+    - De Vico, Luca
+    - Dobrautz, Werner
+    - Dong, Sijia S.
+    - Feng, Rulin
+    - Ferré, Nicolas
+    - Filatov(Gulak), Michael
+    - Gagliardi, Laura
+    - Garavelli, Marco
+    - González, Leticia
+    - Guan, Yafu
+    - Guo, Meiyuan
+    - Hennefarth, Matthew R.
+    - Hermes, Matthew R.
+    - Hoyer, Chad E.
+    - Huix-Rotllant, Miquel
+    - Jaiswal, Vishal K.
+    - Kaiser, Andy
+    - Kaliakin, Danil S.
+    - Khamesian, Marjan
+    - King, Daniel S.
+    - Kochetov, Vladislav
+    - Krośnicki, Marek
+    - Kumaar, Arpit A.
+    - Larsson, Ernst D.
+    - Lehtola, Susi
+    - Lepetit, Marie-Bernadette
+    - Lischka, Hans
+    - López Ríos, Pablo
+    - Lundberg, Marcus
+    - Ma, Dongxia
+    - Mai, Sebastian
+    - Marquetand, Philipp
+    - Merritt, Isabella C. D.
+    - Montorsi, Francesco
+    - Mörchen, Maximilian
+    - Nenov, Artur
+    - Nguyen, Vu H. A.
+    - Nishimoto, Yoshio
+    - Oakley, Meagan S.
+    - Olivucci, Massimo
+    - Oppel, Markus
+    - Padula, Daniele
+    - Pandharkar, Riddhish
+    - Phung, Quan M.
+    - Plasser, Felix
+    - Raggi, Gerardo
+    - Rebolini, Elisa
+    - Reiher, Markus
+    - Rivalta, Ivan
+    - Roca-Sanjuán, Daniel
+    - Romig, Thies
+    - Safari, Arta A.
+    - Sánchez-Mansilla, Aitor
+    - Sand, Andrew M.
+    - Schapiro, Igor
+    - Scott, Thais R.
+    - Segarra-Martí, Javier
+    - Segatta, Francesco
+    - Sergentu, Dumitru-Claudiu
+    - Sharma, Prachi
+    - Shepard, Ron
+    - Shu, Yinan
+    - Staab, Jakob K.
+    - Straatsma, Tjerk P.
+    - Sørensen, Lasse K.
+    - Tenorio, Bruno N. C.
+    - Truhlar, Donald G.
+    - Ungur, Liviu
+    - Vacher, Morgane
+    - Veryazov, Valera
+    - Voß, Torben A.
+    - Weser, Oskar
+    - Wu, Dihua
+    - Yang, Xuchun
+    - Yarkony, David
+    - Zhou, Chen
+    - Zobel, J. P.
+    - Lindh, Roland
+  date: 2023-05
+  parent:
+    type: periodical
+    title: J. Chem. Theory Comput.
+    volume: 19
+    issue: 20
+    publisher: American Chemical Society (ACS)
+  pagerange: 6933--6991
+  doi: "10.1021/acs.jctc.3c00182"
+  issn: 1549-9626
+  toc: "openmolcas_toc.png"
+UstriyanaMineralized2022:
+  type: article
+  title: "Mineralized Peyronie’s plaque has a phenotypic resemblance to bone"
+  author:
+    - Ustriyana, Putu
+    - Hennefarth, Matthew R.
+    - Srirangapatanam, Sudarshan
+    - Jung, Haeyoon
+    - Wang, Yongmei
+    - Chen, Ling
+    - Lue, Tom F.
+    - Lin, Guiting
+    - Kang, Misun
+    - Stoller, Marshall L.
+    - Ho, Sunita P.
+  date: 2022-03
+  parent:
+    type: periodical
+    title: Acta Biomater.
+    volume: 140
+    publisher: Elsevier BV
+  pagerange: 457--466
+  doi: "10.1016/j.actbio.2021.11.025"
+  issn: 1742-7061
+  toc: 1-s2.0-S174270612100773X-ga1_lrg.png
+XianHistidine‐Mediated2022:
+  type: article
+  title: "Histidine‐Mediated Ion Specific Effects Enable Salt Tolerance of a Pore‐Forming Marine Antimicrobial Peptide"
+  author:
+    - Xian, Wujing
+    - Hennefarth, Matthew R.
+    - Lee, Michelle W.
+    - Do, Tran
+    - Lee, Ernest Y.
+    - Alexandrova, Anastassia N.
+    - Wong, Gerard C. L.
+  date: 2022-04
+  parent:
+    type: periodical
+    title: Angew. Chem-ger. Edit.
+    volume: 134
+    issue: 25
+    publisher: Wiley
+  doi: "10.1002/ange.202108501"
+  issn: 1521-3757
+  toc: gerard.png
+VargasMachine2021:
+  type: article
+  title: "Machine Learning to Predict Diels–Alder Reaction Barriers from the Reactant State Electron Density"
+  author:
+    - Vargas, Santiago
+    - Hennefarth, Matthew R.
+    - Liu, Zhihao
+    - Alexandrova, Anastassia N.
+  date: 2021-09
+  parent:
+    type: periodical
+    title: J. Chem. Theory Comput.
+    volume: 17
+    issue: 10
+    publisher: American Chemical Society (ACS)
+  pagerange: 6203--6213
+  doi: "10.1021/acs.jctc.1c00623"
+  issn: 1549-9626
+  toc: images_large_ct1c00623_0008.png
+HennefarthAdvances2022:
+  type: article
+  title: "Advances in optimizing enzyme electrostatic preorganization"
+  author:
+    - Hennefarth, Matthew R.
+    - Alexandrova, Anastassia N.
+  date: 2022-02
+  parent:
+    type: periodical
+    title: Curr. Opin. Struc. Biol.
+    volume: 72
+    publisher: Elsevier BV
+  pagerange: 1--8
+  doi: "10.1016/j.sbi.2021.06.006"
+  issn: 0959-440X
+  toc: advanced_current_opinion_2021.png
+ReilleyCase2020:
+  type: article
+  title: "The Case for Enzymatic Competitive Metal Affinity Methods"
+  author:
+    - Reilley, David J.
+    - Hennefarth, Matthew R.
+    - Alexandrova, Anastassia N.
+  date: 2020-01
+  parent:
+    type: periodical
+    title: ACS Catal.
+    volume: 10
+    issue: 3
+    publisher: American Chemical Society (ACS)
+  pagerange: 2298--2307
+  doi: "10.1021/acscatal.9b04831"
+  issn: 2155-5435
+  toc: cma_methods.png
+HennefarthPhysicochemical2020:
+  type: article
+  title: "Physicochemical and biochemical spatiotemporal maps of a mouse penis"
+  author:
+    - Hennefarth, Matthew R.
+    - Chen, Ling
+    - Wang, Bohan
+    - Lue, Tom F.
+    - Stoller, Marshall L.
+    - Lin, Guiting
+    - Kang, Misun
+    - Ho, Sunita P.
+  date: 2020-03
+  parent:
+    type: periodical
+    title: J. Biomech.
+    volume: 101
+    publisher: Elsevier BV
+  pagerange: 109637
+  doi: "10.1016/j.jbiomech.2020.109637"
+  issn: 0021-9290
+  toc: baculum.png
+HennefarthHeterogeneous2021:
+  type: article
+  title: "Heterogeneous Intramolecular Electric Field as a Descriptor of Diels–Alder Reactivity"
+  author:
+    - Hennefarth, Matthew R.
+    - Alexandrova, Anastassia N.
+  date: 2021-02
+  parent:
+    type: periodical
+    title: J. Phys. Chem. A
+    volume: 125
+    issue: 5
+    publisher: American Chemical Society (ACS)
+  pagerange: 1289--1298
+  doi: "10.1021/acs.jpca.1c00181"
+  issn: 1520-5215
+  toc: images_large_jp1c00181_0010.png
+HennefarthDirect2020:
+  type: article
+  title: "Direct Look at the Electric Field in Ketosteroid Isomerase and Its Variants"
+  author:
+    - Hennefarth, Matthew R.
+    - Alexandrova, Anastassia N.
+  date: 2020-08
+  parent:
+    type: periodical
+    title: ACS Catal.
+    volume: 10
+    issue: 17
+    publisher: American Chemical Society (ACS)
+  pagerange: 9915--9924
+  doi: "10.1021/acscatal.0c02795"
+  issn: 2155-5435
+  toc: images_large_cs0c02795_0011.png
+FrancoisMoutalChemical2018:
+  type: article
+  title: "A Chemical Biology Approach to Model Pontocerebellar Hypoplasia Type 1B (PCH1B)"
+  author:
+    - François-Moutal, Liberty
+    - Jahanbakhsh, Shahriyar
+    - Nelson, Andrew D. L.
+    - Ray, Debashish
+    - Scott, David D.
+    - Hennefarth, Matthew R.
+    - Moutal, Aubin
+    - Perez-Miller, Samantha
+    - Ambrose, Andrew J.
+    - Al-Shamari, Ahmed
+    - Coursodon, Philippe
+    - Meechoovet, Bessie
+    - Reiman, Rebecca
+    - Lyons, Eric
+    - Beilstein, Mark
+    - Chapman, Eli
+    - Morris, Quaid D.
+    - Van Keuren-Jensen, Kendall
+    - Hughes, Timothy R.
+    - Khanna, Rajesh
+    - Koehler, Carla
+    - Jen, Joanna
+    - Gokhale, Vijay
+    - Khanna, May
+  date: 2018-08
+  parent:
+    type: periodical
+    title: ACS Chem. Biol.
+    volume: 13
+    issue: 10
+    publisher: American Chemical Society (ACS)
+  pagerange: 3000--3010
+  doi: "10.1021/acschembio.8b00745"
+  issn: 1554-8937
+  toc: cb-2018-007454_0012.png
+---
+

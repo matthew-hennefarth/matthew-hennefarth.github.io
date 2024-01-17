@@ -33,7 +33,7 @@ code {
 }
 
 body {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1:before { content: "> "; }
@@ -77,4 +77,13 @@ hr:after {
 
 .page__footer p {
   font-size: 16px;
+}
+
+ul ul li::marker {
+  content: '-\00A0';
+  color: var(--muted);
+}
+
+ul ol li::marker {
+  content: counter(list-item) ".\00A0";
 }
