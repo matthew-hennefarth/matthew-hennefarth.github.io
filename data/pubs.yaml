@@ -1,3 +1,18 @@
+HennefarthAnalytic2024:
+  type: preprint
+  title: "Analytic Nuclear Gradients for Complete Active Space Linearized Pair-Density Functional Theory"
+  author:
+    - Hennefarth, Matthew R.
+    - Hermes, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2024-01
+  parent:
+    type: periodical
+    title: "arXiv"
+  doi: "10.48550/arXiv.2401.12933"
+  eprint: "2401.12933"
+  toc: "lpdft_grad_toc.png"
 HennefarthLinearized2023a:
   type: article
   title: "Linearized Pair-Density Functional Theory for Vertical Excitation Energies"

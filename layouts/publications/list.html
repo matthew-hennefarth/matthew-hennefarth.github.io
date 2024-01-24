@@ -66,13 +66,9 @@
             <summary class="citation__summary">Full Citation</summary>
             <div class="full__citation">
               {{$fullauthors | markdownify}} {{.title}}. 
-              <i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}. 
-              {{if eq .itemType "preprint"}}
-                ChemRxiv:
-              {{else}}
-                DOI:
-              {{end}}
-              <a href=https://dx.doi.org/{{.doi}} target="_blank">{{.doi}}</a>
+              {{if ne $journal "arXiv"}}
+              <a href=https://dx.doi.org/{{.doi}} target="_blank">
+                <i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}</a>{{else}}<i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}{{end}}{{if .eprint}}, <a href=https://https://arxiv.org/abs/{{.eprint}} target="_blank">{{.eprint}}</a>{{end}}.
             </div>
           </details>
         </div>
