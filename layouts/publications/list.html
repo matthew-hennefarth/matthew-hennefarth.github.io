@@ -68,7 +68,7 @@
               {{$fullauthors | markdownify}} {{.title}}. 
               {{if ne $journal "arXiv"}}
               <a href=https://dx.doi.org/{{.doi}} target="_blank">
-                <i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}</a>{{else}}<i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}{{end}}{{if .eprint}}, <a href=https://https://arxiv.org/abs/{{.eprint}} target="_blank">{{.eprint}}</a>{{end}}.
+                <i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}</a>{{else}}<i>{{$journal}}</i>, <b>{{$year}}</b>{{if .parent.volume}} {{.parent.volume}}{{end}}{{if .parent.issue}}, {{.parent.issue}}{{end}}{{if .pagerange}}, {{.pagerange}}{{end}}{{end}}{{if .eprint}}, <a href=https://arxiv.org/abs/{{.eprint}} target="_blank">{{.eprint}}</a>{{end}}.
             </div>
           </details>
         </div>
