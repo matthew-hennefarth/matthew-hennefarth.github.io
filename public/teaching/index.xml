@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2023 Matthew R. Hennefarth</copyright>
-    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CHEM 268/368, MENG 255/355, Spring 2024</title>
+      <link>http://localhost:1313/teaching/chem368_s2024/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem368_s2024/</guid>
+      <description>Lectures: Tuesday and Thursday, 11:00 am - 12:20 pm, KPTC 103&#xA;Discussion Section: Wednesday, 5:00 pm - 6:00 pm, TBD</description>
+    </item>
     <item>
       <title>CHEM 113, Spring 2022</title>
       <link>http://localhost:1313/teaching/chem113_s2022/</link>
