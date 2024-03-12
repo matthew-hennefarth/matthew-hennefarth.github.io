@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Protein Hybrid Discrete Dynamics/DFT (*phd3*) &ndash; Matthew R. Hennefarth</title>
+<meta name="description" content="Ph.D. Candidate in Chemistry at UChicago">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+    <h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Matthew R. Hennefarth</a></h1>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/notes/" title="">Notes</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">Projects</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/publications/" title="">Publications</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/research/" title="">Research</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/teaching/" title="">Teaching</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Protein Hybrid Discrete Dynamics/DFT (<em>phd3</em>)</h1>
+    </header>
+    <div class="content__body">
+      <br><p>Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling
+of metalloenzymes.</p>
+<figure>
+    <picture>
+        <img src="/projects/cpet.jpeg" alt="Protein Hybrid Discrete Dynamics/DFT (phd3)" width="" defer>
+    </picture>
+    <figcaption>
+        <p class="caption"></p>
+    </figcaption>
+</figure>
+<h2 id="system-requirements">System Requirements</h2>
+<ul>
+<li><a href="https://www.turbomole.org/" target="_blank" rel="nofollow noopener noreferrer">TURBOMOLE</a> Version 6.6</li>
+<li><a href="http://www.moleculesinaction.com/pdmd.html" target="_blank" rel="nofollow noopener noreferrer">piDMD</a></li>
+<li><a href="http://openbabel.org/wiki/Main_Page" target="_blank" rel="nofollow noopener noreferrer">Openbabel</a> Version 2.4.0</li>
+<li><a href="https://www.cgl.ucsf.edu/chimera/" target="_blank" rel="nofollow noopener noreferrer">Chimera</a> Version 1.6.0 or greater (1.15.0
+or greater recommended)</li>
+<li>Python Version 3.6 or greater (3.8 or greater recommended)</li>
+</ul>
+<h2 id="python-package-dependencies">Python Package Dependencies</h2>
+<p>When phd3 is installed via pip, the following packages will also be installed if
+not already present on your system.</p>
+<ul>
+<li>jinja2</li>
+<li>sklearn</li>
+<li>propka</li>
+<li>numpy Version 1.20.0 or greater</li>
+<li>hdbscan</li>
+<li>scipy Version 1.1.0</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>First, clone this repository</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git clone https://github.com/alexandrova-lab-ucla/phd3
+</span></span></code></pre></div><p>Then, edit the <code>phd_config.json</code> file so that all of the paths in the <code>PATHS</code>
+section point to the correct directory. That is</p>
+<ul>
+<li><code>TURBODIR</code> points to the TURBOMOLE directory that contains <code>basen</code>, <code>bin</code>,
+<code>TURBOTEST</code>, <code>Config_turbo_env</code>, etc.</li>
+<li><code>DMD_DIR</code> points to the directory that holds the DMD binaries <code>complex.linux</code>,
+<code>comples_m2p.linux</code>, <code>pdmd.linux</code>, and <code>repdmd.linux</code>.</li>
+<li><code>parameters</code> points to the directory that holds the DMD parameters file
+<code>allatom.par</code>, <code>DMD_NA_allatom.par</code>, etc.</li>
+<li><code>chimera</code> points to the directory that holds the chimera executable. Note,
+this is not the path TO the chimera executable, but to the directory that
+contains the executable.</li>
+</ul>
+<p>If you are using phd3 on a cluster with queuing, you can modify the QUEUING
+section as well. Next we make a directory in <code>~/.config</code> and moves some files
+there as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mkdir <span style="color:#e6db74">${</span>HOME<span style="color:#e6db74">}</span>/.config/phd3
+</span></span><span style="display:flex;"><span>mv phd_config.json logger_config.json phd3/templates/submit.j2 <span style="color:#e6db74">${</span>HOME<span style="color:#e6db74">}</span>/.config/phd3
+</span></span></code></pre></div><p>In order to prevent Turbomole from failing, you may need to add the following to
+your <code>.bashrc</code>. This tells the CPU to use a math library that TURBOMOLE depends
+on. If this is not used, TURBOMOLE will segfault, even in <code>define</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>module load mkl
+</span></span><span style="display:flex;"><span>export MKL_DEBUG_CPU_TYPE<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>Finally, we use pip3 to install</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>pip3 install ./
+</span></span></code></pre></div><p>If you are having issues with &lsquo;sudo&rsquo;, add the <code>--user</code> option. Further, if you
+are developing, include the <code>-e</code> option as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>pip3 install --user -e ./
+</span></span></code></pre></div><p>Make sure that <code>~/.local/bin</code> is in your PATH as this is where the executibles
+are installed with pip3.</p>
+<h2 id="usage">Usage</h2>
+<p>The following scripts are available after installation</p>
+<ul>
+<li><code>setupphd.py</code></li>
+<li><code>runphd.py</code></li>
+<li><code>submitphd.py</code></li>
+<li><code>submitdmd.py</code></li>
+<li><code>setupturbomole.py</code></li>
+<li><code>runturbomole.py</code></li>
+<li><code>submitturbomole.py</code></li>
+<li><code>tfe.py</code></li>
+<li><code>relabelpdb.py</code></li>
+<li><code>setupdmd.py</code></li>
+<li><code>rundmd.py</code></li>
+<li><code>m2p.py</code></li>
+<li><code>cutqm.py</code></li>
+</ul>
+<p>See the <a href="https://github.com/alexandrova-lab-ucla/phd3/wiki" target="_blank" rel="nofollow noopener noreferrer">wiki</a> for a detailed
+user guide on how to run various calculations.</p>
+<h2 id="citation">Citation</h2>
+<p>Please cite the following papers if you use QM/DMD in your research on top of
+the TURBOMOLE and piDMD citations.</p>
+<ul>
+<li>Sparta, M.; Shirvanyants, D.; Ding, F.; Dokholyan, N. V.; Alexandrova, A. N.
+Hybrid Dynamics Simulation Engine for Metalloproteins. <em>Biophys. J.</em>,
+<strong>2012</strong>, 103, 767-776. DOI:
+<a href="https://dx.doi.org/10.1016/j.bpj.2012.06.024" target="_blank" rel="nofollow noopener noreferrer">10.1016/j.bpj.2012.06.024</a></li>
+<li>Gallpu, N. M.; Alexandrova, A. N. Use of QM/DMD as a Multiscale Approach to
+Modeling Metalloenzymes. <em>Mehods Enzymol.</em>, <strong>2016</strong>, 577, 319-339. DOI:
+<a href="https://dx.doi.org/10.1016/bs.mie.2016.05.018" target="_blank" rel="nofollow noopener noreferrer">10.1016/bs.mie.2016.05.018</a></li>
+</ul>
+<p>If you use the titratable DMD in your work, please cite the following in your
+research as well as propka.</p>
+<ul>
+<li>Reilley, D. R.; Wang, J.; Dokholyan, N. V.; Alexandrova, A. N. Titr-DMD - A
+Rapid, Coarse-Grained Quasi-All-Atom Constant pH Molecular Dynamics Framework.
+<em>J. Chem. Theory Comput</em>, <strong>2021</strong>, 17, 4538-4549. DOI:
+<a href="https://dx.doi.org/10.1021/acs.jctc.1c00338" target="_blank" rel="nofollow noopener noreferrer">10.1021/acs.jctc.1c00338</a></li>
+</ul>
+      <br>Checkout the Repository: <a href=https://github.com/alexandrova-lab-ucla/phd3> https://github.com/alexandrova-lab-ucla/phd3</a> 
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    
+<h1 class="about__title">Matthew R. Hennefarth</h1>
+<p class="about__description">Ph.D. Candidate in Chemistry at UChicago</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/matthew-hennefarth" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://twitter.com/m_hennefarth" rel="me" aria-label="Twitter" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://orcid.org/0000-0002-6601-2253" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://scholar.google.com/citations?user=Sds3I_QAAAAJ&amp;hl=en&amp;oi=ao" rel="me" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="/cv.pdf" rel="me" aria-label="CV" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+             Repo: <a href=https://github.com/alexandrova-lab-ucla/phd3>  phd3  </a><br>
+             Languages: Python <br>
+            By Matthew R. Hennefarth, David J. Reilley
+        </p>
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer">
+<center>
+    <p class="copyright">© 2023 Matthew R. Hennefarth</p>
+</center>
+</footer>
+
+        </div>
+    </body>
+
+</html>

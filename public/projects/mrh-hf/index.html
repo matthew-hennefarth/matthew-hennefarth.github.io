@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>*mrh-hf* &ndash; Matthew R. Hennefarth</title>
+<meta name="description" content="Ph.D. Candidate in Chemistry at UChicago">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+    <h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Matthew R. Hennefarth</a></h1>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/notes/" title="">Notes</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">Projects</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/publications/" title="">Publications</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/research/" title="">Research</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/teaching/" title="">Teaching</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1><em>mrh-hf</em></h1>
+    </header>
+    <div class="content__body">
+      <br><p>Simple Hartree-Fock code.</p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li><a href="https://github.com/pyscf/pyscf/" target="_blank" rel="nofollow noopener noreferrer">PySCF</a></li>
+<li>Python3 (version &gt;3.8)</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>Since I use the <a href="https://github.com/pyscf/pyscf/" target="_blank" rel="nofollow noopener noreferrer">PySCF</a> <code>gto.M</code> to build my integrals, we do the exact same
+here! Then, we pass the <code>mol</code> to the <code>rhf()</code> function along with the energy
+threshold and maximum number of scf iterations. An example is</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    mol <span style="color:#f92672">=</span> gto<span style="color:#f92672">.</span>M(atom<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;O 0 -0.14322 0; H 1.63803 1.13654 0; H -1.63803 1.13654 0&#34;</span>,
+</span></span><span style="display:flex;"><span>        basis<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sto3g&#34;</span>, unit<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bohr&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    my_energy <span style="color:#f92672">=</span> rhf(mol, e_thr<span style="color:#f92672">=</span><span style="color:#ae81ff">1e-9</span>, max_scf<span style="color:#f92672">=</span><span style="color:#ae81ff">200</span>)
+</span></span></code></pre></div><p>It will then print out a whole lot of stuff, with the final energy at the end!</p>
+<h2 id="theory">Theory</h2>
+<p>This script utilizes the <a href="https://github.com/pyscf/pyscf/" target="_blank" rel="nofollow noopener noreferrer">PySCF</a> library to generate the 1- and 2- electron
+integrals. Specifically, I read in the kinetic energy, electron-nuclear, AO
+overlap, and electron-electron repulsion matrices. From these integrals, we can
+construct the core matrix as
+\begin{equation}
+H^\text{core} = T + V^\text{nuc}
+\end{equation}
+with $T$ and $V^\text{nuc}$ being the kinetic energy and electron-nuclear
+attraction matrix respectively. This matrix does not change throughout the
+course of the SCF procedure. Next, we construct the symmetric orthogonal matrix
+\begin{equation}
+S^{-1/2} = Us^{-1/2}U^{\dag}
+\end{equation}
+This is done by diagonalizing the overlap matrix, $S$, and then taking each
+eigenvalue (the diagonal elements of $s$) and raising to the $-1/2$ power. $U$
+is simply the unitary matrix that represents the eigenvectors of $S$.</p>
+<p>We form our initial guess for the SCF produre by diagonalizing the core
+Hamiltonian. That is we take $F=H^\text{core}$. Transforming to the orthogonal
+MO basis, $F^\prime$:
+\begin{equation}
+F^\prime = (S^{-1/2})^{\dag} F S^{-1/2}=C^\prime \varepsilon C
+\end{equation}
+and diagonalizing yields eigenvectors $C^\prime$, our initial guess. We tranform
+back to the AO basis by multiplying by $S^{-1/2}$.
+\begin{equation}
+C = S^{-1/2}C^\prime
+\end{equation}
+The initial density matrix $P$ is given by
+\begin{equation}
+P_{\mu\nu} = \sum_{\lambda}^{N/2}C_{\mu\lambda}C_{\nu\lambda}
+\end{equation}
+Here, $N$ is the number of electrons in the system. Now we begin the SCF
+procedure as follows:</p>
+<ol>
+<li>
+<p>Construct the $G$ matrix as follows with $\eta$ the 2-electron matrix.
+\begin{equation}
+G_{\mu\nu}^{(n)} = \sum_{\lambda\sigma}P_{\lambda\sigma}P^{(n)}(2\eta_{\mu\nu\sigma\lambda} - \eta_{\mu\lambda\sigma\nu})
+\end{equation}</p>
+</li>
+<li>
+<p>Construct the Fock matrix, F
+\begin{equation}
+F^{(n)} = H^\text{core} + G^{(n)}
+\end{equation}</p>
+</li>
+<li>
+<p>Transform to the orthogonal representation $F^{(n)\prime}$ and diagonalize,
+as above.</p>
+</li>
+<li>
+<p>Compute $C^{(n+1)}$ as above. This represents the MO coefficients in the AO
+basis.</p>
+</li>
+<li>
+<p>Compute the new density $P^{(n+1)}$.</p>
+</li>
+<li>
+<p>Compute the electronic energy $E_\text{el}$ via
+\begin{equation}
+E_\text{el}^{(n+1)} = \sum_{\mu\nu}P_{\mu\nu}^{(n+1)}\left(H_{\mu\nu}^\text{core} + F_{\mu\nu}^{(n)}\right)
+\end{equation}</p>
+</li>
+<li>
+<p>Check convergence by
+\begin{align}
+\left|E_\text{el}^{(n)} - E_\text{el}^{(n+1)}\right| &amp;&lt; \text{energy threshold}\\
+\left|rmsd\right| &amp;&lt; \text{density threshold}
+\end{align}
+where
+\begin{equation}
+rmsd = \sqrt{\sum_{\mu\nu}\left(P_{\mu\nu}^{(n)}-P_{\mu\nu}^{(n+1)}\right)}
+\end{equation}</p>
+</li>
+</ol>
+<p>If both conditions are satisfied, then we are done and converged!</p>
+<p>Note in the above, the superscript ($n$) represents the iteration of the SCF
+procedure.</p>
+      <br>Checkout the Repository: <a href=https://github.com/matthew-hennefarth/mrh-hf> https://github.com/matthew-hennefarth/mrh-hf</a> 
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    
+<h1 class="about__title">Matthew R. Hennefarth</h1>
+<p class="about__description">Ph.D. Candidate in Chemistry at UChicago</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/matthew-hennefarth" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://twitter.com/m_hennefarth" rel="me" aria-label="Twitter" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://orcid.org/0000-0002-6601-2253" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://scholar.google.com/citations?user=Sds3I_QAAAAJ&amp;hl=en&amp;oi=ao" rel="me" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="/cv.pdf" rel="me" aria-label="CV" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+             Repo: <a href=https://github.com/matthew-hennefarth/mrh-hf>  <em>mrh-hf</em> </a><br>
+             Languages: Python <br>
+            By Matthew R. Hennefarth
+        </p>
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer">
+<center>
+    <p class="copyright">© 2023 Matthew R. Hennefarth</p>
+</center>
+</footer>
+
+        </div>
+    </body>
+
+</html>

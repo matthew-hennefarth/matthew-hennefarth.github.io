@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Matthew R. Hennefarth</title>
+    <link>http://localhost:1313/notes/</link>
+    <description>Recent content in Notes on Matthew R. Hennefarth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023 Matthew R. Hennefarth</copyright>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiling OpenMolcas</title>
+      <link>http://localhost:1313/notes/openmolcas_compile/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/openmolcas_compile/</guid>
+      <description>General Remarks For whatever reason, compiling OpenMolcas seems daunting, especially for those which are not familiar with cmake. This is especially true when once considers all of the various configuration options at your disposal (OpenMP, MPI, GCC, Intel, Math libraries, etc.). Here I hope to give some general guidance on how to compile OpenMolcas on a few systems with some different parameters/options. At the end, I will list how I build OpenMolcas on the UChicago cluster (mainly so I can refer back to it).</description>
+    </item>
+    <item>
+      <title>Two Factor Authentication for GMail and (Neo)Mutt</title>
+      <link>http://localhost:1313/notes/neomutt_2fa/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/neomutt_2fa/</guid>
+      <description>We will deal with adding an email account that requires 2FA for gmail to neomutt. Firstly, we need to get a client id and client secret using Google Cloud. Make sure that we register the desktop version! Make sure to then authorize the emails that you want with this application and that you allow less secure applications for each of the email accounts.&#xA;Generating 2FA Tokens Next, we need the following script: mutt_oauth2.</description>
+    </item>
+  </channel>
+</rss>

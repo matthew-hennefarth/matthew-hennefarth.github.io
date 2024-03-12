@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matthew R. Hennefarth</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Matthew R. Hennefarth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023 Matthew R. Hennefarth</copyright>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiling OpenMolcas</title>
+      <link>http://localhost:1313/notes/openmolcas_compile/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/openmolcas_compile/</guid>
+      <description>General Remarks For whatever reason, compiling OpenMolcas seems daunting, especially for those which are not familiar with cmake. This is especially true when once considers all of the various configuration options at your disposal (OpenMP, MPI, GCC, Intel, Math libraries, etc.). Here I hope to give some general guidance on how to compile OpenMolcas on a few systems with some different parameters/options. At the end, I will list how I build OpenMolcas on the UChicago cluster (mainly so I can refer back to it).</description>
+    </item>
+    <item>
+      <title>Two Factor Authentication for GMail and (Neo)Mutt</title>
+      <link>http://localhost:1313/notes/neomutt_2fa/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/neomutt_2fa/</guid>
+      <description>We will deal with adding an email account that requires 2FA for gmail to neomutt. Firstly, we need to get a client id and client secret using Google Cloud. Make sure that we register the desktop version! Make sure to then authorize the emails that you want with this application and that you allow less secure applications for each of the email accounts.&#xA;Generating 2FA Tokens Next, we need the following script: mutt_oauth2.</description>
+    </item>
+    <item>
+      <title>*mrh-hf*</title>
+      <link>http://localhost:1313/projects/mrh-hf/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mrh-hf/</guid>
+      <description>&lt;p&gt;Simple Hartree-Fock code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Classical Protein Electric Field Topology (*CPET*)</title>
+      <link>http://localhost:1313/projects/cpet/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cpet/</guid>
+      <description>&lt;p&gt;Software used to compute the classical electric field from a protein structure&#xA;(or structures) as well as sample the electric field topological data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Protein Hybrid Discrete Dynamics/DFT (*phd3*)</title>
+      <link>http://localhost:1313/projects/phd3/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/phd3/</guid>
+      <description>&lt;p&gt;Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling&#xA;of metalloenzymes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RAII-Thread</title>
+      <link>http://localhost:1313/projects/raii-thread/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/raii-thread/</guid>
+      <description>&lt;p&gt;Header only file for a C++ RAII thread that joins upon destruction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linearized Pair-Density Functional Theory</title>
+      <link>http://localhost:1313/research/lpdft/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/lpdft/</guid>
+      <description>Generally speaking, we are interested in understanding how matter and light interact with each other because of its applications to UV-damage (and sunscreens), photosynthesis, and catalysis. There is a lot of work focused on developing electronic structure methods which can accurately compute the potential energy surface of systems, both the ground and excited state. One such method, which is particularly attractive, is multiconfiguration pair-density functional theory (MC-PDFT) due to its speed and accuracy.</description>
+    </item>
+    <item>
+      <title>CHEM 113, Spring 2022</title>
+      <link>http://localhost:1313/teaching/chem113_s2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem113_s2022/</guid>
+      <description>Lecture 2, Discussion Section 33&#xA;Discussion: Tuesday, 2:30-3:20 pm, Kent Chem Lab 103&#xA;Lab: Thursday: Thursday, 1:30-5:20 pm, Kent Chem Lab 211&#xA;Office Hours:&#xA;Tuesday, 3:30 - 4:30 pm, Kent Fishbowl Wednesday, 4:00 - 5:00 pm, Kent Fishbowl Discussion Worksheets Week 2 (answers) Week 3 (answers) Week 5 (answers) Week 6 (answers) Week 7 (answers) Week 8 (answers) Week 9 (answers) Discussion Notes Week 2: Solubility Lab Grading Rubrics Electrochemistry Lab Expectations Solubility of Calcium Benzoate Lab Expectations Quantitative Analysis Lab Expectations Reviews Final Review (answers) </description>
+    </item>
+    <item>
+      <title>CHEM 112, Winter 2022</title>
+      <link>http://localhost:1313/teaching/chem112_w2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem112_w2022/</guid>
+      <description>Lecture 2, Discussion Section 33&#xA;Discussion: Tuesday, 2:30-3:20 pm, Kent Chem Lab 103&#xA;Lab: Thursday: Thursday, 1:30-5:20 pm, Kent Chem Lab 211&#xA;Office Hours:&#xA;Tuesday, 3:30 - 4:30 pm, Kent Fishbowl Wednesday, 4:00 - 5:00 pm, Kent Fishbowl Discussion Worksheets Week 2 (answers) Week 3 (answers) Week 5 (answers) Week 6 (answers) Week 7 (answers) Week 8 (answers) Week 9 (answers) Discussion Notes Week 2: Beers Law Week 3: Calorimetry Week 5: Titration Week 6: Elementary Quantum Systems Week 7: Orbitals Week 8: Electron Configuration Lab Grading Rubrics Equilibrium II Lab Expectations Calorimetry Lab Expectations Titration Lab Expectations Flame Test Lab Expectations Chromatography of Spinach Lab Expectations Reviews Final Review (answers) Other Sample Lab Report </description>
+    </item>
+    <item>
+      <title>CHEM 111, Fall 2021</title>
+      <link>http://localhost:1313/teaching/chem111_f2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem111_f2021/</guid>
+      <description>Lecture 2, Discussion Section 33&#xA;Discussion: Tuesday, 2:30-3:20 pm, Kent Chem Lab 103&#xA;Lab: Thursday: Thursday, 1:30-5:20 pm, Kent Chem Lab 211&#xA;Office Hours:&#xA;Tuesday, 3:30 - 4:30 pm, Kent Fishbowl Wednesday, 4:00 - 5:00 pm, Kent Fishbowl Discussion Worksheets Week 2 (answers) Week 3 (answers) Week 4 (answers) Week 5 (answers) Week 6 (answers) Week 7 (answers) Week 8 (answers) Week 9 (answers) Lab Grading Rubrics Oxygen Virtual Lab Copper Cycle Virtual Lab Reviews Final Review (answers) Other Notes Redox Notes </description>
+    </item>
+    <item>
+      <title>Computationally Designed Artificial Enzymes</title>
+      <link>http://localhost:1313/research/protein-electrostatic/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/protein-electrostatic/</guid>
+      <description>Enzymes catalyze chemical reactions with incredible efficiency and stereoselectivity under physiological conditions, making enzymes desirable tools for catalyzing non-native reactions of human interest. Designing artificial enzymes requires understanding the various parameters that make enzymes good catalysts such as substrate binding affinity, active site residues, etc. Artificial enzymes are designed computationally or produced via directed evolution. Computational design protocols have been successful in developing catalytic proteins, yet the best enzymes are still several orders of magnitude less active than natural enzymes.</description>
+    </item>
+    <item>
+      <title>Pathologic Biomineralization</title>
+      <link>http://localhost:1313/research/pathologic-biomineralization/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/pathologic-biomineralization/</guid>
+      <description>What causes soft tissues to harden? Why do kidney stones form? There are various pathological diseases in which unwanted regions of the human body accumulate minerals and harden. We focused on mapping key ions, molecules, and proteins from cells that could promote the cascade of reactions resulting in compounds and unwanted biominerals. We tried to understand how mechanical strain impacted the susceptibility of a tissue to begin to mineralize; that is, the relationship between form and function of the material.</description>
+    </item>
+    <item>
+      <title>Contact Me</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Email: mhennefarth@uchicago.edu&#xA;PGP: 8D3F 156E D751 11D4</description>
+    </item>
+  </channel>
+</rss>

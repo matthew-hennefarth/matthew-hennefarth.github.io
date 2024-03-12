@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Matthew R. Hennefarth</title>
+    <link>http://localhost:1313/research/</link>
+    <description>Recent content in Research on Matthew R. Hennefarth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023 Matthew R. Hennefarth</copyright>
+    <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linearized Pair-Density Functional Theory</title>
+      <link>http://localhost:1313/research/lpdft/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/lpdft/</guid>
+      <description>Generally speaking, we are interested in understanding how matter and light interact with each other because of its applications to UV-damage (and sunscreens), photosynthesis, and catalysis. There is a lot of work focused on developing electronic structure methods which can accurately compute the potential energy surface of systems, both the ground and excited state. One such method, which is particularly attractive, is multiconfiguration pair-density functional theory (MC-PDFT) due to its speed and accuracy.</description>
+    </item>
+    <item>
+      <title>Computationally Designed Artificial Enzymes</title>
+      <link>http://localhost:1313/research/protein-electrostatic/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/protein-electrostatic/</guid>
+      <description>Enzymes catalyze chemical reactions with incredible efficiency and stereoselectivity under physiological conditions, making enzymes desirable tools for catalyzing non-native reactions of human interest. Designing artificial enzymes requires understanding the various parameters that make enzymes good catalysts such as substrate binding affinity, active site residues, etc. Artificial enzymes are designed computationally or produced via directed evolution. Computational design protocols have been successful in developing catalytic proteins, yet the best enzymes are still several orders of magnitude less active than natural enzymes.</description>
+    </item>
+    <item>
+      <title>Pathologic Biomineralization</title>
+      <link>http://localhost:1313/research/pathologic-biomineralization/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/pathologic-biomineralization/</guid>
+      <description>What causes soft tissues to harden? Why do kidney stones form? There are various pathological diseases in which unwanted regions of the human body accumulate minerals and harden. We focused on mapping key ions, molecules, and proteins from cells that could promote the cascade of reactions resulting in compounds and unwanted biominerals. We tried to understand how mechanical strain impacted the susceptibility of a tissue to begin to mineralize; that is, the relationship between form and function of the material.</description>
+    </item>
+  </channel>
+</rss>

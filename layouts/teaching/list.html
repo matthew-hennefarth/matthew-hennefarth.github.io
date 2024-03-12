@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
+    <br>{{ .Content }}
+    <h2>Lecturer</h2>
+    <ul>
+    {{ range where .Pages "Params.role" "lecturer" }}
+      {{ .Render "li" }} 
+    {{ end }}
+    </ul>
+    <h2>Teaching Assistant</h2>
+    <ul>
+    {{ range where .Pages "Params.role" "teaching assistant" }}
+      {{ .Render "li" }} 
+    {{ end }}
+    </ul>
+    <h2>Learning Assistant</h2>
+    <ul>
+    {{ range where .Pages "Params.role" "learning assistant" }}
+      {{ .Render "li" }} 
+    {{ end }}
+    </ul>
+{{ end }}

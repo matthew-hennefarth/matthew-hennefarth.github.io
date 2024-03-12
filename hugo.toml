@@ -83,6 +83,12 @@ url = "/cv.pdf"
     url = "/research/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "teaching"
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 10
+
 [markup.goldmark.renderer]
 unsafe = true
 

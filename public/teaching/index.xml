@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Matthew R. Hennefarth</title>
+    <link>http://localhost:1313/teaching/</link>
+    <description>Recent content in Teaching on Matthew R. Hennefarth</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023 Matthew R. Hennefarth</copyright>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CHEM 113, Spring 2022</title>
+      <link>http://localhost:1313/teaching/chem113_s2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem113_s2022/</guid>
+      <description>Lecture 2, Discussion Section 33&#xA;Discussion: Tuesday, 2:30-3:20 pm, Kent Chem Lab 103&#xA;Lab: Thursday: Thursday, 1:30-5:20 pm, Kent Chem Lab 211&#xA;Office Hours:&#xA;Tuesday, 3:30 - 4:30 pm, Kent Fishbowl Wednesday, 4:00 - 5:00 pm, Kent Fishbowl Discussion Worksheets Week 2 (answers) Week 3 (answers) Week 5 (answers) Week 6 (answers) Week 7 (answers) Week 8 (answers) Week 9 (answers) Discussion Notes Week 2: Solubility Lab Grading Rubrics Electrochemistry Lab Expectations Solubility of Calcium Benzoate Lab Expectations Quantitative Analysis Lab Expectations Reviews Final Review (answers) </description>
+    </item>
+    <item>
+      <title>CHEM 112, Winter 2022</title>
+      <link>http://localhost:1313/teaching/chem112_w2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem112_w2022/</guid>
+      <description>Lecture 2, Discussion Section 33&#xA;Discussion: Tuesday, 2:30-3:20 pm, Kent Chem Lab 103&#xA;Lab: Thursday: Thursday, 1:30-5:20 pm, Kent Chem Lab 211&#xA;Office Hours:&#xA;Tuesday, 3:30 - 4:30 pm, Kent Fishbowl Wednesday, 4:00 - 5:00 pm, Kent Fishbowl Discussion Worksheets Week 2 (answers) Week 3 (answers) Week 5 (answers) Week 6 (answers) Week 7 (answers) Week 8 (answers) Week 9 (answers) Discussion Notes Week 2: Beers Law Week 3: Calorimetry Week 5: Titration Week 6: Elementary Quantum Systems Week 7: Orbitals Week 8: Electron Configuration Lab Grading Rubrics Equilibrium II Lab Expectations Calorimetry Lab Expectations Titration Lab Expectations Flame Test Lab Expectations Chromatography of Spinach Lab Expectations Reviews Final Review (answers) Other Sample Lab Report </description>
+    </item>
+    <item>
+      <title>CHEM 111, Fall 2021</title>
+      <link>http://localhost:1313/teaching/chem111_f2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/chem111_f2021/</guid>
+      <description>Lecture 2, Discussion Section 33&#xA;Discussion: Tuesday, 2:30-3:20 pm, Kent Chem Lab 103&#xA;Lab: Thursday: Thursday, 1:30-5:20 pm, Kent Chem Lab 211&#xA;Office Hours:&#xA;Tuesday, 3:30 - 4:30 pm, Kent Fishbowl Wednesday, 4:00 - 5:00 pm, Kent Fishbowl Discussion Worksheets Week 2 (answers) Week 3 (answers) Week 4 (answers) Week 5 (answers) Week 6 (answers) Week 7 (answers) Week 8 (answers) Week 9 (answers) Lab Grading Rubrics Oxygen Virtual Lab Copper Cycle Virtual Lab Reviews Final Review (answers) Other Notes Redox Notes </description>
+    </item>
+  </channel>
+</rss>
