@@ -3,12 +3,9 @@ title: "Protein Hybrid Discrete Dynamics/DFT (*phd3*)"
 date: 2023-03-24
 repo: "https://github.com/alexandrova-lab-ucla/phd3"
 abbr: "phd3"
-languages: ["Python"]
-authors: ["Matthew R. Hennefarth", "David J. Reilley"]
 ---
 Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling
 of metalloenzymes.
-<!--more-->
 
 {{<
   img image="/projects/cpet.jpeg" 

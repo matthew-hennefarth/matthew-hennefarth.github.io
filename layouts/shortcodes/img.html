@@ -3,7 +3,7 @@
 
 <figure>
     <picture>
-        <img src="{{.Get `image`}}" alt="{{.Get `alt` }}" width="{{.Get `width`}}" defer>
+        <img src="{{ $image }}" alt="{{.Get `alt` }}" width="{{.Get `width`}}" defer loading="lazy">
     </picture>
     <figcaption>
         <p class="caption">{{.Get "caption" }}</p>

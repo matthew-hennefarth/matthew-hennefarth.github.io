@@ -2,9 +2,7 @@
 title: "*mrh-hf*"
 date: 2023-03-24
 repo: https://github.com/matthew-hennefarth/mrh-hf
-languages: ["Python"]
 math: true
-authors: ["Matthew R. Hennefarth"]
 ---
 Simple Hartree-Fock code.
 <!--more-->

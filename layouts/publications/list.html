@@ -2,6 +2,7 @@
   <header class="content__header">
       <h1>{{ .Title | markdownify }}</h1>
   </header>
+  <hr>
   <div class="content__body">
 
     {{ .Content }}
@@ -49,7 +50,7 @@
       <div class="citation">
         <div class="citation__frame">
           <div class="citation__body">
-            <a href=https://dx.doi.org/{{.doi}} target="_blank"><h2>{{.title}}</h2></a>
+            <h2><a href=https://dx.doi.org/{{.doi}} target="_blank">{{.title}}</a></h2>
             <ul>
               <li>Publication Number: <b>{{sub $lenPubs $index}}</b></li>
               <li>Authors:<b> {{$shortauthors | markdownify}}</b></li>
@@ -58,7 +59,7 @@
           </div>
           {{if .toc}}
             <div class="citation__toc">
-              <img class="toc__img" src={{printf "/toc/%s" .toc}} alt={{printf "%s TOC" .title}}>
+              <img class="toc__img" src={{printf "/toc/%s" .toc}} alt={{printf "%s TOC" .title}} loading="lazy">
             </div>
           {{end}}
         </div>

@@ -2,8 +2,6 @@
 title: "RAII-Thread"
 date: 2023-03-24
 repo: "https://github.com/matthew-hennefarth/RAII-Thread"
-languages: ["C++"]
-authors: ["Matthew R. Hennefarth"]
 ---
 Header only file for a C++ RAII thread that joins upon destruction. 
 <!--more-->

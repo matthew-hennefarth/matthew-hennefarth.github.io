@@ -1,4 +1,12 @@
-<!--{{- partial "lang.html" . -}}-->
 <center>
-    <p class="copyright">{{ .Site.Copyright | markdownify }}</p>
+  <p class="copyright">{{ .Site.Copyright | markdownify }}</p>
+  <aside>
+    <ul class="aside__social-links">
+      {{ range $item := .Site.Params.socialLinks }}
+      <li>
+          <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}"><i class="{{ $item.icon }}" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      {{ end }}
+  </ul>
+  </aside>
 </center>

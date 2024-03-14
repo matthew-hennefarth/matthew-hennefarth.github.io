@@ -28,7 +28,7 @@
       <link>http://localhost:1313/projects/phd3/</link>
       <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/phd3/</guid>
-      <description>&lt;p&gt;Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling&#xA;of metalloenzymes.&lt;/p&gt;</description>
+      <description>Quantum Mechanical/Discrete Molecular Dynamics engine to provide rapid sampling of metalloenzymes.&#xA;System Requirements TURBOMOLE Version 6.6 piDMD Openbabel Version 2.4.0 Chimera Version 1.6.0 or greater (1.15.0 or greater recommended) Python Version 3.6 or greater (3.8 or greater recommended) Python Package Dependencies When phd3 is installed via pip, the following packages will also be installed if not already present on your system.&#xA;jinja2 sklearn propka numpy Version 1.20.0 or greater hdbscan scipy Version 1.</description>
     </item>
     <item>
       <title>RAII-Thread</title>

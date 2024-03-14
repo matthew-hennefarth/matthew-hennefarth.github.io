@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Linearized Pair-Density Functional Theory &ndash; Matthew R. Hennefarth</title>
-<meta name="description" content="Ph.D. Candidate in Chemistry at UChicago">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Linearized Pair-Density Functional Theory &ndash; Matthew R. Hennefarth</title>
+<meta name="description" content="PhD. Candidate in Chemistry at UChicago">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8"/>
@@ -15,10 +15,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
 
 
-<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
-<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
-<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
-
+<link rel="stylesheet" href="http://localhost:1313/css/main.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
@@ -38,37 +35,39 @@
 </script>
 
 
+
+
 </head>
 
-    <body>
-        <div class="page">
+  <body>
+    <div class="page">
 
-            <header class="page__header"><nav class="page__nav main-nav">
-    <ul>
-    <h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Matthew R. Hennefarth</a></h1>
+      <header class="page__header"><nav class="page__nav main-nav">
+  <ul>
+    <h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Matthew R. Hennefarth</a></h1> 
     
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/notes/" title="">Notes</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/notes/" title="">Notes</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">Projects</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">Projects</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/publications/" title="">Publications</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/publications/" title="">Publications</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/research/" title="">Research</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/research/" title="">Research</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/teaching/" title="">Teaching</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/teaching/" title="">Teaching</a></li>
     
-    </ul>
+  </ul> 
 </nav>
-
 </header>
 
-            <section class="page__body">
-    <header class="content__header">
-        <h1>Linearized Pair-Density Functional Theory</h1>
-    </header>
-    <div class="content__body">
-      <br><p>Generally speaking, we are interested in understanding how matter and light
+      <section class="page__body">
+  <header class="content__header">
+    <h1>Linearized Pair-Density Functional Theory</h1>
+  </header>
+  <hr>
+  <div class="content_body">
+    <p>Generally speaking, we are interested in understanding how matter and light
 interact with each other because of its applications to UV-damage (and
 sunscreens), photosynthesis, and catalysis. There is a lot of work focused on
 developing electronic structure methods which can accurately compute the
@@ -79,9 +78,9 @@ is similar to Kohn-Sham DFT in that it computes the energy for a particular
 state using a energy expression which is expressed as a functional of the
 density.</p>
 <p>\begin{equation}
-E^\mathrm{PDFT} = h^q_p \gamma^p_q+ g_{pr}^{qs}\gamma^p_q\gamma^r_s + E^\mathrm{ot}[\rho, \Pi] + V_\mathrm{nuc}
+E^\mathrm{PDFT} = h^q_p \gamma^p_q+ \frac{1}{2}g_{pr}^{qs}\gamma^p_q\gamma^r_s + E^\mathrm{ot}[\rho, \Pi] + V_\mathrm{nuc}
 \end{equation}</p>
-<p>While this is good, it unfortunately does not adequtely model the electronic
+<p>While this is good, it unfortunately does not adequately model the electronic
 structure/potential surfaces where states of the same symmetry get close
 together in what are called conical intersections or near-avoided crossings.
 These regions of the potential surface are very common when modeling
@@ -93,7 +92,7 @@ L-PDFT Hamiltonian comes from Taylor expanding the MC-PDFT energy expression to
 first order around the state-average densities, and extracting the effective
 linear operator.</p>
 <p>\begin{equation}
-H^\mathrm{L-PDFT} = \left(h^q_p + V^q_p + \mathcal{J}[\check{\gamma}]^q_p\right)E^p_q + v_{pr}^{qs}e_{qs}^{pr} + h^\mathrm{const}
+H^\mathrm{L-PDFT} = \left(h^q_p + V^q_p + \mathcal{J}[\check{\gamma}]^q_p\right)E^p_q + \frac{1}{2}v_{pr}^{qs}e_{qs}^{pr} + h^\mathrm{const}
 \end{equation}</p>
 <p>Diagonalizing this operator with in an appropriate model space yields the
 correct potential energy surface topology near conical intersections and
@@ -106,42 +105,43 @@ necessarily.</p>
 
 <figure>
     <picture>
-        <img src="/toc/lpdft_toc.png" alt="L-PDFT TOC" width="50%" defer>
+        <img src="/toc/lpdft_toc.png" alt="L-PDFT TOC" width="50%" defer loading="lazy">
     </picture>
     <figcaption>
         <p class="caption"></p>
     </figcaption>
 </figure>
+
 <p>L-PDFT also has the advantage of having a <em>bon afide</em> operator making it more
 suitable for future development. You can check out the first paper describing
-the method <a href="http://dx.doi.org/10.1021/acs.jctc.3c00207" target="_blank" rel="nofollow noopener noreferrer">here</a>.</p>
+the method <a href="http://dx.doi.org/10.1021/acs.jctc.3c00207">here</a>.</p>
 <p>Most of my Ph.D. work has been on developing out L-PDFT for applications in
 various areas of photocatalysis and photochemistry. My development (at least
-initially) is within the <a href="https://github.com/pyscf/pyscf-forge" target="_blank" rel="nofollow noopener noreferrer"><em>PySCF-forge</em></a> python extension package for
-<a href="https://github.com/pyscf/pyscf" target="_blank" rel="nofollow noopener noreferrer"><em>PySCF</em></a>, thought I hope to integrate it into some other quantum chemistry
+initially) is within the <a href="https://github.com/pyscf/pyscf-forge"><em>PySCF-forge</em></a> python extension package for
+<a href="https://github.com/pyscf/pyscf"><em>PySCF</em></a>, thought I hope to integrate it into some other quantum chemistry
 software packages.</p>
 <h2 id="l-pdft-properties">L-PDFT Properties</h2>
 <p>The following is a list of properties that are currently developed for L-PDFT.</p>
 <ul>
 <li>L-PDFT total electronic energy calculations for wave functions of various
-types [<a href="http://dx.doi.org/10.1021/acs.jctc.3c00207" target="_blank" rel="nofollow noopener noreferrer">1</a>].
+types [<a href="http://dx.doi.org/10.1021/acs.jctc.3c00207">1</a>].
 <ul>
 <li>State-averaged complete active space configuration interaction (SA-CASCI)</li>
 <li>State-averaged complete active space self-consistent field (SA-CASSCF)</li>
 <li>SA-CASCI/SA-CASSCF with &ldquo;mixed&rdquo; solvers of different spins and/or point
-group symmetries [<a href="https://dx.doi.org/10.1021/acs.jctc.3c00863" target="_blank" rel="nofollow noopener noreferrer">2</a>]</li>
+group symmetries [<a href="https://dx.doi.org/10.1021/acs.jctc.3c00863">2</a>]</li>
 </ul>
 </li>
 <li>L-PDFT can be used with various translated or fully-translated Kohn-Sham
-density functional theory (KS-DFT) functionals as defined in <a href="https://www.tddft.org/programs/libxc/" target="_blank" rel="nofollow noopener noreferrer"><em>libxc</em></a>
-[<a href="http://dx.doi.org/10.1021/acs.jctc.3c00207" target="_blank" rel="nofollow noopener noreferrer">1</a>].
+density functional theory (KS-DFT) functionals as defined in <a href="https://www.tddft.org/programs/libxc/"><em>libxc</em></a>
+[<a href="http://dx.doi.org/10.1021/acs.jctc.3c00207">1</a>].
 <ul>
 <li>Local-spin density approximation functionals</li>
 <li>Generalized gradient approximation functionals</li>
 <li>Global hybyid functionals
 <ol>
 <li>Translation of functionals defined as global hybrids at the
-<a href="https://www.tddft.org/programs/libxc/" target="_blank" rel="nofollow noopener noreferrer"><em>libxc</em></a> or <a href="https://github.com/pyscf/pyscf" target="_blank" rel="nofollow noopener noreferrer"><em>PySCF</em></a> level is not supported, except for ‘tPBE0’ and
+<a href="https://www.tddft.org/programs/libxc/"><em>libxc</em></a> or <a href="https://github.com/pyscf/pyscf"><em>PySCF</em></a> level is not supported, except for ‘tPBE0’ and
 ‘ftPBE0’.</li>
 </ol>
 </li>
@@ -163,7 +163,7 @@ of different spin or spatial symmetry within L-PDFT. Here, we expand around the
 state-average densities across all of the symmetry irreps. In this way, we
 showed that L-PDFT performs similarly to MC-PDFT on the QUESTDB database
 illustrating how L-PDFT can be used in regions of strong and weak
-state-interaction [<a href="https://dx.doi.org/10.1021/acs.jctc.3c00863" target="_blank" rel="nofollow noopener noreferrer">2</a>].
+state-interaction [<a href="https://dx.doi.org/10.1021/acs.jctc.3c00863">2</a>].
 Coupling this with L-PDFT being faster than MC-PDFT, L-PDFT seems to be a
 promising method for photodynamics in the future.</p>
 
@@ -171,14 +171,15 @@ promising method for photodynamics in the future.</p>
 
 <figure>
     <picture>
-        <img src="/research/lpdft_whisker.png" alt="L-PDFT TOC" width="75%" defer>
+        <img src="/research/lpdft_whisker.png" alt="L-PDFT TOC" width="75%" defer loading="lazy">
     </picture>
     <figcaption>
         <p class="caption"></p>
     </figcaption>
 </figure>
+
 <h2 id="acknowledgements">Acknowledgements</h2>
-<p>This work was performed under the guidance of Professor <a href="https://gagliardigroup.uchicago.edu/" target="_blank" rel="nofollow noopener noreferrer">Laura
+<p>This work was performed under the guidance of Professor <a href="https://gagliardigroup.uchicago.edu/">Laura
 Gagliardi</a> during my time as a Ph.D.
 student at UChicago. Additionally, this work was supported in part by the
 National Science Foundation Graduate Research Fellowship. I also acknowledge
@@ -189,79 +190,56 @@ Olshansky Graduent Student Travel Award (June 2023), as well as the University
 of Chicago Physical Science&rsquo;s Division Eckhardt Graduate Fellowship (2021).</p>
 <h2 id="code-developed-for-this-project">Code Developed for this Project</h2>
 <ul>
-<li>Linearized Pair-Density Functional Theory in <a href="https://github.com/pyscf/pyscf-forge" target="_blank" rel="nofollow noopener noreferrer"><em>PySCF-forge</em></a></li>
+<li>Linearized Pair-Density Functional Theory in <a href="https://github.com/pyscf/pyscf-forge"><em>PySCF-forge</em></a></li>
 <li>Born-Oppenheimer Molecular Dynamics Package in
-<a href="https://github.com/pyscf/pyscf" target="_blank" rel="nofollow noopener noreferrer"><em>PySCF</em></a></li>
+<a href="https://github.com/pyscf/pyscf"><em>PySCF</em></a></li>
 </ul>
 <hr>
 <h2 id="references">References:</h2>
 <ol>
 <li>M. R. Hennefarth, M. R. Hermes, D. G. Truhlar, and L. Gagliardi, &ldquo;Linearized
-pair-density functional theory,&rdquo; <a href="http://dx.doi.org/10.1021/acs.jctc.3c00207" target="_blank" rel="nofollow noopener noreferrer">J. Chem. Theory Comput. <strong>19</strong>, 3172-3183
+pair-density functional theory,&rdquo; <a href="http://dx.doi.org/10.1021/acs.jctc.3c00207">J. Chem. Theory Comput. <strong>19</strong>, 3172-3183
 (2023)</a>.</li>
 <li>M. R. Hennefarth, D. S. King, and L. Gagliardi, &ldquo;Linearized pair-density
-functional theory for vertical excitation energies,&rdquo; <a href="https://dx.doi.org/10.1021/acs.jctc.3c00863" target="_blank" rel="nofollow noopener noreferrer">J. Chem. Theory
+functional theory for vertical excitation energies,&rdquo; <a href="https://dx.doi.org/10.1021/acs.jctc.3c00863">J. Chem. Theory
 Comput. <strong>19</strong>, 7983-7988 (2023)</a>.</li>
 </ol>
 
-    </div>
-    <footer class="content__footer"></footer>
+  </div>
+  <footer class="content__footer"></footer>
 
-            </section>
+      </section>
 
-            <section class="page__aside">
-                <div class="aside__about">
-<div class="aside__about">
-    
-<h1 class="about__title">Matthew R. Hennefarth</h1>
-<p class="about__description">Ph.D. Candidate in Chemistry at UChicago</p>
-</div>
-
-
-<ul class="aside__social-links">
-    
-    <li>
-        <a href="https://github.com/matthew-hennefarth" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://twitter.com/m_hennefarth" rel="me" aria-label="Twitter" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://orcid.org/0000-0002-6601-2253" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://scholar.google.com/citations?user=Sds3I_QAAAAJ&amp;hl=en&amp;oi=ao" rel="me" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="/cv.pdf" rel="me" aria-label="CV" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-</ul>
-</div>
-                <hr>
-                <div class="aside__content">
-    
-    
-        <p>
-            By Matthew R. Hennefarth, 
-            2022-06-01
-        </p>
-    
-
-                </div>
-            </section>
-
-            <footer class="page__footer">
-<center>
-    <p class="copyright">© 2023 Matthew R. Hennefarth</p>
+      <footer class="page__footer"><center>
+  <p class="copyright">© 2023 Matthew R. Hennefarth</p>
+  <aside>
+    <ul class="aside__social-links">
+      
+      <li>
+          <a href="https://github.com/matthew-hennefarth" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="https://twitter.com/m_hennefarth" rel="me" aria-label="Twitter" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="https://orcid.org/0000-0002-6601-2253" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="https://scholar.google.com/citations?user=Sds3I_QAAAAJ&amp;hl=en&amp;oi=ao" rel="me" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="/cv.pdf" rel="me" aria-label="CV" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+  </ul>
+  </aside>
 </center>
 </footer>
 
-        </div>
-    </body>
-
+    </div>
+  </body>
 </html>

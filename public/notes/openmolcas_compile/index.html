@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Compiling OpenMolcas &ndash; Matthew R. Hennefarth</title>
-<meta name="description" content="Ph.D. Candidate in Chemistry at UChicago">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Compiling OpenMolcas &ndash; Matthew R. Hennefarth</title>
+<meta name="description" content="PhD. Candidate in Chemistry at UChicago">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8"/>
@@ -15,44 +15,42 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
 
 
-<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
-<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
-<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+<link rel="stylesheet" href="http://localhost:1313/css/main.css">
 
 
 
 
 </head>
 
-    <body>
-        <div class="page">
+  <body>
+    <div class="page">
 
-            <header class="page__header"><nav class="page__nav main-nav">
-    <ul>
-    <h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Matthew R. Hennefarth</a></h1>
+      <header class="page__header"><nav class="page__nav main-nav">
+  <ul>
+    <h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Matthew R. Hennefarth</a></h1> 
     
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/notes/" title="">Notes</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/notes/" title="">Notes</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">Projects</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/projects/" title="">Projects</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/publications/" title="">Publications</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/publications/" title="">Publications</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/research/" title="">Research</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/research/" title="">Research</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/teaching/" title="">Teaching</a></li>
+      <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/teaching/" title="">Teaching</a></li>
     
-    </ul>
+  </ul> 
 </nav>
-
 </header>
 
-            <section class="page__body">
-    <header class="content__header">
-        <h1>Compiling OpenMolcas</h1>
-    </header>
-    <div class="content__body">
-      <br><h2 id="general-remarks">General Remarks</h2>
+      <section class="page__body">
+  <header class="content__header">
+    <h1>Compiling OpenMolcas</h1>
+  </header>
+  <hr>
+  <div class="content_body">
+    <h2 id="general-remarks">General Remarks</h2>
 <p>For whatever reason, compiling OpenMolcas seems daunting, especially for those which are not familiar with cmake. This is especially true when once considers all of the various configuration options at your disposal (OpenMP, MPI, GCC, Intel, Math libraries, etc.). Here I hope to give some general guidance on how to compile OpenMolcas on a few systems with some different parameters/options. At the end, I will list how I build OpenMolcas on the UChicago cluster (mainly so I can refer back to it).</p>
 <p>For building these projects, I also like to generally separate my builds from the final binaries. This will ensure that if I have calculations runnings, I don&rsquo;t corrupt them, and than failed builds do not in any way interfere with the already build and running binaries. As such, I always will recommend one constructs both a <code>bin</code> and <code>build</code> directory and to use the cmake <code>--DCMAKE_INSTALL_PREFIX=../bin</code> option.</p>
 <h3 id="global-requirements">Global Requirements</h3>
@@ -72,14 +70,14 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git pull
 </span></span></code></pre></div><p>Then, one will need to rebuild the entire project. However, often times, you can get away with just re-running the <code>make</code> command and hoping that cmake has properly cached all of your variables. However, sometimes there are slightly breaking changes and one will need to run <code>make clean</code>, and this will delete all source files and recompile everything from scratch, but retaining the cmake variables cached. Finally, there is the nuclear option where one deletes the <code>build</code> directory and restarts (hence why I like to move the binaries to the <code>bin</code> directory so the nuclear option doesn&rsquo;t affect them!)</p>
 <h2 id="macos-build">MacOS Build</h2>
-<p>There are some necessary prerequisite software to install. I will assume you have <a href="https://brew.sh/" target="_blank" rel="nofollow noopener noreferrer">homebrew</a> installed (and if you don&rsquo;t, you should). You will then need the following software:</p>
+<p>There are some necessary prerequisite software to install. I will assume you have <a href="https://brew.sh/">homebrew</a> installed (and if you don&rsquo;t, you should). You will then need the following software:</p>
 <ul>
 <li>gcc compilers</li>
 <li>cmake</li>
 <li>hdf5</li>
 </ul>
-<pre tabindex="0"><code>brew install cmake gcc hdf5
-</code></pre><h3 id="serial-compilation">Serial Compilation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>brew install cmake gcc hdf5
+</span></span></code></pre></div><h3 id="serial-compilation">Serial Compilation</h3>
 <p>We start with a simple example of trying to build OpenMolcas on a Mac using only OpenMP (shared memory threads). This differs from MPI builds for which the processes can be distributed over various CPUs (each thread has its own memory). As always, we start with cloning the OpenMolcas repo.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git clone https://gitlab.com/Molcas/OpenMolcas/
 </span></span></code></pre></div><p>Next, we make our build directory and go to that.</p>
@@ -102,64 +100,41 @@
 <p>One of the main challanges of compiling OpenMolcas with MPI and Global Arrays on a Mac is two fold. Firstly, Global Arrays can only be used with the Intel or OpenBLAS math libraries. Secondly, OpenMolcas can only use the OpenBLAS libraries which are compiled with 64 bit integers. Unfortunately, the OpenBLAS in homebrew is compiled with 32 bit integers meaning the only way to do this successfully is to compile our own OpenBLAS with the proper settings. One could of course use the internal linear algebra library provided with OpenMolcas, but that is not very efficient.</p>
 <p>In general, I am not sure of any one is using a Mac to run production level OpenMolcas calculations. In general, I am running OpenMolcas on a Mac for development and debugging purposes. Of course, for the more advanced users, it should be possible to compile OpenBLAS and then successfully compile OpenMolcas as well!</p>
 
-    </div>
-    <footer class="content__footer"></footer>
+  </div>
+  <footer class="content__footer"></footer>
 
-            </section>
+      </section>
 
-            <section class="page__aside">
-                <div class="aside__about">
-<div class="aside__about">
-    
-<h1 class="about__title">Matthew R. Hennefarth</h1>
-<p class="about__description">Ph.D. Candidate in Chemistry at UChicago</p>
-</div>
-
-
-<ul class="aside__social-links">
-    
-    <li>
-        <a href="https://github.com/matthew-hennefarth" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://twitter.com/m_hennefarth" rel="me" aria-label="Twitter" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://orcid.org/0000-0002-6601-2253" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://scholar.google.com/citations?user=Sds3I_QAAAAJ&amp;hl=en&amp;oi=ao" rel="me" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="/cv.pdf" rel="me" aria-label="CV" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-</ul>
-</div>
-                <hr>
-                <div class="aside__content">
-    
-    
-        <p>
-            By Matthew R. Hennefarth, 
-            2024-02-16
-        </p>
-    
-
-                </div>
-            </section>
-
-            <footer class="page__footer">
-<center>
-    <p class="copyright">© 2023 Matthew R. Hennefarth</p>
+      <footer class="page__footer"><center>
+  <p class="copyright">© 2023 Matthew R. Hennefarth</p>
+  <aside>
+    <ul class="aside__social-links">
+      
+      <li>
+          <a href="https://github.com/matthew-hennefarth" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="https://twitter.com/m_hennefarth" rel="me" aria-label="Twitter" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="https://orcid.org/0000-0002-6601-2253" rel="me" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="https://scholar.google.com/citations?user=Sds3I_QAAAAJ&amp;hl=en&amp;oi=ao" rel="me" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+      <li>
+          <a href="/cv.pdf" rel="me" aria-label="CV" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>&nbsp;
+      </li>
+      
+  </ul>
+  </aside>
 </center>
 </footer>
 
-        </div>
-    </body>
-
+    </div>
+  </body>
 </html>

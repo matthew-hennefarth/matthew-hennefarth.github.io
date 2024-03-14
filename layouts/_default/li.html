@@ -1,1 +1,1 @@
-<li>{{if .Params.date}} ({{.Params.date.Format "January 2, 2006" }}) {{end}}<a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></li>
+<li>{{if .Params.date}}<time>{{.Params.date.Format "2006 Jan 02" }}</time> – {{end}}<a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></li>

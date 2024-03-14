@@ -1,7 +1,7 @@
 .citation {
   border-style: solid;
   border-width: thin;
-  border-color: var(--inner-bg);
+  border-color: var(--bg2);
   border-radius: 15px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -37,13 +37,12 @@
 }
 
 .full__citation {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1rem;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: var(--inner-bg);
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
   border-radius: 14px;
   overflow: hidden;
 }
@@ -77,11 +76,12 @@
 }
 
 /* Links */
-
 .citation__body a:link, .citation__body a:visited {
-  color: var(--fg);
+  color: var(--green1);
+  text-decoration: none;
 }
 
 .citation__body a:hover, .citation__body a:active, .citation__body a.active {
-  color: var(--off-fg);
+  color: var(--green2);
+  text-decoration: none;
 }

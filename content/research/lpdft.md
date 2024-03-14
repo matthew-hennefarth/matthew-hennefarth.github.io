@@ -19,10 +19,10 @@ state using a energy expression which is expressed as a functional of the
 density.
 
 \begin{equation}
-E^\mathrm{PDFT} = h^q_p \gamma^p_q+ g_{pr}^{qs}\gamma^p_q\gamma^r_s + E^\mathrm{ot}[\rho, \Pi] + V_\mathrm{nuc}
+E^\mathrm{PDFT} = h^q_p \gamma^p_q+ \frac{1}{2}g_{pr}^{qs}\gamma^p_q\gamma^r_s + E^\mathrm{ot}[\rho, \Pi] + V_\mathrm{nuc}
 \end{equation}
 
-While this is good, it unfortunately does not adequtely model the electronic
+While this is good, it unfortunately does not adequately model the electronic
 structure/potential surfaces where states of the same symmetry get close
 together in what are called conical intersections or near-avoided crossings.
 These regions of the potential surface are very common when modeling
@@ -35,7 +35,7 @@ first order around the state-average densities, and extracting the effective
 linear operator.
 
 \begin{equation}
-H^\mathrm{L-PDFT} = \left(h^q_p + V^q_p + \mathcal{J}[\check{\gamma}]^q_p\right)E^p_q + v_{pr}^{qs}e_{qs}^{pr} + h^\mathrm{const} 
+H^\mathrm{L-PDFT} = \left(h^q_p + V^q_p + \mathcal{J}[\check{\gamma}]^q_p\right)E^p_q + \frac{1}{2}v_{pr}^{qs}e_{qs}^{pr} + h^\mathrm{const} 
 \end{equation}
 
 Diagonalizing this operator with in an appropriate model space yields the

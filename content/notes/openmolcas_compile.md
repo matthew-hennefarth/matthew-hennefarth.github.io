@@ -47,7 +47,7 @@ There are some necessary prerequisite software to install. I will assume you hav
 - cmake
 - hdf5
 
-```
+```sh
 brew install cmake gcc hdf5
 ```
 

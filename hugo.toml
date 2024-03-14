@@ -1,36 +1,19 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-theme = 'risotto'
 title = 'Matthew R. Hennefarth'
-copyright = "© 2023 Matthew R. Hennefarth"
-
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
-
-# Automatically add content sections to main menu
-# sectionPagesMenu = 'main'
+copyright = '© 2023 Matthew R. Hennefarth'
+enableInlineShortcodes = true
+DefaultContentLanguage = 'en'
 
 [Taxonomies]
 
 [sitemap]
-changefreq = "monthly"
-filename = "sitemap.xml"
+changefreq = 'monthly'
+filename = 'sitemap.xml'
 priority = 0.5
 
 [params]
 noindex = false
-
-[params.theme]
-palette = "base16-dark"
-
-# Sidebar: about/bio
-[params.about]
-title = "Matthew R. Hennefarth"
-description = "Ph.D. Candidate in Chemistry at UChicago"
-# logo = "images/headshot.png"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
@@ -58,7 +41,7 @@ title = "CV"
 url = "/cv.pdf"
 
 [menu]
-  
+
   [[menu.main]]
     identifier = "notes"
     name = "Notes"
@@ -88,6 +71,10 @@ url = "/cv.pdf"
     name = "Teaching"
     url = "/teaching/"
     weight = 10
+
+[params.about]
+title = "Matthew R. Hennefarth"
+description = "PhD. Candidate in Chemistry at UChicago"
 
 [markup.goldmark.renderer]
 unsafe = true
