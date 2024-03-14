@@ -1,5 +1,7 @@
 # Matthew R. Hennefarth Personal Website
 
+<https://matthew-hennefarth.github.io/>
+
 ## Requirements
 - [Hugo](https://gohugo.io/)
 
@@ -14,8 +16,3 @@ Like any other Hugo website, you can start the server using
 ```sh
 hugo server
 ```
-
-## Acknowledgements
-This code uses the following repositories:
-- [risotto](https://github.com/joeroe/risotto)
-- [Dina-Font-TTF-Remastered](https://github.com/zshoals/Dina-Font-TTF-Remastered)
