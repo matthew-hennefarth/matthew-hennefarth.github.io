@@ -169,3 +169,24 @@ pre code {
 blockquote {
   text-align: justify; 
 }
+
+/* Tables */
+
+table, td, th {
+  border: 1px solid var(--bg1);
+  padding: .5rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  font-family: var(--font-monospace);
+  background: var(--bg1);
+  font-size: 16px;
+}
+
