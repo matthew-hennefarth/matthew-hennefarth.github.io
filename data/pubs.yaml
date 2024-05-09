@@ -1,16 +1,17 @@
 HennefarthAnalytic2024:
-  type: preprint
+  type: article
   title: "Analytic Nuclear Gradients for Complete Active Space Linearized Pair-Density Functional Theory"
   author:
     - Hennefarth, Matthew R.
     - Hermes, Matthew R.
     - Truhlar, Donald G.
     - Gagliardi, Laura
-  date: 2024-01
+  date: 2024-04
   parent:
     type: periodical
-    title: "arXiv"
-  doi: "10.48550/arXiv.2401.12933"
+    title: J. Chem. Theory Comput.
+    publisher: American Chemical Society (ACS)
+  doi: "10.1021/acs.jctc.4c00095"
   eprint: "2401.12933"
   toc: "lpdft_grad_toc.png"
 HennefarthLinearized2023a:

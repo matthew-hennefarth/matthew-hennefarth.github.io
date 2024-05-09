@@ -9,7 +9,7 @@ and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest article on *Analytic
 Nuclear Gradients for Complete Active Space Linearized Pair-Density Functional
-Theory* on the [**arXiv**](https://doi.org/10.48550/arXiv.2401.12933). 
+Theory* published in [**J. Chem. Theory Comput.**](https://doi.org/10.1021/acs.jctc.4c00095).
 
 If you need to get in touch, feel free to send me an
 [email](/contact)! I will hopefully respond unless it has
