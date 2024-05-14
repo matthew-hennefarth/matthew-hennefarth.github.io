@@ -11,6 +11,9 @@ HennefarthAnalytic2024:
     type: periodical
     title: J. Chem. Theory Comput.
     publisher: American Chemical Society (ACS)
+    volume: 20
+    issue: 9
+  pagerange: 3637--3658
   doi: "10.1021/acs.jctc.4c00095"
   eprint: "2401.12933"
   toc: "lpdft_grad_toc.png"
