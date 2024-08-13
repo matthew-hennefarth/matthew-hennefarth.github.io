@@ -1,2 +1,7 @@
+# Generated files by hugo
+/public/
+/resources/_gen/
+/asses/jsconfig.json
+
 .hugo_build.lock
 .DS_Store
