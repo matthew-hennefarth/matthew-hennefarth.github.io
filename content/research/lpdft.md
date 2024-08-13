@@ -107,23 +107,30 @@ of Chicago Physical Science's Division Eckhardt Graduate Fellowship (2021).
 
 ## Code Developed for this Project
 - Linearized Pair-Density Functional Theory in [*PySCF-forge*]
-- Born-Oppenheimer Molecular Dynamics Package in
-  [*PySCF*]
+- Born-Oppenheimer Molecular Dynamics Package in [*PySCF*]
+- [*SHARC*]-[*PySCF*] interface for nonadiabatic molecular dynamics using
+L-PDFT
 
 ---
 ## References:
 1. M. R. Hennefarth, M. R. Hermes, D. G. Truhlar, and L. Gagliardi, "Linearized
    pair-density functional theory," [J. Chem. Theory Comput. **19**, 3172-3183
-   (2023)].
+(2023)].
 1. M. R. Hennefarth, D. S. King, and L. Gagliardi, "Linearized pair-density
    functional theory for vertical excitation energies," [J. Chem. Theory
-   Comput. **19**, 7983-7988 (2023)].
-1. M. R. Hennefarth, M. R. Hermes, D. G. Truhlar, and L. Gagliardi, "Analytic nuclear gradients for complete active space linearized pair-density functional theory," [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]
+Comput. **19**, 7983-7988 (2023)].
+1. M. R. Hennefarth, M. R. Hermes, D. G. Truhlar, and L. Gagliardi, "Analytic
+   nuclear gradients for complete active space linearized pair-density
+functional theory," [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]
+
+1. M. R. Hennefarth, D. G. Truhlar, and L. Gagliardi, "Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional Theory," [arXiv (2024)].
 
 [comment]: <Reference Hyperlinks>
 [J. Chem. Theory Comput. **19**, 3172-3183 (2023)]: http://dx.doi.org/10.1021/acs.jctc.3c00207
 [J. Chem. Theory Comput. **19**, 7983-7988 (2023)]: https://dx.doi.org/10.1021/acs.jctc.3c00863
 [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]: https://dx.doi.org/10.1021/acs.jctc.4c00095
+[arXiv (2024)]: https://arxiv.org/abs/2408.05434
 [*PySCF-forge*]: https://github.com/pyscf/pyscf-forge
 [*PySCF*]: https://github.com/pyscf/pyscf
 [*libxc*]: https://www.tddft.org/programs/libxc/
+[*SHARC*]: https://sharc-md.org/

@@ -43,3 +43,12 @@ projects:
     languages:
       - Fortran
       - CMake
+
+  SHARC:
+    name: SHARC
+    repo: https://github.com/sharc-md/sharc
+    url: https://sharc-md.org/
+    summary: "The SHARC molecular dynamics (MD) program suite is an ab initio MD software package developed to study the excited-state dynamics of molecules."
+    languages:
+      - Fortran
+      - Python

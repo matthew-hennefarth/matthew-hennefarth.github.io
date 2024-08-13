@@ -1,3 +1,17 @@
+HennefarthSemiclassical:
+  type: preprint
+  title: "Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional Theory"
+  author:
+    - Hennefarth, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2024-08
+  parent:
+    type: periodical
+    title: arXiv
+  doi: "10.48550/arXiv.2408.05434"
+  eprint: "2408.05434"
+  toc: "lpdft_sharc_toc.png"
 HennefarthAnalytic2024:
   type: article
   title: "Analytic Nuclear Gradients for Complete Active Space Linearized Pair-Density Functional Theory"
