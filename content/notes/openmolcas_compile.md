@@ -104,3 +104,10 @@ One of the main challanges of compiling OpenMolcas with MPI and Global Arrays on
 
 In general, I am not sure of any one is using a Mac to run production level OpenMolcas calculations. In general, I am running OpenMolcas on a Mac for development and debugging purposes. Of course, for the more advanced users, it should be possible to compile OpenBLAS and then successfully compile OpenMolcas as well!
 
+### Compilation for Development
+
+The following cmake command has been useful in developing in OpenMolcas. It firstly builds the project in debug mode, but secondly, it turns on `BIGOT` which adds `-Werror` and a few other flags.
+
+```sh
+cmake ../ -DCMAKE_BUILD_TYPE=Debug -DLINALG=Accelerate -DBIGOT=On -DPython_EXECUTABLE=/opt/homebrew/bin/python3.11  -DCMAKE_C_COMPILER=gcc-14
+```
