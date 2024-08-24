@@ -109,5 +109,6 @@ In general, I am not sure of any one is using a Mac to run production level Open
 The following cmake command has been useful in developing in OpenMolcas. It firstly builds the project in debug mode, but secondly, it turns on `BIGOT` which adds `-Werror` and a few other flags.
 
 ```sh
-cmake ../ -DLINALG=Accelerate -DCMAKE_C_COMPILER=gcc-14 -DBIGOT=ON -DCMAKE_BUILD_TYPE=Debug -DBOUNDS=ON
+cmake ../ -DLINALG=Accelerate -DCMAKE_C_COMPILER=gcc-14 -DBIGOT=ON -DCMAKE_BUILD_TYPE=Debug
 ```
+Note that `-DBOUNDS` does not work on new M-series Mac devices since the address sanitizer is not compatible. 
