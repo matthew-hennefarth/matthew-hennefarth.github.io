@@ -9,7 +9,7 @@ and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest article on
 *Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density
-Functional Theory* on the [**arXiv**](https://doi.org/10.48550/arXiv.2408.05434). 
+Functional Theory* published in [***J. Chem. Theory Comput.***](https://doi.org/10.1021/acs.jctc.4c01061)
 
 If you need to get in touch, feel free to send me an
 [email](/contact)! I will hopefully respond unless it has
