@@ -54,7 +54,7 @@ the method [here][J. Chem. Theory Comput. **19**, 3172-3183 (2023)].
 Most of my Ph.D. work has been on developing out L-PDFT for applications in
 various areas of photocatalysis and photochemistry. My development (at least
 initially) is within the [*PySCF-forge*] python extension package for
-[*PySCF*], thought I hope to integrate it into some other quantum chemistry
+[*PySCF*] and [*SHARC*], though I hope to integrate it into some other quantum chemistry
 software packages.
 
 ## L-PDFT Properties
@@ -93,6 +93,21 @@ promising method for photodynamics in the future.
 
 {{< img image="/research/lpdft_whisker.png" alt="L-PDFT TOC" width="75%">}}
 
+## L-PDFT For Photodynamics
+
+Given the recent implementation of analytical nuclear gradients for L-PDFT
+based on a SA-CASSCF wave function, we performed nonadiabatic molecular dynamic
+simulations of **cis**-to-**trans** azomethane [[4][J. Chem. Theory Comput.
+(2024)]]. Our results found that L-PDFT dynamics were stable with no
+trajectories crashing, though a few trajectories did not conserve total energy
+(due to the active space problem). In general, our results were in agreement
+with much more expensive multi-state complete active space second order
+perturbation theory (MS-CASPT2) while only being a little bit more expensive
+that SA-CASSCF. In general, this was the first time a pair-density functional
+method was used to perform molecular dynamics for an internal conversion
+process, and illustrates the utility of L-PDFT to study a wide variety of
+photochemical and photo-induced processes. 
+
 ## Acknowledgements
 
 This work was performed under the guidance of Professor [Laura
@@ -123,13 +138,15 @@ Comput. **19**, 7983-7988 (2023)].
    nuclear gradients for complete active space linearized pair-density
 functional theory," [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]
 
-1. M. R. Hennefarth, D. G. Truhlar, and L. Gagliardi, "Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional Theory," [arXiv (2024)].
+1. M. R. Hennefarth, D. G. Truhlar, and L. Gagliardi, "Semiclassical
+   Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional
+Theory," [J. Chem. Theory Comput. (2024)].
 
 [comment]: <Reference Hyperlinks>
 [J. Chem. Theory Comput. **19**, 3172-3183 (2023)]: http://dx.doi.org/10.1021/acs.jctc.3c00207
 [J. Chem. Theory Comput. **19**, 7983-7988 (2023)]: https://dx.doi.org/10.1021/acs.jctc.3c00863
 [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]: https://dx.doi.org/10.1021/acs.jctc.4c00095
-[arXiv (2024)]: https://arxiv.org/abs/2408.05434
+[J. Chem. Theory Comput. (2024)]: https://dx.doi.org/10.1021/acs.jctc.4c01061
 [*PySCF-forge*]: https://github.com/pyscf/pyscf-forge
 [*PySCF*]: https://github.com/pyscf/pyscf
 [*libxc*]: https://www.tddft.org/programs/libxc/

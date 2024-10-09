@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Matthew R. Hennefarth'
-copyright = '© 2023 Matthew R. Hennefarth'
+copyright = '© 2024 Matthew R. Hennefarth'
 enableInlineShortcodes = true
 DefaultContentLanguage = 'en'
 
