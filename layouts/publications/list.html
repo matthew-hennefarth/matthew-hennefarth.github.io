@@ -48,7 +48,11 @@
       {{end}}
       {{$journal := .parent.title}}
       <div class="citation">
+        {{if .toc}}
         <div class="citation__frame">
+        {{else}}
+        <div class="citation__frame__no__toc">
+        {{end}}
           <div class="citation__body">
             <h2><a href=https://dx.doi.org/{{.doi}} target="_blank">{{.title}}</a></h2>
             <ul>
@@ -58,9 +62,9 @@
             </ul>
           </div>
           {{if .toc}}
-            <div class="citation__toc">
-              <img class="toc__img" src={{printf "/toc/%s" .toc}} alt={{printf "%s TOC" .title}} loading="lazy">
-            </div>
+          <div class="citation__toc">
+            <img class="toc__img" src={{printf "/toc/%s" .toc}} alt={{printf "%s TOC" .title}} loading="lazy">
+          </div>
           {{end}}
         </div>
           <details>

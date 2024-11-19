@@ -8,19 +8,22 @@
 }
 
 .citation__frame,
+.citation__frame__no__toc,
 .citation__summary {
   padding-left: 10px;
   padding-right: 10px;
 }
 
 /* Frame that holds citation__body and citation_toc*/
-.citation__frame {
+.citation__frame, .citation__frame__no__toc {
   padding-top: 10px;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+.citation__frame {
   grid-template-areas:
     "body"
     "toc";
-  grid-template-columns: minmax(0, 1fr);
 }
 
 @media (min-width: 55rem) {

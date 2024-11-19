@@ -1,3 +1,17 @@
+AjmeraPyCPET:
+  type: artcle
+  title: "PyCPET - Computing Heterogeneous 3D Protein Electric Fields and Their Dynamics"
+  author:
+    - Ajmera, Pujan
+    - Vargas, Santiago
+    - Chaturvedi, Shobhit
+    - Hennefarth, Matthew R.
+    - Alexandrova, Anastassia N.
+  date: 2024-11
+  parent:
+    type: periodical
+    title: chemRxiv
+  doi: "10.26434/chemrxiv-2024-r3thp"
 HennefarthSemiclassical:
   type: article
   title: "Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional Theory"
