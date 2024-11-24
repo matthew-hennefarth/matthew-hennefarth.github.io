@@ -1,8 +1,8 @@
 I am Matthew. I do research on theoretical and computational chemistry. A long
 time ago, I used to do experimental biochemistry/biomaterials work. I currently
 contribute to [*PySCF*](https://github.com/pyscf/pyscf),
-[*PySCF-forge*](https://github.com/pyscf/pyscf-forge), and
-[*OpenMolcas*](https://gitlab.com/Molcas/OpenMolcas).
+[*OpenMolcas*](https://gitlab.com/Molcas/OpenMolcas), and
+[*sci-rs*](https://github.com/qsib-cbie/sci-rs).
 
 You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).

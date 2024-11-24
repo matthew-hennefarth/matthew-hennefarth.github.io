@@ -1,4 +1,10 @@
 projects:
+  sci-rs:
+    name: sci-rs
+    repo: https://github.com/qsib-cbie/sci-rs
+    summary: "Rust scientific analysis similar to SciPy"
+    languages:
+      - Rust
   matplotplusplus:
     name: matplutplusplus
     repo: https://github.com/alandefreitas/matplotplusplus
