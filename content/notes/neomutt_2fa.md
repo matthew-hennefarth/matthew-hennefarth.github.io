@@ -107,3 +107,62 @@ brew link openssl@3
 ```
 
 Now, everything should be good!
+
+# Neomutt Accounts
+
+For Gmail accounts, we can bind all of the folders by using the following command:
+```sh 
+dir=~/.local/share/mail/<email>; tree $dir/ -l -d -I "cur|new|tmp|certs|.notmuch|INBOX|\[Gmail\]" -afin --noreport | tail -n +2 | while read i; do echo \"=${i#$dir/}\"; done | tr '\n' ' '
+```
+
+The other things to include in the `<email>.muttrc` file is:
+
+```
+# vim: filetype=neomuttrc
+# muttrc file for account <email> 
+set real_name = "Matthew Hennefarth"
+set from = "<email>"
+set sendmail = "msmtp -a <email>"
+alias me matthew.hennefarth <<email>>
+set folder = "/Users/mhennefarth/.local/share/mail/<email>"
+set header_cache = "/Users/mhennefarth/.cache/mutt-wizard/<email>_gmail.com/headers"
+set message_cachedir = "/Users/mhennefarth/.cache/mutt-wizard/<email>_gmail.com/bodies"
+set mbox_type = Maildir
+set hostname = "gmail.com"
+source /Users/mhennefarth/.local/share/mutt-wizard/switch.muttrc
+set spool_file = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set trash = "+[Gmail]/Trash"
+unset record
+
+macro index o "<shell-escape>mailsync <email><enter>" "sync <email>"
+
+named-mailboxes "Gmail" $spool_file
+mailboxes "=[Gmail]/Sent Mail" "=[Gmail]/Spam"
+mailboxes $postponed $trash
+
+# This is the magic right here...
+mailboxes `dir=~/.local/share/mail/<email>; tree $dir/ -l -d -I "cur|new|tmp|certs|.notmuch|INBOX|\[Gmail\]" -afin --noreport | tail -n +2 | while read i; do echo \"=${i#$dir/}\"; done | tr '\n' ' '`
+
+set pgp_default_key=<pgp-key>
+
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
+macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
+macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
+macro index,pager gj "<change-folder>=[Gmail]/Spam<enter>" "go to junk"
+macro index,pager Mj ";<save-message>=[Gmail]/Spam<enter>" "move mail to junk"
+macro index,pager Cj ";<copy-message>=[Gmail]/Spam<enter>" "copy mail to junk"
+macro index,pager gt "<change-folder>=[Gmail]/Trash<enter>" "go to trash"
+macro index,pager Mt ";<save-message>=[Gmail]/Trash<enter>" "move mail to trash"
+macro index,pager Ct ";<copy-message>=[Gmail]/Trash<enter>" "copy mail to trash"
+macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=[Gmail]/Sent Mail<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=[Gmail]/Sent Mail<enter>" "copy mail to sent"
+```
+
+Again, replace `<email>` with the email. Note that I also use `muttwizard` so
+some of the configurations are in that directory. Ideally, I should migrate
+away from that dependency and just move everything I can into dotfiles and
+write some good documentation on how to set things up as I need.
+
+Also, there is a `<pgp-key>` which should also be replaced with the correct value (if you want to sign your emails).
