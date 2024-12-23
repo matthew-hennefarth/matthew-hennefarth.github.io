@@ -228,6 +228,29 @@ gpg_path=gpg
 
 After running `mbsync -a` or `mbsync <email>` run `notmuch new` to index the files! 
 
+# Automatic Syncing
+
+The mutt-wizard `mailsync` script is a useful script to run periodically which will first download any new mail, notify if so, and run `notmuch` automatically. I would suggest downloading it and placing it somewhere in your `PATH` variable (such as `~/.local/bin`). 
+
+You can then have `mailsync` run every so often using a `cron` job! This can be easily accomplished by editing your `cron` jobs using
+
+```sh 
+$ crontab -e
+```
+
+You can then add the following line:
+
+```
+*/1 * * * * <abs-path>/mailsync > /dev/null 2>&1
+```
+
+This sets the frequency to every 1 minute. Changing the 1 to a 5 will have it
+run every 5 minutes instead. However, note that `cron` jobs are run as the root user and you need to provide the absolute path to `mailsync`. Also, it might be necessary to source some of your shell files (like `~/.zshenv`) so that the necessary environment variables are available. For example, I have
+
+```
+*/1 * * * * source /Users/mhennefarth/.zshenv && source /Users/mhennefarth/.config/zsh/.zprofile && /Users/mhennefarth/.local/bin/mailsync > /dev/null 2>&1
+```
+
 # Neomutt Accounts
 
 For Gmail accounts, we can bind all of the folders by using the following command:
