@@ -21,11 +21,6 @@ title = "GitHub"
 url = "https://github.com/matthew-hennefarth"
 
 [[params.socialLinks]]
-icon = "fa-brands fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/m_hennefarth"
-
-[[params.socialLinks]]
 icon = "ai ai-orcid"
 title = 'ORCID'
 url = "https://orcid.org/0000-0002-6601-2253"
