@@ -1,6 +1,7 @@
 ---
 title: "NeoMutt From Scratch"
 date: 2023-08-03
+lastmod: 2025-04-16
 draft: false
 author: "Matthew R. Hennefarth"
 ---
@@ -251,6 +252,8 @@ run every 5 minutes instead. However, note that `cron` jobs are run as the root 
 */1 * * * * source /Users/mhennefarth/.zshenv && source /Users/mhennefarth/.config/zsh/.zprofile && /Users/mhennefarth/.local/bin/mailsync > /dev/null 2>&1
 ```
 
+If you are using a `runit` system, such as Void Linux, you can also use `snooze` to automate this job.
+
 # Neomutt Accounts
 
 For Gmail accounts, we can bind all of the folders by using the following command:
@@ -268,8 +271,8 @@ set from = "<email>"
 set sendmail = "msmtp -a <email>"
 alias me matthew.hennefarth <<email>>
 set folder = "/Users/mhennefarth/.local/share/mail/<email>"
-set header_cache = "/Users/mhennefarth/.cache/mutt-wizard/<email>_gmail.com/headers"
-set message_cachedir = "/Users/mhennefarth/.cache/mutt-wizard/<email>_gmail.com/bodies"
+set header_cache = "/Users/mhennefarth/.cache/mutt-wizard/<email>/headers"
+set message_cachedir = "/Users/mhennefarth/.cache/mutt-wizard/<email>/bodies"
 set mbox_type = Maildir
 set hostname = "gmail.com"
 source /Users/mhennefarth/.local/share/mutt-wizard/switch.muttrc

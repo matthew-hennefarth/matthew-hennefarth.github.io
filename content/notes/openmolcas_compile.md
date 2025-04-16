@@ -1,15 +1,16 @@
 ---
 title: "Compiling OpenMolcas"
 date: 2024-02-16
+lastmod: 2025-04-16
 draft: false
 author: "Matthew R. Hennefarth"
 ---
 
 ## General Remarks
 
-For whatever reason, compiling OpenMolcas seems daunting, especially for those which are not familiar with cmake. This is especially true when once considers all of the various configuration options at your disposal (OpenMP, MPI, GCC, Intel, Math libraries, etc.). Here I hope to give some general guidance on how to compile OpenMolcas on a few systems with some different parameters/options. At the end, I will list how I build OpenMolcas on the UChicago cluster (mainly so I can refer back to it).
+For whatever reason, compiling OpenMolcas seems daunting, especially for those which are not familiar with cmake. This is especially true when one considers all of the various configuration options at your disposal (OpenMP, MPI, GCC, Intel, Math libraries, etc.). Here I hope to give some general guidance on how to compile OpenMolcas on a few systems with some different parameters/options. At the end, I will list how I build OpenMolcas on the UChicago cluster (mainly so I can refer back to it).
 
-For building these projects, I also like to generally separate my builds from the final binaries. This will ensure that if I have calculations runnings, I don't corrupt them, and than failed builds do not in any way interfere with the already build and running binaries. As such, I always will recommend one constructs both a `bin` and `build` directory and to use the cmake `--DCMAKE_INSTALL_PREFIX=../bin` option.
+For building these projects, I also like to generally separate my builds from the final binaries. This will ensure that if I have calculations running, I don't corrupt them, and than failed builds do not in any way interfere with the already build and running binaries. As such, I always will recommend one constructs both a `bin` and `build` directory and to use the cmake `--DCMAKE_INSTALL_PREFIX=../bin` option.
 
 ### Global Requirements
 
