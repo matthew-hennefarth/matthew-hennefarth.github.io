@@ -1,7 +1,11 @@
 {{ define "main" }}
   <header class="content__header">
     <h1>{{ .Title | markdownify }}</h1>
-    <center>Last Edited: {{ time.Format "January 2, 2006" .Lastmod }}</center>
+    {{ if not .Lastmod.IsZero }} 
+      {{ if ne (time.Format "2006-01-02" .Date) (time.Format "2006-01-02" .Lastmod) }}
+      <center>Last Edited: {{ time.Format "January 2, 2006" .Lastmod }}</center>
+      {{ end }}
+    {{ end }}
   </header>
   <hr>
   <div class="content_body">
