@@ -8,8 +8,7 @@ You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest article on
-*Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density
-Functional Theory* published in [***J. Chem. Theory Comput.***](https://doi.org/10.1021/acs.jctc.4c01061)
+*Weighted Active Space Selection for Multireference Machine-Learned Potentials* published on the [***arXiv***](https://doi.org/10.48550/arXiv.2505.10505)!
 
 If you need to get in touch, feel free to send me an
 [email](/contact)! I will hopefully respond unless it has

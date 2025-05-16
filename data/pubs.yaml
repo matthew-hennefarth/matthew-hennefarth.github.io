@@ -1,3 +1,22 @@
+SealWeighted:
+  type: article
+  title: "Weighted Active Space Selection for Multireference Machine-Learned Potentials"
+  author:
+    - Seal, Aniruddha
+    - Perego, Simone
+    - Hennefarth, Matthew R.
+    - Raucci, Umberto
+    - Bonati, Luigi
+    - Ferguson, Andrew L.
+    - Parrinello, Michelle
+    - Gagliardi, Laura
+  date: 2025-05
+  eprint: "2505.10505"
+  doi: "10.48550/arXiv.2505.10505"
+  parent:
+    type: periodical
+    title: "arXiv"
+  toc: "wasp_toc.png"
 AjmeraPyCPET:
   type: article
   title: "PyCPET - Computing Heterogeneous 3D Protein Electric Fields and Their Dynamics"
@@ -12,6 +31,9 @@ AjmeraPyCPET:
     type: periodical
     title: J. Chem. Theory Comput.
     publisher: American Chemical Society (ACS)
+    volume: 21
+    issue: 8
+  pagerange: 4299--4308
   doi: "10.1021/acs.jctc.5c00138"
   toc: "pycpet_toc.png"
 HennefarthSemiclassical:
