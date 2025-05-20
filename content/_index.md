@@ -7,8 +7,10 @@ contribute to [*PySCF*](https://github.com/pyscf/pyscf),
 You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).
 
-<b style="color: var(--alert)">Update!</b> Check out my latest article on
-*Weighted Active Space Selection for Multireference Machine-Learned Potentials* published on the [***arXiv***](https://doi.org/10.48550/arXiv.2505.10505)!
+<b style="color: var(--alert)">Update!</b> Check out my latest articles:
+
+- *Weighted Active Space Selection for Multireference Machine-Learned Potentials* published on the [***arXiv***](https://doi.org/10.48550/arXiv.2505.10505)
+- *Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications* published on the [***arXiv***](https://dx.doi.org/10.48550/arXiv.2505.13394)
 
 If you need to get in touch, feel free to send me an
 [email](/contact)! I will hopefully respond unless it has
