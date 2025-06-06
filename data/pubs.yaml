@@ -1,3 +1,21 @@
+HennefarthMCPDFT:
+  type: article
+  title: "MC-PDFT Nuclear Gradients and L-PDFT Energies with Meta and Hybrid Meta On-Top Functionals for Ground- and Excited-State Geometry Optimization and Vertical Excitation Energies"
+  author:
+    - Hennefarth, Matthew R.
+    - Kim, Younghwan
+    - Jangid, Bhavnesh
+    - Wardzala, Jacob
+    - Hermes, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2025-06
+  eprint: "2506.03304"
+  doi: "10.48550/arXiv.2506.03304"
+  parent:
+    type: periodical
+    title: "arXiv"
+  toc: "metagga_toc.png"
 VermaMultireference:
   type: article
   title: "Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications"
