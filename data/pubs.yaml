@@ -1,21 +1,17 @@
-HennefarthMCPDFT:
+CliffordAnalytic:
   type: article
-  title: "MC-PDFT Nuclear Gradients and L-PDFT Energies with Meta and Hybrid Meta On-Top Functionals for Ground- and Excited-State Geometry Optimization and Vertical Excitation Energies"
+  title: "Analytic dipole moments for complete active space linearized pair-density functional theory"
   author:
+    - Clifford, Helen
     - Hennefarth, Matthew R.
-    - Kim, Younghwan
-    - Jangid, Bhavnesh
-    - Wardzala, Jacob
-    - Hermes, Matthew R.
     - Truhlar, Donald G.
     - Gagliardi, Laura
-  date: 2025-06
-  eprint: "2506.03304"
-  doi: "10.48550/arXiv.2506.03304"
+  date: 2025-08
+  doi: 10.26434/chemrxiv-2025-dksr2-v2
   parent:
     type: periodical
-    title: "arXiv"
-  toc: "metagga_toc.png"
+    title: "chemRxiv"
+  toc: "lpdft_dipole_toc.png"
 VermaMultireference:
   type: article
   title: "Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications"
@@ -57,6 +53,25 @@ SealWeighted:
     type: periodical
     title: "arXiv"
   toc: "wasp_toc.png"
+HennefarthMCPDFT:
+  type: article
+  title: "MC-PDFT nuclear gradients and L-PDFT energies with meta and hybrid meta on-top functionals for ground- and excited-state geometry optimization and vertical excitation energies"
+  author:
+    - Hennefarth, Matthew R.
+    - Kim, Younghwan
+    - Jangid, Bhavnesh
+    - Wardzala, Jacob
+    - Hermes, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2025-08
+  eprint: "2506.03304"
+  doi: "10.1021/acs.jctc.5c00899"
+  parent:
+    type: periodical
+    title: J. Chem. Theory Comput.
+    publisher: American Chemical Society (ACS)
+  toc: "metagga_toc.png"
 AjmeraPyCPET:
   type: article
   title: "PyCPET - Computing Heterogeneous 3D Protein Electric Fields and Their Dynamics"
