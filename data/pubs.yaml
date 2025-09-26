@@ -12,9 +12,71 @@ CliffordAnalytic:
     type: periodical
     title: "chemRxiv"
   toc: "lpdft_dipole_toc.png"
+WardzalaModern:
+  type: article
+  title: "The modern era of multireference methods for chemistry and materials science"
+  author:
+    - Wardzala, Jacob
+    - Hennefarth, Matthew R.
+    - Agarawal, Valay
+    - Jangid, Bhavnesh
+    - Seal, Aniruddha
+    - Hermes, Matthew R.
+    - King, Daniel S.
+    - Gagliardi, Laura
+  date: 2025-09
+  doi: 10.26434/chemrxiv-2025-h9c6z
+  parent:
+    type: periodical
+    title: "chemRxiv"
+  toc: multiref_perspective_toc.png
+SealWeighted:
+  type: article
+  title: "Weighted active space selection for multireference machine-learned potentials"
+  author:
+    - Seal, Aniruddha
+    - Perego, Simone
+    - Hennefarth, Matthew R.
+    - Raucci, Umberto
+    - Bonati, Luigi
+    - Ferguson, Andrew L.
+    - Parrinello, Michelle
+    - Gagliardi, Laura
+  date: 2025-09
+  eprint: "2505.10505"
+  doi: "10.1073/pnas.2513693122"
+  parent:
+    type: periodical
+    title: "Proc. Natl. Acad. Sci. U.S.A."
+    volume: 122
+    issue: 38
+  toc: "wasp_toc.png"
+  pagerange: e2513693122
+HennefarthMCPDFT:
+  type: article
+  title: "MC-PDFT nuclear gradients and L-PDFT energies with meta and hybrid meta on-top functionals for ground- and excited-state geometry optimization and vertical excitation energies"
+  author:
+    - Hennefarth, Matthew R.
+    - Kim, Younghwan
+    - Jangid, Bhavnesh
+    - Wardzala, Jacob
+    - Hermes, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2025-08
+  eprint: "2506.03304"
+  doi: "10.1021/acs.jctc.5c00899"
+  parent:
+    type: periodical
+    title: J. Chem. Theory Comput.
+    publisher: American Chemical Society (ACS)
+    volume: 21
+    issue: 16
+  toc: "metagga_toc.png"
+  pagerange: 7890--7902
 VermaMultireference:
   type: article
-  title: "Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications"
+  title: "Multireference embedding and fragmentation methods for classical and quantum computers: From model systems to realistic applications"
   author:
     - Verma, Shreya
     - Mitra, Abhishek
@@ -34,47 +96,9 @@ VermaMultireference:
     type: periodical
     title: "arXiv"
   toc: "dmet_perspective_toc.png"
-SealWeighted:
-  type: article
-  title: "Weighted Active Space Selection for Multireference Machine-Learned Potentials"
-  author:
-    - Seal, Aniruddha
-    - Perego, Simone
-    - Hennefarth, Matthew R.
-    - Raucci, Umberto
-    - Bonati, Luigi
-    - Ferguson, Andrew L.
-    - Parrinello, Michelle
-    - Gagliardi, Laura
-  date: 2025-05
-  eprint: "2505.10505"
-  doi: "10.48550/arXiv.2505.10505"
-  parent:
-    type: periodical
-    title: "arXiv"
-  toc: "wasp_toc.png"
-HennefarthMCPDFT:
-  type: article
-  title: "MC-PDFT nuclear gradients and L-PDFT energies with meta and hybrid meta on-top functionals for ground- and excited-state geometry optimization and vertical excitation energies"
-  author:
-    - Hennefarth, Matthew R.
-    - Kim, Younghwan
-    - Jangid, Bhavnesh
-    - Wardzala, Jacob
-    - Hermes, Matthew R.
-    - Truhlar, Donald G.
-    - Gagliardi, Laura
-  date: 2025-08
-  eprint: "2506.03304"
-  doi: "10.1021/acs.jctc.5c00899"
-  parent:
-    type: periodical
-    title: J. Chem. Theory Comput.
-    publisher: American Chemical Society (ACS)
-  toc: "metagga_toc.png"
 AjmeraPyCPET:
   type: article
-  title: "PyCPET - Computing Heterogeneous 3D Protein Electric Fields and Their Dynamics"
+  title: "PyCPET - Computing heterogeneous 3D protein electric fields and their dynamics"
   author:
     - Ajmera, Pujan
     - Vargas, Santiago
@@ -93,7 +117,7 @@ AjmeraPyCPET:
   toc: "pycpet_toc.png"
 HennefarthSemiclassical:
   type: article
-  title: "Semiclassical Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional Theory"
+  title: "Semiclassical nonadiabatic molecular dynamics using linearized pair-density functional theory"
   author:
     - Hennefarth, Matthew R.
     - Truhlar, Donald G.
@@ -111,7 +135,7 @@ HennefarthSemiclassical:
   toc: "lpdft_sharc_toc.png"
 HennefarthAnalytic2024:
   type: article
-  title: "Analytic Nuclear Gradients for Complete Active Space Linearized Pair-Density Functional Theory"
+  title: "Analytic nuclear gradients for complete active space linearized pair-density functional theory"
   author:
     - Hennefarth, Matthew R.
     - Hermes, Matthew R.
@@ -130,7 +154,7 @@ HennefarthAnalytic2024:
   toc: "lpdft_grad_toc.png"
 HennefarthLinearized2023a:
   type: article
-  title: "Linearized Pair-Density Functional Theory for Vertical Excitation Energies"
+  title: "Linearized pair-density functional theory for vertical excitation energies"
   author:
     - Hennefarth, Matthew R.
     - King, Daniel S.
@@ -148,7 +172,7 @@ HennefarthLinearized2023a:
   toc: "lpdft_bench_toc.png"
 HennefarthLinearized2023:
   type: article
-  title: "Linearized Pair-Density Functional Theory"
+  title: "Linearized pair-density functional theory"
   author:
     - Hennefarth, Matthew R.
     - Hermes, Matthew R.
@@ -167,7 +191,7 @@ HennefarthLinearized2023:
   toc: "lpdft_toc.png"
 LiManniOpenMolcas2023:
   type: article
-  title: "The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry"
+  title: "The OpenMolcas web: A community-driven approach to advancing computational chemistry"
   author:
     - Li Manni, Giovanni
     - Fdez. Galván, Ignacio
@@ -315,7 +339,7 @@ UstriyanaMineralized2022:
   toc: 1-s2.0-S174270612100773X-ga1_lrg.png
 XianHistidine‐Mediated2022:
   type: article
-  title: "Histidine‐Mediated Ion Specific Effects Enable Salt Tolerance of a Pore‐Forming Marine Antimicrobial Peptide"
+  title: "Histidine‐mediated ion specific effects enable salt tolerance of a pore‐forming marine antimicrobial peptide"
   author:
     - Xian, Wujing
     - Hennefarth, Matthew R.
@@ -371,7 +395,7 @@ HennefarthAdvances2022:
   toc: advanced_current_opinion_2021.png
 ReilleyCase2020:
   type: article
-  title: "The Case for Enzymatic Competitive Metal Affinity Methods"
+  title: "The case for enzymatic competitive metal affinity methods"
   author:
     - Reilley, David J.
     - Hennefarth, Matthew R.
@@ -411,7 +435,7 @@ HennefarthPhysicochemical2020:
   toc: baculum.png
 HennefarthHeterogeneous2021:
   type: article
-  title: "Heterogeneous Intramolecular Electric Field as a Descriptor of Diels–Alder Reactivity"
+  title: "Heterogeneous intramolecular electric field as a descriptor of Diels–Alder reactivity"
   author:
     - Hennefarth, Matthew R.
     - Alexandrova, Anastassia N.
@@ -428,7 +452,7 @@ HennefarthHeterogeneous2021:
   toc: images_large_jp1c00181_0010.png
 HennefarthDirect2020:
   type: article
-  title: "Direct Look at the Electric Field in Ketosteroid Isomerase and Its Variants"
+  title: "Direct look at the electric field in ketosteroid isomerase and its variants"
   author:
     - Hennefarth, Matthew R.
     - Alexandrova, Anastassia N.
@@ -445,7 +469,7 @@ HennefarthDirect2020:
   toc: images_large_cs0c02795_0011.png
 FrancoisMoutalChemical2018:
   type: article
-  title: "A Chemical Biology Approach to Model Pontocerebellar Hypoplasia Type 1B (PCH1B)"
+  title: "A chemical biology approach to model pontocerebellar hypoplasia type 1B (PCH1B)"
   author:
     - François-Moutal, Liberty
     - Jahanbakhsh, Shahriyar
