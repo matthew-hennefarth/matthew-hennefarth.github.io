@@ -76,6 +76,7 @@ The following is a list of properties that are currently developed for L-PDFT (a
         1. Translation of functionals defined as global hybrids at the
         [*libxc*] or [*PySCF*] level is not supported, except for ‘tPBE0’ and
         ‘ftPBE0’.
+    - Meta-GGA approximation functionals [[5][J. Chem. Theory Comput. **21**, 7890-7902 (2025)]]
 - Additional Wave Function Properties
     - Analytic nuclear gradients (with non-hybrid functionals only) for:
         1. SA-CASSCF wave functions [[3][J. Chem. Theory Comput. **20**, 3637–3658 (2024)]]
@@ -141,13 +142,14 @@ functional theory," [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]
    Nonadiabatic Molecular Dynamics Using Linearized Pair-Density Functional
 Theory," [J. Chem. Theory Comput. **20**, 8741-8748 (2024)].
 
-1. H. Clifford, M. R. Hennefarth, D. G. Truhlar, and L. Gagliardi, "Analytic dipole moments for complete active space linearized pair-density functional theory," [] 
+1. M. R. Hennefarth, Y. Kim, B. Jangid, J. Wardzala, M. R. Hermes, D. G. Truhlar, and L. Gagliardi, "MC-PDFT nuclear gradients and L-PDFT energies with meta and hybrid meta on-top functionals for ground- and excited-state geometry optimization and vertical excitation energies," [J. Chem. Theory Comput. **21**, 7890-7902 (2025)].
 
 [comment]: <Reference Hyperlinks>
 [J. Chem. Theory Comput. **19**, 3172-3183 (2023)]: http://dx.doi.org/10.1021/acs.jctc.3c00207
 [J. Chem. Theory Comput. **19**, 7983-7988 (2023)]: https://dx.doi.org/10.1021/acs.jctc.3c00863
 [J. Chem. Theory Comput. **20**, 3637–3658 (2024)]: https://dx.doi.org/10.1021/acs.jctc.4c00095
 [J. Chem. Theory Comput. **20**, 8741-8748 (2024)]: https://dx.doi.org/10.1021/acs.jctc.4c01061
+[J. Chem. Theory Comput. **21**, 7890-7902 (2025)]: https://dx.doi.org/10.1021/acs.jctc.5c00899
 [*PySCF-forge*]: https://github.com/pyscf/pyscf-forge
 [*PySCF*]: https://github.com/pyscf/pyscf
 [*libxc*]: https://www.tddft.org/programs/libxc/
