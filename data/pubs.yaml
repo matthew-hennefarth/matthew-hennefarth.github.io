@@ -6,12 +6,29 @@ CliffordAnalytic:
     - Hennefarth, Matthew R.
     - Truhlar, Donald G.
     - Gagliardi, Laura
-  date: 2025-08
-  doi: 10.26434/chemrxiv-2025-dksr2-v2
+  date: 2025-09-30
+  doi: 10.1021/acs.jpclett.5c02466
+  parent:
+    type: periodical
+    title: "J. Phys. Chem. Lett."
+    volume: 16
+  toc: "lpdft_dipole_toc.png"
+  pagerange: 10400-10409
+ZhangMC25:
+  type: article
+  title: "MC25: An accurate meta pair-density functional for multiconfiguration pair-density functional theory and linearized pair-density functional theory"
+  author:
+    - Zhang, Dayou
+    - Kim, Younghwan
+    - Hennefarth, Matthew R.
+    - Gagliardi, Laura
+    - Truhlar, Donald G.
+  date: 2025-09-30
+  doi: 10.26434/chemrxiv-2025-n2c9l
   parent:
     type: periodical
     title: "chemRxiv"
-  toc: "lpdft_dipole_toc.png"
+  toc: "mc25_toc.png"
 WardzalaModern:
   type: article
   title: "The modern era of multireference methods for chemistry and materials science"
@@ -24,12 +41,27 @@ WardzalaModern:
     - Hermes, Matthew R.
     - King, Daniel S.
     - Gagliardi, Laura
-  date: 2025-09
+  date: 2025-09-19
   doi: 10.26434/chemrxiv-2025-h9c6z
   parent:
     type: periodical
     title: "chemRxiv"
   toc: multiref_perspective_toc.png
+JangidLinearized:
+  type: article
+  title: "Linearized pair-density functional theory with spin-orbit coupling"
+  author:
+    - Jangid, Bhavnesh
+    - Hennefarth, Matthew R.
+    - Hermes, Matthew R.
+    - Truhlar, Donald G.
+    - Gagliardi, Laura
+  date: 2025-09-30
+  doi: 10.26434/chemrxiv-2025-l4tkd
+  parent:
+    type: periodical
+    title: "chemRxiv"
+  toc: "lpdft_soc_toc.png"
 SealWeighted:
   type: article
   title: "Weighted active space selection for multireference machine-learned potentials"
@@ -42,7 +74,7 @@ SealWeighted:
     - Ferguson, Andrew L.
     - Parrinello, Michelle
     - Gagliardi, Laura
-  date: 2025-09
+  date: 2025-09-15
   eprint: "2505.10505"
   doi: "10.1073/pnas.2513693122"
   parent:

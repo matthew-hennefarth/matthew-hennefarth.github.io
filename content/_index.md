@@ -8,6 +8,8 @@ You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest articles:
+- *Linearized pair-density functional theory with spin-orbit coupling* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-l4tkd)
+- *MC25: An accurate meta pair-density functional for multiconfiguration pair-density functional theory and linearized pair-density functional theory* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-n2c9l)
 - *The modern era of multireference methods for chemistry and materials science* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-h9c6z)
 - *Weighted Active Space Selection for Multireference Machine-Learned Potentials* published in [***PNAS***](https://dx.doi.org/10.1073/pnas.2513693122)
 - *Analytic dipole moments for complete active space linearized pair-density functional theory* published on the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-dksr2-v2)
