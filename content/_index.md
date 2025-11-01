@@ -8,11 +8,10 @@ You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest articles:
-- *Linearized pair-density functional theory with spin-orbit coupling* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-l4tkd)
-- *MC25: An accurate meta pair-density functional for multiconfiguration pair-density functional theory and linearized pair-density functional theory* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-n2c9l)
-- *The modern era of multireference methods for chemistry and materials science* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-h9c6z)
+- *MC25: An accurate meta pair-density functional for multiconfiguration pair-density functional theory and linearized pair-density functional theory* published in [***JCTC***](https://dx.doi.org/10.1021/acs.jctc.5c01321)
 - *Weighted Active Space Selection for Multireference Machine-Learned Potentials* published in [***PNAS***](https://dx.doi.org/10.1073/pnas.2513693122)
-- *Analytic dipole moments for complete active space linearized pair-density functional theory* published on the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-dksr2-v2)
+- *Linearized pair-density functional theory with spin-orbit coupling* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-l4tkd)
+- *The modern era of multireference methods for chemistry and materials science* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-h9c6z)
 - *Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications* published on the [***arXiv***](https://dx.doi.org/10.48550/arXiv.2505.13394)
 
 If you need to get in touch, feel free to send me an

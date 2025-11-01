@@ -12,6 +12,7 @@ CliffordAnalytic:
     type: periodical
     title: "J. Phys. Chem. Lett."
     volume: 16
+    issue: 40
   toc: "lpdft_dipole_toc.png"
   pagerange: 10400-10409
 ZhangMC25:
@@ -23,11 +24,11 @@ ZhangMC25:
     - Hennefarth, Matthew R.
     - Gagliardi, Laura
     - Truhlar, Donald G.
-  date: 2025-09-30
-  doi: 10.26434/chemrxiv-2025-n2c9l
+  date: 2025-10-30
+  doi: 10.1021/acs.jctc.5c01321
   parent:
     type: periodical
-    title: "chemRxiv"
+    title: "J. Chem. Theory Comput."
   toc: "mc25_toc.png"
 WardzalaModern:
   type: article
