@@ -57,12 +57,15 @@ JangidLinearized:
     - Hermes, Matthew R.
     - Truhlar, Donald G.
     - Gagliardi, Laura
-  date: 2025-09-30
-  doi: 10.26434/chemrxiv-2025-l4tkd
+  date: 2025-12-19
+  doi: 10.1021/acs.jctc.5c01633
   parent:
     type: periodical
-    title: "chemRxiv"
+    title: "J. Chem. Theory Comput."
+    volume: 22
+    issue: 1
   toc: "lpdft_soc_toc.png"
+  pagerange: 318--333
 SealWeighted:
   type: article
   title: "Weighted active space selection for multireference machine-learned potentials"
@@ -122,13 +125,16 @@ VermaMultireference:
     - Haldar, Soumi
     - Hermes, Matthew R.
     - Gagliardi, Laura
-  date: 2025-05
+  date: 2026-01
   eprint: "2505.13394"
-  doi: "10.48550/arXiv.2505.13394"
+  doi: "10.1021/acs.chemrev.5c00486"
   parent:
     type: periodical
-    title: "arXiv"
+    title: "Chem. Rev."
+    volume: 126
+    issue: 1
   toc: "dmet_perspective_toc.png"
+  pagerange: 184--203
 AjmeraPyCPET:
   type: article
   title: "PyCPET - Computing heterogeneous 3D protein electric fields and their dynamics"

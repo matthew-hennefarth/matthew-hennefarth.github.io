@@ -8,11 +8,10 @@ You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest articles:
-- *MC25: An accurate meta pair-density functional for multiconfiguration pair-density functional theory and linearized pair-density functional theory* published in [***JCTC***](https://dx.doi.org/10.1021/acs.jctc.5c01321)
-- *Weighted Active Space Selection for Multireference Machine-Learned Potentials* published in [***PNAS***](https://dx.doi.org/10.1073/pnas.2513693122)
-- *Linearized pair-density functional theory with spin-orbit coupling* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-l4tkd)
+- *Weighted active space selection for multireference machine-learned potentials* published in [***PNAS***](https://dx.doi.org/10.1073/pnas.2513693122)
+- *Linearized pair-density functional theory with spin-orbit coupling* published in [***J. Chem. Theory Comput.***](https://doi.org/10.1021/acs.jctc.5c01633)
 - *The modern era of multireference methods for chemistry and materials science* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-h9c6z)
-- *Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications* published on the [***arXiv***](https://dx.doi.org/10.48550/arXiv.2505.13394)
+- *Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications* published in [***Chem. Rev.***](https://dx.doi.org/10.1021/acs.chemrev.5c00486)
 
 If you need to get in touch, feel free to send me an
 [email](/contact)! I will hopefully respond unless it has
