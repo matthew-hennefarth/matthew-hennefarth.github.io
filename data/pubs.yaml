@@ -1,3 +1,111 @@
+SunPython:
+  type: article
+  title: "The python simulations of chemistry framework: 10 years of an open-source quantum chemistry project"
+  author:
+    - Sun, Qiming 
+    - Hermes, Matthew R 
+    - Wu, Xiaojie 
+    - Zhai, Huanchen 
+    - Zhang, Xing 
+    - Ahmed, Abdelrahman M. 
+    - Aucar, Juan José 
+    - Backhouse, Oliver J. 
+    - Banerjee, Samragni 
+    - Bao, Peng 
+    - Bogdanov, Nikolay A. 
+    - Bystrom, Kyle 
+    - Chapoton, Frédéric 
+    - Chen, Ning-Yuan 
+    - Chernyshov, Ivan Yu. 
+    - Clifford, Helen S. 
+    - Janes, Sander Cohen-
+    - Cui, Zhi-Hao 
+    - Dattani, Nike 
+    - Dittmer, Linus Bjarne 
+    - Ehlert, Sebastian 
+    - Eriksen, Janus Juul 
+    - Evangelista, Francesco A. 
+    - Ewing, Simon A. 
+    - Farahvash, Ardavan 
+    - Focke, Kevin 
+    - Gao, Yang 
+    - Gasperich, Kevin E. 
+    - Gillispie, Nathan 
+    - Greiner, Jonas 
+    - Hennefarth, Matthew R. 
+    - Hermann, Jan 
+    - Hillenbrad, Christopher 
+    - Huhtasalo, Joonatan 
+    - Ibrahim, Basil 
+    - Jangid, Bhavnesh 
+    - Javaremi, Alireza Nejati 
+    - Jenkins, Andrew J. 
+    - Jin, Yu 
+    - King, Daniel S. 
+    - Kooi, Derk Pieter 
+    - Larsson, Henrik R. 
+    - Lau, Bryan Tak Gwong 
+    - Lee, Seunghoon 
+    - Lehtola, Susi 
+    - Li, Chenghan 
+    - Li, Hao 
+    - Li, Jiachen 
+    - Li, Rui 
+    - Li, Shuhang 
+    - Lykhin, Aleksandr O. 
+    - Mauger, Nastasia 
+    - Sevillano, Pablo del Mazo-
+    - Moussa, Jonathan 
+    - Nakano, Kousuke 
+    - Neufeld, Verena A. 
+    - Peng, Linqing 
+    - Pham, Hung Q. 
+    - Pinski, Peter 
+    - Pokhilko, Pavel 
+    - Pu, Zhichen 
+    - Qian, Yubing 
+    - Quiton, Stephen Jon 
+    - Schulze, Wanja T. 
+    - Scott, Thais R. 
+    - Seal, Aniruddha 
+    - Smith, James E. T. 
+    - Smyser, Kori E. 
+    - Stahl, Terrence 
+    - Sun, Chong 
+    - Sung, Kevin J. 
+    - Trushin, Egor 
+    - Upadhyay, Shiv 
+    - Vo, Ethan A. 
+    - Vogels, Thijs 
+    - Wang, Shirong 
+    - Wang, Tai 
+    - Wang, Xiao 
+    - Wang, Xubo 
+    - Wang, Yuanheng 
+    - Williamson, Mark 
+    - Yang, Junjie 
+    - Ye, Hong-Zhou 
+    - Yeh, Chia-Nan 
+    - Yu, Haiyang 
+    - Yu, Jincheng 
+    - Yu, Victor Wen-zhe 
+    - Zhang, Chaoqun 
+    - Zhang, Dayou 
+    - Zhao, Zijun 
+    - Zhou, Zehao 
+    - Zhu, Andrew J. 
+    - Zhu, Tianyu 
+    - Berkelbach, Timothy C. 
+    - Gagliardi, Laura 
+    - Sharma, Sandeep 
+    - Sokolov, Alexander 
+    - Chan, Garnet Kin-Lic 
+  date: 2026-03-17
+  doi: 10.48550/arXiv.2603.14155
+  parent:
+    type: periodical
+    title: "arXiv"
+  eprint: 2603.14155
 CliffordAnalytic:
   type: article
   title: "Analytic dipole moments for complete active space linearized pair-density functional theory"
@@ -29,7 +137,10 @@ ZhangMC25:
   parent:
     type: periodical
     title: "J. Chem. Theory Comput."
+    volume: 21
+    issue: 21
   toc: "mc25_toc.png"
+  pagerange: 10945-10960
 WardzalaModern:
   type: article
   title: "The modern era of multireference methods for chemistry and materials science"
