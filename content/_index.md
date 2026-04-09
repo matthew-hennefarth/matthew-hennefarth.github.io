@@ -8,9 +8,7 @@ You can see all of my [code projects](/projects) and [research](/research), past
 and present. My CV can be found [here](/cv.pdf).
 
 <b style="color: var(--alert)">Update!</b> Check out my latest articles:
-- *Weighted active space selection for multireference machine-learned potentials* published in [***PNAS***](https://dx.doi.org/10.1073/pnas.2513693122)
-- *Linearized pair-density functional theory with spin-orbit coupling* published in [***J. Chem. Theory Comput.***](https://doi.org/10.1021/acs.jctc.5c01633)
-- *The modern era of multireference methods for chemistry and materials science* published in the [***chemRxiv***](https://dx.doi.org/10.26434/chemrxiv-2025-h9c6z)
+- *Multireference methods for chemistry and materials science: Automated active spaces, efficient dynamic correlation, and extended systems* published in the [***Chem. Rev.***](https://dx.doi.org/10.1021/acs.chemrev.5c00866)
 - *Multireference Embedding and Fragmentation Methods for Classical and Quantum Computers: From Model Systems to Realistic Applications* published in [***Chem. Rev.***](https://dx.doi.org/10.1021/acs.chemrev.5c00486)
 
 If you need to get in touch, feel free to send me an

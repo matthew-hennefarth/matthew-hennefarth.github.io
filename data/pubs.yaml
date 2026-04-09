@@ -1,3 +1,21 @@
+WardzalaModern:
+  type: article
+  title: "Multireference methods for chemistry and materials science: Automated active spaces, efficient dynamic correlation, and extended systems"
+  author:
+    - Wardzala, Jacob
+    - Hennefarth, Matthew R.
+    - Agarawal, Valay
+    - Jangid, Bhavnesh
+    - Seal, Aniruddha
+    - Hermes, Matthew R.
+    - King, Daniel S.
+    - Gagliardi, Laura
+  date: 2026-04-03
+  doi: 10.1021/acs.chemrev.5c00866
+  parent:
+    type: periodical
+    title: "Chem. Rev."
+  toc: multiref_perspective_toc.png
 SunPython:
   type: article
   title: "The python simulations of chemistry framework: 10 years of an open-source quantum chemistry project"
@@ -141,24 +159,6 @@ ZhangMC25:
     issue: 21
   toc: "mc25_toc.png"
   pagerange: 10945-10960
-WardzalaModern:
-  type: article
-  title: "The modern era of multireference methods for chemistry and materials science"
-  author:
-    - Wardzala, Jacob
-    - Hennefarth, Matthew R.
-    - Agarawal, Valay
-    - Jangid, Bhavnesh
-    - Seal, Aniruddha
-    - Hermes, Matthew R.
-    - King, Daniel S.
-    - Gagliardi, Laura
-  date: 2025-09-19
-  doi: 10.26434/chemrxiv-2025-h9c6z
-  parent:
-    type: periodical
-    title: "chemRxiv"
-  toc: multiref_perspective_toc.png
 JangidLinearized:
   type: article
   title: "Linearized pair-density functional theory with spin-orbit coupling"
