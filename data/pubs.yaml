@@ -1,3 +1,20 @@
+HennefarthQuantum:
+  type: article
+  title: "Quantum loading of charge and spin-adapted MPS"
+  author:
+    - Hennefarth, Matthew R.
+    - Gover, Lesley
+    - Harvey, Carys
+    - Jin, Zheting
+    - Levy, Ryan
+    - Sim, Sukin
+    - Zini, Modjtaba S.
+  date: 2026-11-15
+  doi: "10.48550/arXiv.2611.19728"
+  parent:
+    type: periodical
+    title: "arXiv"
+  eprint: 2611.19728
 WardzalaModern:
   type: article
   title: "Multireference methods for chemistry and materials science: Automated active spaces, efficient dynamic correlation, and extended systems"
@@ -118,11 +135,14 @@ SunPython:
     - Sharma, Sandeep 
     - Sokolov, Alexander 
     - Chan, Garnet Kin-Lic 
-  date: 2026-03-17
-  doi: 10.48550/arXiv.2603.14155
+  date: 2026-09-14
+  doi: 10.1063/5.0337441
   parent:
     type: periodical
-    title: "arXiv"
+    title: "J. Chem. Phys."
+    volume: 165
+    issue: 10
+  pagerange: 102502
   eprint: 2603.14155
 CliffordAnalytic:
   type: article
